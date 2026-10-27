@@ -1,0 +1,643 @@
+[
+  {
+    "id": "q-1",
+    "category": "The Divine Form of Harihara",
+    "difficulty": "Beginner",
+    "question": {
+      "en": "In the sacred name 'Harihara', which two Deities are united as One?",
+      "hi": "पवित्र नाम 'हरिहर' में कौन-से दो देवता एक रूप में समाहित हैं?"
+    },
+    "options": {
+      "en": [
+        "Lord Vishnu (Hari) and Lord Shiva (Hara)",
+        "Lord Brahma and Lord Indra",
+        "Lord Surya and Lord Chandra",
+        "Lord Agni and Lord Varuna"
+      ],
+      "hi": [
+        "भगवान विष्णु (हरि) और भगवान शिव (हर)",
+        "भगवान ब्रह्मा और भगवान इंद्र",
+        "भगवान सूर्य और भगवान चंद्र",
+        "भगवान अग्नि और भगवान वरुण"
+      ]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "'Hari' is a revered name of Lord Vishnu, and 'Hara' is a revered name of Lord Shiva. Together as Harihara (also known as Shankaranarayana), they represent the indivisible unity of the Supreme Consciousness.",
+      "hi": "'हरि' भगवान विष्णु का पावन नाम है और 'हर' भगवान शिव का। दोनों मिलकर 'हरिहर' (शंकरनारायण) कहलाते हैं, जो एक ही अनंत चेतना के दो स्वरूप हैं।"
+    },
+    "citation": {
+      "en": "Manuscript: 'Harihara: Do Naam, Ek Pran' by Manu Siddharth, Preface & Chapter 1",
+      "hi": "पांडुलिपि: 'हरिहर: दो नाम, एक प्राण' — मनु सिद्धार्थ, प्रस्तावना एवं अध्याय १"
+    }
+  },
+  {
+    "id": "q-2",
+    "category": "The Divine Form of Harihara",
+    "difficulty": "Intermediate",
+    "question": {
+      "en": "What is another widely revered Sanskrit name for the composite form of Lord Harihara?",
+      "hi": "भगवान हरिहर के संयुक्त स्वरूप को किस अन्य प्रसिद्ध संस्कृत नाम से भी जाना जाता है?"
+    },
+    "options": {
+      "en": [
+        "Shankaranarayana",
+        "Hiranyagarbha",
+        "Dattatreya",
+        "Panchamukha"
+      ],
+      "hi": [
+        "शंकरनारायण",
+        "हिरण्यगर्भ",
+        "दत्तात्रेय",
+        "पंचमुख"
+      ]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Harihara is also celebrated across India as 'Shankaranarayana' — uniting Shankara (Shiva) and Narayana (Vishnu) in a single form.",
+      "hi": "हरिहर को संपूर्ण भारत में 'शंकरनारायण' के नाम से भी पूजा जाता है — जिसमें शंकर (शिव) और नारायण (विष्णु) एक ही देह में विराजमान हैं।"
+    },
+    "citation": {
+      "en": "Manuscript Chapter 1 ('जिसे शंकरनारायण भी कहते हैं') & Sankarankovil Tradition",
+      "hi": "पांडुलिपि अध्याय १ ('जिसे शंकरनारायण भी कहते हैं') एवं शंकरनकोविल परंपरा"
+    }
+  },
+  {
+    "id": "q-3",
+    "category": "The Divine Form of Harihara",
+    "difficulty": "Advanced",
+    "question": {
+      "en": "In Chapter 11 of the manuscript, the form of Harihara is compared to which other composite divine form to illustrate the harmony of complementary cosmic principles?",
+      "hi": "पांडुलिपि के अध्याय ११ में पूरक ब्रह्मांडीय शक्तियों के सामंजस्य को समझाने के लिए हरिहर स्वरूप की तुलना किस अन्य संयुक्त स्वरूप से की गई है?"
+    },
+    "options": {
+      "en": [
+        "Ardhanarishwara (half Shiva, half Parvati)",
+        "Narasimha (half lion, half man)",
+        "Hayagriva",
+        "Garuda-Narayana"
+      ],
+      "hi": [
+        "अर्धनारीश्वर (अर्ध शिव, अर्ध पार्वती)",
+        "नरसिंह",
+        "हयग्रीव",
+        "गरुड़-नारायण"
+      ]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Just as Ardhanarishwara teaches that Purusha and Prakriti (Shiva and Shakti) are inseparable, Harihara teaches that Dissolution and Preservation (Hara and Hari) are one single reality.",
+      "hi": "जिस प्रकार अर्धनारीश्वर की छवि सिखाती है कि शिव और शक्ति एक हैं, उसी प्रकार हरिहर की छवि सिखाती है कि संहार और पालन (हर और हरि) एक ही चेतना हैं।"
+    },
+    "citation": {
+      "en": "Manuscript Chapter 11: 'Ardhanarishwara aur Harihara Swaroop'",
+      "hi": "पांडुलिपि अध्याय ११: 'अर्धनारीश्वर और हरिहर स्वरूप'"
+    }
+  },
+  {
+    "id": "q-4",
+    "category": "Shiva and Vishnu — Sacred Unity",
+    "difficulty": "Beginner",
+    "question": {
+      "en": "In Chapter 5 of the manuscript (Shiva Purana), which natural analogy is used to describe the inseparability of Shiva and Vishnu?",
+      "hi": "पांडुलिपि के अध्याय ५ (शिव पुराण) में शिव और विष्णु की अभिन्नता को समझाने के लिए किस प्राकृतिक उदाहरण का प्रयोग किया गया है?"
+    },
+    "options": {
+      "en": [
+        "Fire and its heat, or the Sun and its light",
+        "Mountain and desert",
+        "Iron and gold",
+        "Thunder and silence"
+      ],
+      "hi": [
+        "अग्नि और उसकी ऊष्मा, तथा सूर्य और उसका प्रकाश",
+        "पर्वत और मरुस्थल",
+        "लोहा और स्वर्ण",
+        "मेघगर्जन और मौन"
+      ]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "The Shiva Purana compares Shiva and Vishnu to fire and its heat, or the sun and its light — asking how anyone could ever separate heat from fire or light from the sun.",
+      "hi": "शिव पुराण बताता है कि शिव और विष्णु अग्नि और उसकी ऊष्मा की तरह हैं, सूर्य और उसके प्रकाश की तरह — जिन्हें कभी अलग नहीं किया जा सकता।"
+    },
+    "citation": {
+      "en": "Shiva Purana (Rudra Samhita) / Manuscript Chapter 5",
+      "hi": "शिव पुराण (रुद्र संहिता) / पांडुलिपि अध्याय ५"
+    }
+  },
+  {
+    "id": "q-5",
+    "category": "Shiva and Vishnu — Sacred Unity",
+    "difficulty": "Intermediate",
+    "question": {
+      "en": "At Daksha's sacrifice (Yajna), after Goddess Sati entered the sacred fire and Shiva's grief shook the three worlds, how did Lord Vishnu approach Shiva?",
+      "hi": "दक्ष के यज्ञ में माता सती के आत्मदाह के पश्चात जब महादेव के शोक और क्रोध से तीनों लोक काँप उठे, तब भगवान विष्णु किस भाव से शिव के पास आए?"
+    },
+    "options": {
+      "en": [
+        "As an eternal friend who knows Shiva's heart, embracing Him in deep mutual reverence",
+        "As a rival challenging Virabhadra to a duel for supremacy",
+        "By hiding in Vaikuntha and refusing to attend",
+        "By sending Indra to negotiate"
+      ],
+      "hi": [
+        "एक शाश्वत मित्र के रूप में जो शिव के हृदय को जानते हैं, और दोनों ने गहरे आदर से आलिंगन किया",
+        "श्रेष्ठता सिद्ध करने के लिए प्रतिद्वंद्वी के रूप में",
+        "वैकुंठ में छिपकर",
+        "इंद्र को दूत बनाकर"
+      ]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "As described in Chapter 5 of the manuscript, Vishnu came as an eternal friend. Seeing Vishnu, the flame of Shiva's third eye softened; the Destroyer and the Preserver embraced in love and trust, restoring balance to creation.",
+      "hi": "पांडुलिपि के अध्याय ५ के अनुसार, विष्णु एक शाश्वत मित्र के रूप में आए। विष्णु को देखकर शिव की तीसरी आँख की ज्वाला शांत हुई और दोनों ने गहरे आदर के साथ आलिंगन किया।"
+    },
+    "citation": {
+      "en": "Manuscript Chapter 5: 'Shiva Purana mein Vishnu ki Mahima'",
+      "hi": "पांडुलिपि अध्याय ५: 'शिव पुराण में विष्णु की महिमा'"
+    }
+  },
+  {
+    "id": "q-6",
+    "category": "Shiva and Vishnu — Sacred Unity",
+    "difficulty": "Advanced",
+    "question": {
+      "en": "According to Chapter 9 of the manuscript, which Purana describes Lord Vishnu Himself worshipping a Shivalinga as the symbol of the same Supreme Truth that He Himself is?",
+      "hi": "पांडुलिपि के अध्याय ९ के अनुसार, किस पुराण में वर्णन है कि स्वयं भगवान विष्णु ने शिवलिंग की पूजा करते हुए उसे उसी परम सत्य का प्रतीक बताया जो वे स्वयं हैं?"
+    },
+    "options": {
+      "en": [
+        "Kurma Purana",
+        "Garuda Purana",
+        "Bhavishya Purana",
+        "Markandeya Purana"
+      ],
+      "hi": [
+        "कूर्म पुराण",
+        "गरुड़ पुराण",
+        "भविष्य पुराण",
+        "मार्कण्डेय पुराण"
+      ]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Chapter 9 ('Skanda Purana aur Kurma Purana') highlights the Kurma Purana account where Lord Vishnu worships the Shivalinga, teaching devotees that honoring Shiva is honoring the one Supreme Reality.",
+      "hi": "अध्याय ९ ('स्कंद पुराण और कूर्म पुराण') में वर्णित है कि कूर्म पुराण में स्वयं भगवान विष्णु शिवलिंग की पूजा करते हैं।"
+    },
+    "citation": {
+      "en": "Kurma Purana / Manuscript Chapter 9 & Introduction",
+      "hi": "कूर्म पुराण / पांडुलिपि अध्याय ९ एवं परिचय"
+    }
+  },
+  {
+    "id": "q-7",
+    "category": "The Story of Guhasura",
+    "difficulty": "Beginner",
+    "question": {
+      "en": "What was the ancient name of the dense forest kingdom ruled by the demon Guhasura in present-day Karnataka?",
+      "hi": "वर्तमान कर्नाटक की भूमि पर राक्षस गुहासुर के राज्य वाले घने वन का प्राचीन नाम क्या था?"
+    },
+    "options": {
+      "en": [
+        "Guharanya (The Forest of Guha)",
+        "Dandakaranya",
+        "Naimisharanya",
+        "Khandavaprastha"
+      ],
+      "hi": [
+        "गुहारण्य (गुह का वन)",
+        "दण्डकारण्य",
+        "नैमिषारण्य",
+        "खाण्डवप्रस्थ"
+      ]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Guhasura's forest kingdom was known as 'Guharanya', stretching from Ucchangi Durga in the east to Mudanur in the west, and from Govinahalu in the south to Airani in the north.",
+      "hi": "गुहासुर के राज में जो घना वन था, वह 'गुहारण्य' कहलाया — जो पूर्व में उच्चंगी दुर्गा से पश्चिम में मुदानूर तक और दक्षिण में गोविनहलु से उत्तर में ऐरानी तक फैला था।"
+    },
+    "citation": {
+      "en": "Manuscript Chapter 1 & Harihareshwara Sthala Purana",
+      "hi": "पांडुलिपि अध्याय १ एवं हरिहरेश्वर स्थल पुराण"
+    }
+  },
+  {
+    "id": "q-8",
+    "category": "The Story of Guhasura",
+    "difficulty": "Intermediate",
+    "question": {
+      "en": "What was the fatal flaw in the cunning boon Guhasura requested from Lord Brahma?",
+      "hi": "गुहासुर द्वारा ब्रह्मा जी से माँगे गए चालाक वरदान में उसकी सबसे बड़ी भूल क्या थी?"
+    },
+    "options": {
+      "en": [
+        "He assumed Shiva and Vishnu were two permanently separate beings, not realizing they are fundamentally One",
+        "He forgot to ask for protection at night",
+        "He forgot to mention weapons made of stone",
+        "He only asked for immortality in water"
+      ],
+      "hi": [
+        "उसने शिव और विष्णु को दो अलग-अलग सत्ता माना और यह नहीं जाना कि वे मूलतः एक ही हैं",
+        "वह रात्रि में सुरक्षा माँगना भूल गया",
+        "वह अस्त्र-शस्त्रों का उल्लेख करना भूल गया",
+        "उसने केवल जल में अमरता माँगी"
+      ]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Guhasura asked that neither Shiva nor Vishnu be able to kill him, assuming they were separate. The moment Hari and Hara manifested in their unified essence as Harihara, his deceptive shield shattered.",
+      "hi": "गुहासुर ने शिव (हर) और विष्णु (हरि) को अलग-अलग मानकर वरदान माँगा था। जिस क्षण वे दोनों एक होकर 'हरिहर' रूप में प्रकट हुए, गुहासुर का छद्म कवच टूट गया।"
+    },
+    "citation": {
+      "en": "Manuscript Chapter 1: 'Guhasura Vadh — Jab Hari aur Hara Ek Hue'",
+      "hi": "पांडुलिपि अध्याय १: 'गुहासुर वध — जब हरि और हर एक हुए'"
+    }
+  },
+  {
+    "id": "q-9",
+    "category": "The Story of Guhasura",
+    "difficulty": "Advanced",
+    "question": {
+      "en": "At the confluence of which two rivers (known as Kudalur) did Lord Harihara descend for the final battle with Guhasura, and what was Guhasura's dying prayer?",
+      "hi": "किन दो नदियों के संगम (कुडलूर) पर भगवान हरिहर अवतरित हुए, और मृत्यु से पूर्व गुहासुर ने क्या अंतिम प्रार्थना की?"
+    },
+    "options": {
+      "en": [
+        "Tungabhadra and Haridra rivers; he prayed that the land be sanctified by the Lord's name ('Harihar')",
+        "Ganga and Yamuna rivers; he asked for his kingdom to be restored",
+        "Kaveri and Bhavani rivers; he asked for wealth",
+        "Godavari and Krishna rivers; he asked for revenge"
+      ],
+      "hi": [
+        "तुंगभद्रा और हरिद्रा नदियों के संगम पर; उसने प्रार्थना की कि वह भूमि प्रभु के नाम ('हरिहर') से पावन हो जाए",
+        "गंगा और यमुना के संगम पर; उसने अपना राज्य वापस माँगा",
+        "कावेरी और भवानी के संगम पर; उसने धन माँगा",
+        "गोदावरी और कृष्णा के संगम पर; उसने प्रतिशोध माँगा"
+      ]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Harihara descended at Kudalur, the confluence of the Tungabhadra and Haridra rivers. Transformed by the sacred vision of Harihara, Guhasura prayed that the land he had defiled be sanctified by the Lord's name — becoming 'Harihar'.",
+      "hi": "हरिहर तुंगभद्रा और हरिद्रा नदियों के संगम (कुडलूर) पर अवतरित हुए। हरिहर के दर्शन से गुहासुर का अहंकार गल गया और उसकी प्रार्थना पर उस भूमि का नाम 'हरिहर' पड़ा तथा उसे मोक्ष मिला।"
+    },
+    "citation": {
+      "en": "Skanda Purana, Brahma Purana & Manuscript Chapter 1",
+      "hi": "स्कंद पुराण, ब्रह्म पुराण एवं पांडुलिपि अध्याय १"
+    }
+  },
+  {
+    "id": "q-10",
+    "category": "Shiva–Vishnu Shlokas",
+    "difficulty": "Beginner",
+    "question": {
+      "en": "What is the meaning of the sacred verse 'शिवस्य हृदयं विष्णुर्विष्णोश्च हृदयं शिवः' from the Skanda Upanishad?",
+      "hi": "स्कंद उपनिषद के प्रसिद्ध श्लोक 'शिवस्य हृदयं विष्णुर्विष्णोश्च हृदयं शिवः' का क्या अर्थ है?"
+    },
+    "options": {
+      "en": [
+        "Vishnu is the heart of Shiva, and Shiva is the heart of Vishnu",
+        "Shiva dwells only on mountains and Vishnu dwells only in the ocean",
+        "Worship requires complex rituals",
+        "Only sages can understand the scriptures"
+      ],
+      "hi": [
+        "शिव का हृदय विष्णु हैं और विष्णु का हृदय शिव हैं",
+        "शिव केवल पर्वत पर और विष्णु केवल सागर में रहते हैं",
+        "पूजा के लिए जटिल अनुष्ठान आवश्यक हैं",
+        "केवल ऋषि ही शास्त्र समझ सकते हैं"
+      ]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "From the Skanda Upanishad (Krishna Yajurveda), this verse proclaims the intimate, inseparable oneness of Hari and Hara: Vishnu is the heart of Shiva, and Shiva is the heart of Vishnu.",
+      "hi": "कृष्ण यजुर्वेद के स्कंद उपनिषद का यह मंत्र उद्घोष करता है कि शिव के हृदय में विष्णु हैं और विष्णु के हृदय में शिव हैं।"
+    },
+    "citation": {
+      "en": "Skanda Upanishad, Mantra 8 (Manuscript Epigraph & Chapter 20)",
+      "hi": "स्कंद उपनिषद, मंत्र ८ (पांडुलिपि मंगलाचरण एवं अध्याय २०)"
+    }
+  },
+  {
+    "id": "q-11",
+    "category": "Shiva–Vishnu Shlokas",
+    "difficulty": "Intermediate",
+    "question": {
+      "en": "Which Purana contains the verse 'यो हरिः स तु वै रुद्रो यो रुद्रः स जनार्दनः' ('He who is Hari is verily Rudra, and He who is Rudra is Janardana') cited in Chapter 1(B) of the manuscript?",
+      "hi": "पांडुलिपि के अध्याय १(ख) में उद्धृत श्लोक 'यो हरिः स तु वै रुद्रो यो रुद्रः स जनार्दनः' किस पुराण से है?"
+    },
+    "options": {
+      "en": [
+        "Vamana Purana",
+        "Agni Purana",
+        "Matsya Purana",
+        "Bhavishya Purana"
+      ],
+      "hi": [
+        "वामन पुराण",
+        "अग्नि पुराण",
+        "मत्स्य पुराण",
+        "भविष्य पुराण"
+      ]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Cited in Chapter 1(B) of the manuscript, the Vamana Purana declares 'Yo Harih sa tu vai Rudro yo Rudrah sa Janardanah' when Harihara manifests to dispel the confusion of the debating sages.",
+      "hi": "पांडुलिपि के अध्याय १(ख) में उद्धृत यह श्लोक वामन पुराण का है, जहाँ ऋषियों का भ्रम तोड़ने के लिए भगवान हरिहर रूप में दर्शन देते हैं।"
+    },
+    "citation": {
+      "en": "Vamana Purana / Manuscript Chapter 1(B)",
+      "hi": "वामन पुराण / पांडुलिपि अध्याय १(ख)"
+    }
+  },
+  {
+    "id": "q-12",
+    "category": "Shiva–Vishnu Shlokas",
+    "difficulty": "Advanced",
+    "question": {
+      "en": "In Chapter 3 of the manuscript ('Hari and Hara in the Vedas'), which Yajurvedic hymn to Rudra is highlighted for describing Rudra's all-pervasiveness — the exact etymological meaning of 'Vishnu'?",
+      "hi": "पांडुलिपि के अध्याय ३ ('वेदों में हरि और हर') में यजुर्वेद की किस प्रसिद्ध स्तुति का उल्लेख किया गया है जो रुद्र की उसी 'सर्वव्यापकता' का वर्णन करती है जो 'विष्णु' शब्द का अर्थ है?"
+    },
+    "options": {
+      "en": [
+        "Sri Rudram (Yajurveda)",
+        "Gayatri Mantra",
+        "Nasadiya Sukta",
+        "Bhumi Sukta"
+      ],
+      "hi": [
+        "श्री रुद्रम् (यजुर्वेद)",
+        "गायत्री मंत्र",
+        "नासदीय सूक्त",
+        "भूमि सूक्त"
+      ]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Chapter 3 explains that Sri Rudram in the Yajurveda praises Rudra as pervading water, plants, mountains, rivers, and all beings — the very quality of all-pervasiveness that defines the name 'Vishnu'.",
+      "hi": "अध्याय ३ बताता है कि यजुर्वेद में 'श्री रुद्रम्' रुद्र को जल, वनस्पतियों, पर्वतों और कण-कण में सर्वव्यापी बताती है — और सर्वव्यापकता का यही गुण 'विष्णु' शब्द को परिभाषित करता है।"
+    },
+    "citation": {
+      "en": "Krishna Yajurveda (Sri Rudram) / Manuscript Chapter 3",
+      "hi": "कृष्ण यजुर्वेद (श्री रुद्रम्) / पांडुलिपि अध्याय ३"
+    }
+  },
+  {
+    "id": "q-13",
+    "category": "Harihareshwara Temple",
+    "difficulty": "Beginner",
+    "question": {
+      "en": "In which Indian state and district is the historic Sri Harihareshwara Temple located?",
+      "hi": "ऐतिहासिक श्री हरिहरेश्वर मंदिर भारत के किस राज्य और जिले में स्थित है?"
+    },
+    "options": {
+      "en": [
+        "Davanagere District, Karnataka",
+        "Puri District, Odisha",
+        "Varanasi District, Uttar Pradesh",
+        "Madurai District, Tamil Nadu"
+      ],
+      "hi": [
+        "दावणगेरे जिला, कर्नाटक",
+        "पुरी जिला, ओडिशा",
+        "वाराणसी जिला, उत्तर प्रदेश",
+        "मदुरै जिला, तमिलनाडु"
+      ]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Sri Harihareshwara Temple is located in the town of Harihar in Davanagere District, Karnataka, on the banks of the Tungabhadra river.",
+      "hi": "श्री हरिहरेश्वर मंदिर कर्नाटक के दावणगेरे जिले के हरिहर नगर में तुंगभद्रा नदी के तट पर स्थित है।"
+    },
+    "citation": {
+      "en": "Manuscript Chapter 1 & ASI Records",
+      "hi": "पांडुलिपि अध्याय १ एवं भारतीय पुरातत्व सर्वेक्षण अभिलेख"
+    }
+  },
+  {
+    "id": "q-14",
+    "category": "Harihareshwara Temple",
+    "difficulty": "Intermediate",
+    "question": {
+      "en": "Which royal dynasty constructed the Sri Harihareshwara Temple in the 13th century (1223–1224 CE), and what stone was used?",
+      "hi": "१३वीं शताब्दी (१२२३–१२२४ ईस्वी) में किस राजवंश ने श्री हरिहरेश्वर मंदिर का निर्माण कराया और इसमें किस पत्थर का उपयोग हुआ?"
+    },
+    "options": {
+      "en": [
+        "Hoysala Empire (under King Vira Narasimha II's minister Polalva), built of Soapstone",
+        "Maurya Empire, built of White Marble",
+        "Gupta Empire, built of Red Brick",
+        "Chola Empire, built of Coral Stone"
+      ],
+      "hi": [
+        "होयसल साम्राज्य (राजा वीर नरसिंह द्वितीय के मंत्री पोलल्व द्वारा), सोपस्टोन (सेलखड़ी) से निर्मित",
+        "मौर्य साम्राज्य, श्वेत संगमरमर से",
+        "गुप्त साम्राज्य, लाल ईंटों से",
+        "चोल साम्राज्य, प्रवाल पत्थर से"
+      ]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Built in 1223–1224 CE by Polalva, minister of Hoysala King Vira Narasimha II, the temple is crafted from soapstone (chloritic schist) with lathe-turned pillars.",
+      "hi": "१२२३–१२२४ ईस्वी में होयसल राजा वीर नरसिंह द्वितीय के सेनापति-मंत्री पोलल्व ने सोपस्टोन से इस भव्य मंदिर का निर्माण कराया था।"
+    },
+    "citation": {
+      "en": "Manuscript Chapter 1 & Epigraphia Carnatica",
+      "hi": "पांडुलिपि अध्याय १ एवं एपिग्राफिया कर्नाटिका"
+    }
+  },
+  {
+    "id": "q-15",
+    "category": "Harihar Dham",
+    "difficulty": "Beginner",
+    "question": {
+      "en": "Where is the pilgrimage site 'Harihar Dham' (famous for its 65-foot monumental Shivalinga structure) located?",
+      "hi": "६५ फीट ऊँचे विशाल शिवलिंग स्थापत्य के लिए प्रसिद्ध तीर्थस्थल 'हरिहर धाम' कहाँ स्थित है?"
+    },
+    "options": {
+      "en": [
+        "Bagodar, Giridih District, Jharkhand",
+        "Hampi, Karnataka",
+        "Ujjain, Madhya Pradesh",
+        "Dwarka, Gujarat"
+      ],
+      "hi": [
+        "बगोदर, गिरिडीह जिला, झारखंड",
+        "हम्पी, कर्नाटक",
+        "उज्जैन, मध्य प्रदेश",
+        "द्वारका, गुजरात"
+      ]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Harihar Dham is located in Bagodar, Giridih District, Jharkhand, along the Jamua River, and was completed in 1988 through the devotion of Baba Amarnath Mukhopadhyay.",
+      "hi": "हरिहर धाम झारखंड के गिरिडीह जिले के बगोदर में स्थित है, जिसका निर्माण बाबा अमरनाथ मुखोपाध्याय के ३० वर्षों के समर्पण से १९८८ में पूर्ण हुआ।"
+    },
+    "citation": {
+      "en": "Giridih District Gazetteer, Government of Jharkhand",
+      "hi": "गिरिडीह जिला गजेटियर, झारखंड सरकार"
+    }
+  },
+  {
+    "id": "q-16",
+    "category": "Harihar Dham",
+    "difficulty": "Intermediate",
+    "question": {
+      "en": "Why is it important to distinguish the historical background of Harihareshwara Temple (Karnataka) from Harihar Dham (Jharkhand)?",
+      "hi": "हरिहरेश्वर मंदिर (कर्नाटक) और हरिहर धाम (झारखंड) की ऐतिहासिक पृष्ठभूमि में अंतर समझना क्यों आवश्यक है?"
+    },
+    "options": {
+      "en": [
+        "Harihareshwara (Karnataka) is a 13th-century Hoysala temple enshrining a composite Harihara murti tied to the Guhasura legend, while Harihar Dham (Jharkhand) is a late-20th-century 65-foot Shivalinga shrine",
+        "Both were built in the same year by the same king",
+        "Both are rock-cut caves from the 6th century",
+        "Neither is an active place of worship"
+      ],
+      "hi": [
+        "हरिहरेश्वर (कर्नाटक) गुहासुर कथा से जुड़ा १३वीं सदी का होयसल मंदिर है जहाँ हरिहर विग्रह है, जबकि हरिहर धाम (झारखंड) २०वीं सदी में निर्मित ६५ फीट ऊँचा शिवलिंग तीर्थ है",
+        "दोनों एक ही राजा द्वारा एक ही वर्ष में बनाए गए थे",
+        "दोनों छठी शताब्दी की गुफाएँ हैं",
+        "दोनों में पूजा नहीं होती"
+      ]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Careful scholarship respects each shrine's distinct heritage: Harihar in Karnataka is the 1223 CE Hoysala temple of the Guhasura tradition, whereas Harihar Dham in Jharkhand is a modern (1988) monumental Shivalinga pilgrimage center.",
+      "hi": "प्रामाणिक इतिहास की दृष्टि से कर्नाटक का हरिहरेश्वर मंदिर १२२३ ईस्वी का होयसल मंदिर है, जबकि झारखंड का हरिहर धाम १९८८ में पूर्ण हुआ ६५ फीट ऊँचे शिवलिंग का आधुनिक तीर्थ है।"
+    },
+    "citation": {
+      "en": "Temple Historical Verification Notes (Section 10)",
+      "hi": "मंदिर ऐतिहासिक प्रमाणीकरण संदर्भ"
+    }
+  },
+  {
+    "id": "q-17",
+    "category": "Symbolism and Iconography",
+    "difficulty": "Beginner",
+    "question": {
+      "en": "In traditional iconography of Lord Harihara, which attributes belong to the Shiva half and which belong to the Vishnu half?",
+      "hi": "भगवान हरिहर की पारंपरिक प्रतिमा में शिव भाग और विष्णु भाग के प्रमुख प्रतीक कौन-से हैं?"
+    },
+    "options": {
+      "en": [
+        "Shiva half: Jata, Crescent Moon, Vibhuti, Trishula, Tiger skin; Vishnu half: Kirit Mukut, Pitambara, Shankha, Sudarshana Chakra",
+        "Shiva half: Veena and Swan; Vishnu half: Bow and Arrow only",
+        "Both halves hold only a lotus",
+        "Neither half wears any ornaments"
+      ],
+      "hi": [
+        "शिव भाग: जटाजूट, अर्धचंद्र, भस्म, त्रिशूल, व्याघ्रचर्म; विष्णु भाग: किरीट मुकुट, पीताम्बर, शंख, सुदर्शन चक्र",
+        "शिव भाग: वीणा और हंस; विष्णु भाग: केवल धनुष",
+        "दोनों भागों में केवल कमल",
+        "कोई आभूषण या प्रतीक नहीं"
+      ]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "As described in Chapters 1, 1(B), and 11 of the manuscript, the Shiva side features matted locks, crescent moon, ash, serpent, tiger skin, and Trishula/Damaru, while the Vishnu side features the golden crown (Mukut), yellow silk (Pitambara), Vaijayanti garland, Shankha, and Sudarshana Chakra.",
+      "hi": "पांडुलिपि के अध्याय १, १(ख) और ११ के अनुसार, शिव भाग में जटा, अर्धचंद्र, भस्म, सर्प, व्याघ्रचर्म व त्रिशूल-डमरू हैं, तथा विष्णु भाग में किरीट मुकुट, पीताम्बर, वैजयंती माला, शंख व सुदर्शन चक्र हैं।"
+    },
+    "citation": {
+      "en": "Manuscript Chapters 1, 1(B) & 11",
+      "hi": "पांडुलिपि अध्याय १, १(ख) एवं ११"
+    }
+  },
+  {
+    "id": "q-18",
+    "category": "Symbolism and Iconography",
+    "difficulty": "Intermediate",
+    "question": {
+      "en": "In Odisha's 11th-century Lingaraja Temple (where the Linga is worshipped as Harihara), how is the unity of Shiva and Vishnu expressed in daily floral offerings?",
+      "hi": "ओडिशा के ११वीं शताब्दी के लिंगराज मंदिर (जहाँ स्वयंभू लिंग की पूजा हरिहर रूप में होती है) में दैनिक पत्र-पुष्प अर्पण में यह एकता कैसे प्रकट होती है?"
+    },
+    "options": {
+      "en": [
+        "Both Bilva leaves (sacred to Shiva) and Tulsi leaves (sacred to Vishnu) are offered together in daily worship",
+        "No leaves or flowers are ever offered",
+        "Only lotus seeds are used once a year",
+        "Only sandalwood paste is allowed"
+      ],
+      "hi": [
+        "दैनिक पूजा में शिव के प्रिय 'बिल्वपत्र' और विष्णु के प्रिय 'तुलसी दल' दोनों एक साथ अर्पित किए जाते हैं",
+        "कोई पत्र या पुष्प अर्पित नहीं होता",
+        "वर्ष में केवल एक बार कमल गट्टा चढ़ता है",
+        "केवल चंदन का लेप होता है"
+      ]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "At Lingaraja Temple in Bhubaneswar, the deity is worshipped as Harihara, receiving both Bilva leaves and Tulsi leaves daily, and the temple spire bears the Pinaka-Chakra (half-Trishula, half-Sudarshana Chakra).",
+      "hi": "भुवनेश्वर के लिंगराज मंदिर में भगवान की पूजा हरिहर रूप में होती है, जहाँ प्रतिदिन बिल्वपत्र और तुलसी दल दोनों एक साथ अर्पित किए जाते हैं।"
+    },
+    "citation": {
+      "en": "Ekamra Purana & ASI Bhubaneswar Records",
+      "hi": "एकाम्र पुराण एवं भारतीय पुरातत्व सर्वेक्षण अभिलेख"
+    }
+  },
+  {
+    "id": "q-19",
+    "category": "Spiritual Teachings and Traditions",
+    "difficulty": "Intermediate",
+    "question": {
+      "en": "In Chapter 4 of the manuscript ('Philosophical Foundations'), how does Kashmir Shaivism (as expounded by Abhinavagupta and Vasugupta) view Lord Vishnu?",
+      "hi": "पांडुलिपि के अध्याय ४ ('दार्शनिक आधार') के अनुसार, कश्मीर शैवदर्शन (अभिनवगुप्त एवं वासुगुप्त) भगवान विष्णु को किस रूप में देखता है?"
+    },
+    "options": {
+      "en": [
+        "As Shiva's own sustaining power (Sthiti-Shakti) — inseparable from Shiva just as a hand is inseparable from the body",
+        "As a separate rival deity outside consciousness",
+        "As a purely historical king",
+        "As unrelated to cosmic functions"
+      ],
+      "hi": [
+        "शिव की ही अपनी पालन-शक्ति (स्थिति-शक्ति) के रूप में — जैसे हाथ शरीर से अलग नहीं होता",
+        "चेतना से बाहर किसी प्रतिद्वंद्वी के रूप में",
+        "केवल एक ऐतिहासिक राजा के रूप में",
+        "सृष्टि के कार्यों से असंबंधित"
+      ]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Chapter 4 explains that in Kashmir Shaivism, Paramashiva performs five cosmic acts (creation, preservation, dissolution, concealment, and grace), and Vishnu is revered as Shiva Himself expressing His nourishing, sustaining power.",
+      "hi": "अध्याय ४ के अनुसार, कश्मीर शैवदर्शन में शिव पाँच ब्रह्मांडीय कार्य करते हैं और विष्णु को शिव की ही पोषण/पालन-शक्ति के रूप में स्वीकार किया जाता है — जैसे आपका हाथ आपके शरीर से अलग नहीं है।"
+    },
+    "citation": {
+      "en": "Manuscript Chapter 4: 'Darshanik Aadhar'",
+      "hi": "पांडुलिपि अध्याय ४: 'दार्शनिक आधार'"
+    }
+  },
+  {
+    "id": "q-20",
+    "category": "Spiritual Teachings and Traditions",
+    "difficulty": "Advanced",
+    "question": {
+      "en": "In Chapter 17 of the manuscript ('Modern Misconceptions'), what are the THREE main reasons identified for sectarian division among devotees?",
+      "hi": "पांडुलिपि के अध्याय १७ ('आधुनिक युग की भ्रांतियाँ') में भक्तों के बीच सांप्रदायिक विभाजन के कौन-से तीन मुख्य कारण बताए गए हैं?"
+    },
+    "options": {
+      "en": [
+        "1. Incomplete study of scriptures, 2. Historical sectarian politics, and 3. The egoistic desire to make one's own devotion 'exclusive' by belittling other forms",
+        "1. Lack of temples, 2. Lack of Sanskrit grammar, and 3. Geographic distance",
+        "1. Astronomy, 2. Seasonal changes, and 3. Architecture",
+        "1. Music styles, 2. Dietary rules, and 3. Clothing colors"
+      ],
+      "hi": [
+        "१. शास्त्रों का अपूर्ण अध्ययन, २. सांप्रदायिक राजनीति, और ३. अपनी भक्ति को 'विशेष' बनाने के अहंकार में दूसरे रूपों को कम आँकना",
+        "१. मंदिरों की कमी, २. व्याकरण का अभाव, और ३. भौगोलिक दूरी",
+        "१. ज्योतिष, २. ऋतु परिवर्तन, और ३. वास्तुकला",
+        "१. संगीत शैली, २. भोजन नियम, और ३. वस्त्रों के रंग"
+      ]
+    },
+    "correctIndex": 0,
+    "explanation": {
+      "en": "Chapter 17 identifies (1) Apurna Adhyayan (reading only partial chapters of Puranas), (2) Sampradayik Rajniti (historical political patronage rivalries), and (3) turning natural love for one's Ishta into belittling other forms.",
+      "hi": "अध्याय १७ में तीन मुख्य भ्रांतियाँ बताई गई हैं: (१) अपूर्ण अध्ययन, (२) सांप्रदायिक राजनीति, और (३) 'भक्ति' को 'विशेष' बनाने की चाहत में दूसरे देवताओं को कम मानना।"
+    },
+    "citation": {
+      "en": "Manuscript Chapter 17: 'Aadhunik Yug ki Bhrantiyan'",
+      "hi": "पांडुलिपि अध्याय १७: 'आधुनिक युग की भ्रांतियाँ'"
+    }
+  }
+]
+

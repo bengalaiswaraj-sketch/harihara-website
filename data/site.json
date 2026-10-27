@@ -1,0 +1,279 @@
+{
+  "siteName": "HARIHARA",
+  "sanskritTitle": "हरिहर",
+  "subtitle": {
+    "en": "Two Forms. One Eternal Truth.",
+    "hi": "शिव में विष्णु, विष्णु में शिव।"
+  },
+  "bookReference": {
+    "titleHi": "हरिहर: दो नाम, एक प्राण — शिव और विष्णु की दिव्य एकता",
+    "titleEn": "Harihara: Two Names, One Prana — The Divine Unity of Shiva and Vishnu",
+    "author": {
+      "en": "Manu Siddharth",
+      "hi": "मनु सिद्धार्थ"
+    },
+    "authorBio": {
+      "en": "Manu Siddharth is an IT specialist by profession whose life is animated by an unwavering devotion to Lord Shiva and the timeless wisdom of the Sanatana scriptures. After authoring 'Shiva Purana Unlocked', his deep immersion in the Shiva Purana, Linga Purana, Vishnu Purana, Srimad Bhagavatam, Skanda Purana, Vamana Purana, and the Upanishads inspired 'Harihara: Do Naam, Ek Pran' — an invitation for seekers to look beyond sectarian walls and experience the indivisible oneness of Hari and Hara.",
+      "hi": "मनु सिद्धार्थ पेशे से एक IT विशेषज्ञ हैं — किंतु इस तकनीकी प्रवीणता के भीतर भगवान शिव और सनातन शास्त्रों के प्रति एक गहरी, अटूट भक्ति की लौ जलती है। 'शिव पुराण अनलॉक्ड' लिखने के बाद, शिव पुराण, लिंग पुराण, विष्णु पुराण, श्रीमद् भागवतम्, स्कंद पुराण, वामन पुराण और उपनिषदों के गहन अध्ययन ने उन्हें 'हरिहर: दो नाम, एक प्राण' की रचना की प्रेरणा दी — ताकि साधक रूपों और नामों की सीमाओं से परे जाकर हरि और हर की अविभाज्य एकता का अनुभव कर सकें।"
+    },
+    "dedication": {
+      "en": "Dedicated with supreme reverence at the lotus feet of Guru Maharaj Swami Purushottamanand Ji Maharaj; with respectful salutations to Swami Chaitanyanand Ji Maharaj of Vashistha Guha Ashram, whose divine narrations of the mutual devotion of Shiva and Vishnu sowed the first seeds of Harihara unity; and in deep gratitude to the Aghori saint Mahesh Baba of Sutwa Shamshan, Barabanki, who taught that nothing sacred can ever be impure — only our vision can be.",
+      "hi": "परम श्रद्धा के साथ अपने प्रिय गुरु महाराज, स्वामी पुरुषोत्तमानंद जी महाराज के श्री चरण-कमलों में अर्पित; वशिष्ठ गुहा आश्रम के स्वामी चैतन्यानंद जी महाराज को सादर प्रणाम, जिनकी शिव-विष्णु परस्पर भक्ति की दिव्य कथाओं ने हरिहर एकता के प्रथम बीज बोए; और बाराबंकी के सुतवा श्मशान के अघोरी संत महेश बाबा के प्रति गहरी कृतज्ञता के साथ, जिन्होंने सिखाया कि कुछ भी पवित्र कभी अपवित्र नहीं हो सकता — केवल हमारी दृष्टि हो सकती है।"
+    }
+  },
+  "coreVerse": {
+    "sanskrit": "शिवाय विष्णुरूपाय शिवरूपाय विष्णवे।\nशिवस्य हृदयं विष्णुर्विष्णोश्च हृदयं शिवः॥",
+    "transliteration": "Śivāya Viṣṇurūpāya Śivarūpāya Viṣṇave |\nŚivasya hṛdayaṁ Viṣṇur Viṣṇoś ca hṛdayaṁ Śivaḥ ||",
+    "meaningEn": "Salutations to Shiva who is of the form of Vishnu, and to Vishnu who is of the form of Shiva. Vishnu is the heart of Shiva, and Shiva is the heart of Vishnu.",
+    "meaningHi": "विष्णु-स्वरूप शिव को नमस्कार है और शिव-स्वरूप विष्णु को नमस्कार है। शिव के हृदय में विष्णु हैं और विष्णु के हृदय में शिव हैं।",
+    "source": "Skanda Upanishad (Krishna Yajurveda), Verses 8–9",
+    "verificationStatus": "verified"
+  },
+  "philosophicalTraditions": [
+    {
+      "id": "advaita",
+      "name": {
+        "en": "Advaita Vedanta (Smarta Synthesis)",
+        "hi": "अद्वैत वेदांत (अद्वय दर्शन)"
+      },
+      "acharya": {
+        "en": "Adi Shankaracharya",
+        "hi": "आदि शंकराचार्य"
+      },
+      "summary": {
+        "en": "Brahman alone is the unchanging ocean of reality; Shiva and Vishnu are luminous waves rising from that single infinite consciousness. Adi Shankaracharya composed both the Shivananda Lahari in praise of Shiva and the Krishnashtakam / Bhaja Govindam in praise of Vishnu, demonstrating that every divine form points toward the one indivisible Absolute.",
+        "hi": "केवल ब्रह्म ही परम सत्य का अपरिवर्तनशील सागर है; शिव और विष्णु उसी अनंत चेतना के सागर की दो महिमाशाली लहरें हैं। आदि शंकराचार्य ने स्वयं शिव की स्तुति में 'शिवानंद लहरी' और विष्णु की स्तुति में 'कृष्णाष्टकम्' की रचना की, क्योंकि सभी रूप उसी एक निराकार सत्य की ओर इंगित करते हैं।"
+      }
+    },
+    {
+      "id": "vishishtadvaita",
+      "name": {
+        "en": "Vishishtadvaita (Qualified Non-Dualism)",
+        "hi": "विशिष्टाद्वैत (सगुण अद्वैत)"
+      },
+      "acharya": {
+        "en": "Sri Ramanujacharya",
+        "hi": "श्री रामानुजाचार्य"
+      },
+      "summary": {
+        "en": "Honors both unity and sacred distinctiveness: the Supreme Lord is the inner soul (Antaryami) whose cosmic body encompasses all conscious beings and divine cosmic functions. As highlighted in the manuscript, Maheshwara performs the sacred function of cosmic dissolution and renewal within the unified divine order.",
+        "hi": "यह दर्शन एकता और विशिष्टता दोनों का सम्मान करता है: परम सत्ता अनंत आत्माओं और जगत की अंतर्यामी है। रामानुज परंपरा में भी महेश्वर के पवित्र विसर्जन कार्य को उसी एक दिव्य व्यवस्था की अभिव्यक्ति के रूप में देखा गया है।"
+      }
+    },
+    {
+      "id": "kashmir-shaivism",
+      "name": {
+        "en": "Kashmir Shaivism (Trika / Pratyabhijna)",
+        "hi": "कश्मीर शैवदर्शन (शिव ही सर्वस्व)"
+      },
+      "acharya": {
+        "en": "Vasugupta & Abhinavagupta",
+        "hi": "वासुगुप्त एवं अभिनवगुप्त"
+      },
+      "summary": {
+        "en": "Views Paramashiva as Pure Absolute Consciousness (Chit) performing five cosmic acts (Pancha-Kritya): creation, preservation, dissolution, concealment, and grace. Here, Vishnu is revered as Shiva's own sustaining power (Sthiti-Shakti) — just as one's hand is never separate from one's body.",
+        "hi": "अभिनवगुप्त और वासुगुप्त का कश्मीर शैवदर्शन शिव को परम चित् (निरपेक्ष चेतना) के रूप में देखता है जो सृष्टि, स्थिति, संहार, तिरोधान और अनुग्रह के पाँच कार्य करते हैं। इसमें विष्णु को शिव की ही पालन-शक्ति के रूप में स्वीकार किया जाता है — जैसे हाथ शरीर से अलग नहीं है।"
+      }
+    },
+    {
+      "id": "puranic-synthesis",
+      "name": {
+        "en": "Puranic & Vedic Mutual Reverence",
+        "hi": "वैदिक एवं पौराणिक परस्पर भक्ति"
+      },
+      "acharya": {
+        "en": "Vedic Rishis & Vyasa Tradition",
+        "hi": "वैदिक ऋषि एवं व्यास परंपरा"
+      },
+      "summary": {
+        "en": "From the Rigveda ('Ekam Sat Vipra Bahudha Vadanti') to the Shiva, Vishnu, Vamana, Skanda, Linga, and Bhagavata Puranas, Shiva and Vishnu continuously worship, protect, and reflect one another — proving that devotion to one reaches completion only in reverence for the other.",
+        "hi": "ऋग्वेद ('एकं सद्विप्रा बहुधा वदन्ति') से लेकर शिव, विष्णु, वामन, स्कंद, लिंग और भागवत पुराणों तक — शिव और विष्णु निरंतर एक-दूसरे की आराधना और रक्षा करते हैं, यह सिद्ध करते हुए कि एक के प्रति भक्ति दूसरे के सम्मान में ही पूर्ण होती है।"
+      }
+    }
+  ],
+  "iconographyComparison": [
+    {
+      "aspect": { "en": "Sacred Name & Etymology", "hi": "पवित्र नाम एवं व्युत्पत्ति" },
+      "vishnu": {
+        "title": { "en": "Hari (हरि)", "hi": "हरि (विष्णु)" },
+        "detail": {
+          "en": "He who removes sins, sorrow, and cosmic disharmony; 'Vishnu' (from root vish) means the All-Pervading Consciousness present in every atom.",
+          "hi": "जो भक्तों के दुख, पाप और अज्ञान का हरण करते हैं; 'विष्णु' (विष् धातु) का अर्थ है कण-कण में व्याप्त सर्वव्यापी चेतना।"
+        }
+      },
+      "shiva": {
+        "title": { "en": "Hara (हर)", "hi": "हर (शिव)" },
+        "detail": {
+          "en": "He who dissolves ignorance, ego, and bondage at the end of time; 'Shiva' means the Auspicious, Pure, and Eternally Benevolent One.",
+          "hi": "जो अज्ञान, अहंकार और भव-बंधन का संहार कर मुक्ति देते हैं; 'शिव' का अर्थ है परम कल्याणकारी और शुद्ध चेतना।"
+        }
+      },
+      "unity": {
+        "en": "Both 'Hari' and 'Hara' derive from the Sanskrit root 'hṛ' (to take away / uplift): Hari removes the veil of adharma in life, Hara dissolves the bondage of ego into liberation.",
+        "hi": "'हरि' और 'हर' दोनों संस्कृत की 'हृ' धातु से जुड़े हैं — दोनों ही अज्ञान और बंधन का हरण कर आत्मा को परमात्मा से मिलाते हैं।"
+      }
+    },
+    {
+      "aspect": { "en": "Primary Weapon & Cosmic Rhythm", "hi": "दिव्य आयुध एवं ब्रह्मांडीय लय" },
+      "vishnu": {
+        "title": { "en": "Sudarshana Chakra & Panchajanya Shankha", "hi": "सुदर्शन चक्र एवं पाञ्चजन्य शंख" },
+        "detail": {
+          "en": "The spinning wheel of auspicious vision (Sudarshana) maintaining cosmic order (Dharma) and the primordial conch of creative Nada.",
+          "hi": "धर्म और कालचक्र की मर्यादा बनाए रखने वाला सुदर्शन चक्र तथा सृजन की ध्वनि का प्रतीक पाञ्चजन्य शंख।"
+        }
+      },
+      "shiva": {
+        "title": { "en": "Trishula & Damaru", "hi": "त्रिशूल एवं डमरू" },
+        "detail": {
+          "en": "The trident transcending the three gunas (Sattva, Rajas, Tamas) and three states of time, paired with the Damaru beating the rhythm of cosmic evolution.",
+          "hi": "तीनों गुणों (सत्त्व, रज, तम) और तीनों कालों से परे ले जाने वाला त्रिशूल तथा ब्रह्मांडीय स्पंदन का प्रतीक डमरू।"
+        }
+      },
+      "unity": {
+        "en": "In the battle against Guhasura, Harihara wielded both the Trishula and the Sudarshana Chakra simultaneously — proving that preservation and transformation act as two hands of one cosmic dancer.",
+        "hi": "गुहासुर वध में हरिहर के हाथों में शिव का त्रिशूल और विष्णु का सुदर्शन चक्र दोनों एक साथ थे — यह दिखाते हुए कि पालन और परिवर्तन एक ही नर्तक के दो हस्त हैं।"
+      }
+    },
+    {
+      "aspect": { "en": "Adornment & Sacred Garments", "hi": "दिव्य अलंकरण एवं वस्त्र" },
+      "vishnu": {
+        "title": { "en": "Kirit Mukut, Kaustubha & Pitambara", "hi": "किरीट मुकुट, कौस्तुभ मणि एवं पीताम्बर" },
+        "detail": {
+          "en": "Crowned in radiant gold, wearing yellow silk (Pitambara) and the Vaijayanti garland — symbolizing engaged cosmic sovereignty and auspicious fullness.",
+          "hi": "स्वर्ण मुकुट, पीताम्बर और वैजयंती माला — जो सृष्टि के सौंदर्य, ऐश्वर्य और धर्ममय संचालन के प्रतीक हैं।"
+        }
+      },
+      "shiva": {
+        "title": { "en": "Jata-Mukuta, Crescent Moon, Vibhuti & Tiger Skin", "hi": "जटाजूट, बालचंद्र, भस्म एवं व्याघ्रचर्म" },
+        "detail": {
+          "en": "Crowned with matted locks holding the Ganga and crescent moon, adorned with sacred ash (Vibhuti), Rudraksha, and Vasuki — symbolizing supreme detachment and stillness.",
+          "hi": "जटाओं में गंगा और अर्धचंद्र, अंग पर भस्म, रुद्राक्ष और वासुकी नाग — जो परम वैराग्य, ध्यान और मृत्युंजय तत्व के प्रतीक हैं।"
+        }
+      },
+      "unity": {
+        "en": "Worldly responsibility (Pitambara) and inner renunciation (Vibhuti) are not enemies; in Harihara they meet in one body, teaching us to live in the world with a liberated heart.",
+        "hi": "संसार का उत्तरदायित्व (पीताम्बर) और आंतरिक वैराग्य (भस्म) एक-दूसरे के विरोधी नहीं हैं; हरिहर के एक ही शरीर में दोनों का मिलन हमें संसार में रहते हुए मुक्त रहना सिखाता है।"
+      }
+    },
+    {
+      "aspect": { "en": "Cosmic Function & Breath of Life", "hi": "ब्रह्मांडीय कार्य एवं जीवन-श्वास" },
+      "vishnu": {
+        "title": { "en": "Sthiti — Compassionate Preservation", "hi": "स्थिति — करुणामय पालन" },
+        "detail": {
+          "en": "Nurturing, sustaining, and restoring balance through incarnations whenever righteousness declines.",
+          "hi": "प्रेम, करुणा और व्यवस्था के माध्यम से सृष्टि को बनाए रखना और धर्म की रक्षा करना।"
+        }
+      },
+      "shiva": {
+        "title": { "en": "Samhara & Anugraha — Renewal & Liberation", "hi": "संहार एवं अनुग्रह — पुनरुद्धार और मोक्ष" },
+        "detail": {
+          "en": "Dissolving worn-out forms to clear space for new creation and granting ultimate liberation (Moksha).",
+          "hi": "पुराने को समेटकर नए सृजन के लिए स्थान बनाना और जीवात्मा को परम मोक्ष प्रदान करना।"
+        }
+      },
+      "unity": {
+        "en": "As the manuscript beautifully states: 'Just as inhaling and exhaling are two acts of a single life-breath, Vishnu and Shiva are two expressions of the one Supreme Spirit. Preservation without renewal is stagnation; dissolution without preservation is emptiness. Together, they are Life.'",
+        "hi": "जैसा पांडुलिपि में कहा गया है: 'जैसे श्वास लेना और छोड़ना एक ही जीवन की दो क्रियाएँ हैं, वैसे ही विष्णु और शिव एक ही परमात्मा की दो अभिव्यक्तियाँ हैं। पालन बिना संहार के ठहराव है; संहार बिना पालन के रिक्तता। दोनों मिलकर जीवन हैं।'"
+      }
+    }
+  ],
+  "reflections": [
+    {
+      "id": "refl-1",
+      "quote": {
+        "en": "Where Shiva ends, there Vishnu begins. Where Vishnu ends, there Shiva begins. And where both meet, only Brahman remains.",
+        "hi": "जहाँ शिव समाप्त होते हैं, वहाँ विष्णु आरंभ होते हैं। जहाँ विष्णु समाप्त होते हैं, वहाँ शिव आरंभ होते हैं। और जहाँ दोनों मिलते हैं, वहाँ केवल ब्रह्म ही शेष रहता है।"
+      },
+      "context": {
+        "en": "From the Introduction to 'Harihara: Do Naam, Ek Pran' — reminding us that the boundary between Hari and Hara exists only in limited human perception, never in the Divine.",
+        "hi": "'हरिहर: दो नाम, एक प्राण' के परिचय से — यह स्मरण दिलाते हुए कि विभाजन केवल देखने वाले की सीमित दृष्टि में है, परमात्मा में नहीं।"
+      },
+      "attribution": {
+        "en": "Editorial Reflection — Manu Siddharth (Manuscript, Introduction)",
+        "hi": "साधना चिंतन — मनु सिद्धार्थ (पांडुलिपि, परिचय)"
+      },
+      "type": "manuscript-commentary"
+    },
+    {
+      "id": "refl-2",
+      "quote": {
+        "en": "If you ever feel torn between the meditative ash-clad ascetic of Kailash and the lotus-eyed Preserver reclining on the Cosmic Ocean — know this: your heart was never meant to choose.",
+        "hi": "यदि आप कभी कैलाश के उस ध्यानस्थ, भस्मलिप्त तपस्वी और क्षीरसागर पर लेटे उस कमलनयन पालनहार के बीच बँटा हुआ महसूस करते हैं — तो जान लें: आपका हृदय कभी चुनने के लिए बना ही नहीं था।"
+      },
+      "context": {
+        "en": "Paths that were meant to be doorways to the Infinite should never be turned into walls between devotees. Loving Shiva expands naturally into loving Vishnu.",
+        "hi": "जो पथ ईश्वर तक पहुँचने के द्वार बनने थे, उन्हें भक्तों के बीच की दीवार नहीं बनना चाहिए। शिव से प्रेम करने का अर्थ है विष्णु से भी उतना ही प्रेम करना।"
+      },
+      "attribution": {
+        "en": "Editorial Reflection — Manu Siddharth (Manuscript, Chapter 2)",
+        "hi": "साधना चिंतन — मनु सिद्धार्थ (पांडुलिपि, अध्याय २)"
+      },
+      "type": "manuscript-commentary"
+    },
+    {
+      "id": "refl-3",
+      "quote": {
+        "en": "Guhasura believed Shiva and Vishnu were separate, and in that ignorance he asked for his boon. Those who divide Shiva and Vishnu today live in the same illusion.",
+        "hi": "गुहासुर ने शिव और विष्णु को अलग-अलग माना — और इसी अज्ञान में उसने वरदान माँगा। आज जो भक्त शिव और विष्णु में विभेद करते हैं, वे भी सत्य के केवल एक पक्ष को देख रहे हैं, पूर्ण सत्य को नहीं।"
+      },
+      "context": {
+        "en": "The spiritual moral of the Guhasura narrative: sectarian ego thrives on division, while awakening begins the moment we recognize the unified consciousness behind all sacred forms.",
+        "hi": "गुहासुर कथा का आध्यात्मिक संदेश: अहंकार विभाजन पर पलता है, और जिस क्षण हम दोनों रूपों के पीछे एक ही चेतना को पहचानते हैं, अज्ञान का अंधकार मिट जाता है।"
+      },
+      "attribution": {
+        "en": "Editorial Reflection — Manu Siddharth (Manuscript, Chapter 1)",
+        "hi": "साधना चिंतन — मनु सिद्धार्थ (पांडुलिपि, अध्याय १)"
+      },
+      "type": "manuscript-commentary"
+    },
+    {
+      "id": "refl-4",
+      "quote": {
+        "en": "Imagine reading a scripture dedicated entirely to Lord Shiva, and finding Lord Shiva himself teaching Parvati and the sages to chant the thousand names of Vishnu. What clearer proof could there be that they are reflections of one love?",
+        "hi": "कल्पना करें: आप शिव को समर्पित एक ग्रंथ पढ़ रहे हैं, और स्वयं महादेव आपको विष्णु के सहस्र नाम जपना सिखा रहे हैं। क्या इससे स्पष्ट प्रमाण चाहिए कि ये दोनों प्रतिद्वंद्वी नहीं, एक परम प्रेम के प्रतिबिंब हैं?"
+      },
+      "context": {
+        "en": "To dishonor Vishnu while claiming to worship Shiva is like claiming to love the moon while hating the night sky that holds it.",
+        "hi": "शिव की पूजा करते हुए विष्णु का अनादर करना उस व्यक्ति की तरह है जो चंद्रमा से प्रेम का दावा करता है पर उसे थामे रखने वाले आकाश से घृणा करता है।"
+      },
+      "attribution": {
+        "en": "Editorial Reflection — Manu Siddharth (Manuscript, Chapter 5)",
+        "hi": "साधना चिंतन — मनु सिद्धार्थ (पांडुलिपि, अध्याय ५)"
+      },
+      "type": "manuscript-commentary"
+    },
+    {
+      "id": "refl-5",
+      "quote": {
+        "en": "Preservation without transformation is stagnation. Transformation without preservation is emptiness. Together, as two hands of the Cosmic Dancer, they are Life.",
+        "hi": "पालन बिना संहार के — ठहराव। संहार बिना पालन के — रिक्तता। दोनों मिलकर — जीवन।"
+      },
+      "context": {
+        "en": "Day and night, inhalation and exhalation, sprouting seed and falling blossom — opposing forces in nature are never enemies; they are partners in a single sacred dance.",
+        "hi": "दिन और रात, श्वास का भरना और छोड़ना, बीज का अंकुरित होना और पुष्प का झड़ना — प्रकृति की ये दोनों शक्तियाँ शत्रु नहीं, एक ही दिव्य नृत्य के दो हस्त हैं।"
+      },
+      "attribution": {
+        "en": "Editorial Reflection — Manu Siddharth (Manuscript, Chapters 15–16)",
+        "hi": "साधना चिंतन — मनु सिद्धार्थ (पांडुलिपि, अध्याय १५–१६)"
+      },
+      "type": "manuscript-commentary"
+    },
+    {
+      "id": "refl-6",
+      "quote": {
+        "en": "The body of Harihara — Shiva on one side, Vishnu on the other — is your own heart. The day no wall remains between Shiva and Vishnu within your heart, that day your devotion becomes whole.",
+        "hi": "हरिहर की यह देह आपका हृदय है। जिस दिन आपके हृदय में शिव और विष्णु के बीच कोई दीवार नहीं रही — उस दिन आपने एकम् की अनुभूति की। उस दिन आपकी भक्ति पूर्ण हुई।"
+      },
+      "context": {
+        "en": "When we learn to see the unity of two deities, we also learn to see the unity across communities, traditions, and humanity itself.",
+        "hi": "जब हम दो देवताओं की एकता देखना सीखते हैं, तब हम समाज, परंपराओं और समस्त मानवता में भी भिन्नता के भीतर एकता देखना सीखते हैं।"
+      },
+      "attribution": {
+        "en": "Editorial Reflection — Manu Siddharth (Manuscript, Chapters 19–20)",
+        "hi": "साधना चिंतन — मनु सिद्धार्थ (पांडुलिपि, अध्याय १९–२०)"
+      },
+      "type": "manuscript-commentary"
+    }
+  ]
+}
+

@@ -1,0 +1,192 @@
+[
+  {
+    "id": "skanda-upanishad-8-9",
+    "category": "upanishad",
+    "featured": true,
+    "sanskrit": "शिवाय विष्णुरूपाय शिवरूपाय विष्णवे।\nशिवस्य हृदयं विष्णुर्विष्णोश्च हृदयं शिवः॥\nयथा शिवमयो विष्णुरेवं विष्णुमयः शिवः।\nयथान्तरं न पश्यामि तथा मे स्वस्तिरायुषि॥",
+    "transliteration": "Śivāya Viṣṇurūpāya Śivarūpāya Viṣṇave |\nŚivasya hṛdayaṁ Viṣṇur Viṣṇoś ca hṛdayaṁ Śivaḥ ||\nYathā Śivamayo Viṣṇur evaṁ Viṣṇumayaḥ Śivaḥ |\nYathāntaraṁ na paśyāmi tathā me svastir āyuṣi ||",
+    "literalTranslation": {
+      "en": "Salutations to Shiva who is of the form of Vishnu, and to Vishnu who is of the form of Shiva. Vishnu is the heart of Shiva, and Shiva is the heart of Vishnu. Just as Vishnu is full of Shiva, so too is Shiva full of Vishnu. As I see no difference between them, may auspiciousness and peace abide throughout my life.",
+      "hi": "विष्णु-स्वरूप शिव को नमस्कार है और शिव-स्वरूप विष्णु को नमस्कार है। शिव का हृदय विष्णु हैं और विष्णु का हृदय शिव हैं। जिस प्रकार विष्णु शिवमय हैं, उसी प्रकार शिव भी विष्णुमय हैं। जैसे मैं इन दोनों में कोई अंतर नहीं देखता, वैसे ही मेरे जीवन में सदा कल्याण और मंगल बना रहे।"
+    },
+    "commentary": {
+      "en": "Placed at the very opening and conclusion of Manu Siddharth's manuscript ('Harihara: Do Naam, Ek Pran'), this foundational proclamation of the Skanda Upanishad declares that Shiva and Vishnu dwell inside each other's very heart. True auspiciousness (svasti) dawns in a seeker's life when the illusion of difference between Hari and Hara dissolves.",
+      "hi": "'हरिहर: दो नाम, एक प्राण' पांडुलिपि के आरंभ और उपसंहार में उद्धृत स्कंद उपनिषद का यह अमर श्लोक घोषित करता है कि शिव और विष्णु एक-दूसरे के हृदय की धड़कन हैं। जब साधक की दृष्टि से दोनों के बीच का भेद मिट जाता है, तभी जीवन में वास्तविक कल्याण उतरता है।"
+    },
+    "source": {
+      "scripture": {
+        "en": "Skanda Upanishad (Krishna Yajurveda)",
+        "hi": "स्कंद उपनिषद (कृष्ण यजुर्वेद)"
+      },
+      "reference": "Mantras 8–9 (Also echoed in Manuscript Epigraph & Ch. 20)",
+      "status": "verified",
+      "badge": {
+        "en": "Verified Upanishadic Verse",
+        "hi": "प्रमाणित उपनिषद मंत्र"
+      }
+    }
+  },
+  {
+    "id": "vamana-purana-hari-rudra",
+    "category": "purana",
+    "featured": true,
+    "sanskrit": "यो हरिः स तु वै रुद्रो यो रुद्रः स जनार्दनः।\nएकमूर्तिरियं द्वेधा भक्तानां दर्शनार्थिनाम्॥",
+    "transliteration": "Yo Hariḥ sa tu vai Rudro yo Rudraḥ sa Janārdanaḥ |\nEkamūrtir iyaṁ dvedhā bhaktānāṁ darśanārthinām ||",
+    "literalTranslation": {
+      "en": "He who is Hari (Vishnu) is verily Rudra (Shiva), and He who is Rudra is truly Janardana (Vishnu). This single divine reality manifests in a twofold form to bless devotees who yearn for sacred vision.",
+      "hi": "जो हरि (विष्णु) हैं वही निश्चय ही रुद्र (शिव) हैं, और जो रुद्र हैं वही जनार्दन (विष्णु) हैं। भक्तों को दर्शन देने के लिए ही यह एक परम मूर्ति दो रूपों में प्रकट होती है।"
+    },
+    "commentary": {
+      "en": "Directly cited in Chapter 1(B) of the manuscript ('When the Sages' Illusion Broke'), this verse from the Vamana Purana recounts how the gods and rishis debated who was greater between Hari and Hara — until the Lord manifested in the unified Harihara form, dissolving all argument in a single flash of divine vision.",
+      "hi": "पांडुलिपि के अध्याय १(ख) ('जब ऋषियों का भ्रम टूटा') में प्रत्यक्ष रूप से उद्धृत वामन पुराण का यह वचन उस क्षण का साक्षी है जब ऋषियों के विवाद को शांत करने के लिए भगवान ने संयुक्त हरिहर स्वरूप प्रकट किया और स्पष्ट किया कि दोनों में तनिक भी भेद नहीं है।"
+    },
+    "source": {
+      "scripture": {
+        "en": "Vamana Purana",
+        "hi": "वामन पुराण"
+      },
+      "reference": "Adhyaya 62 / Manuscript Chapter 1(B)",
+      "status": "verified",
+      "badge": {
+        "en": "Verified Puranic & Manuscript Verse",
+        "hi": "प्रमाणित पौराणिक एवं पांडुलिपि श्लोक"
+      }
+    }
+  },
+  {
+    "id": "rigveda-ekam-sat",
+    "category": "veda",
+    "featured": true,
+    "sanskrit": "इन्द्रं मित्रं वरुणमग्निमाहुरथो दिव्यः स सुपर्णो गरुत्मान्।\nएकं सद्विप्रा बहुधा वदन्त्यग्निं यमं मातरिश्वानमाहुः॥",
+    "transliteration": "Indraṁ Mitraṁ Varuṇam Agnim āhur atho divyaḥ sa suparṇo Garutmān |\nEkaṁ sad viprā bahudhā vadanty Agniṁ Yamaṁ Mātariśvānam āhuḥ ||",
+    "literalTranslation": {
+      "en": "They call It Indra, Mitra, Varuna, Agni, and the heavenly noble-winged Garutman; Reality is One (Ekam Sat), though wise seers speak of It by many names.",
+      "hi": "उसे इंद्र, मित्र, वरुण, अग्नि और दिव्य गरुत्मान कहते हैं; सत्य (सत्) एक ही है, किंतु ज्ञानी विद्वान उसे अनेक नामों से पुकारते हैं।"
+    },
+    "commentary": {
+      "en": "Highlighted in Chapter 3 of the manuscript ('Hari and Hara in the Vedas'), this Rigvedic proclamation is the bedrock of Sanatana Dharma's inclusive vision. The Vedic rishis saw Rudra (the transformer) and Vishnu (the all-pervading sustainer) as two radiant expressions of the one infinite Ocean of Consciousness.",
+      "hi": "पांडुलिपि के अध्याय ३ ('वेदों में हरि और हर') में उद्धृत ऋग्वेद का यह महावाक्य सनातन धर्म की समावेशी दृष्टि की आधारशिला है। वैदिक ऋषियों ने ध्यान में देखा कि रुद्र और विष्णु एक ही अनंत चेतना के सागर की दो सबसे प्रिय अभिव्यक्तियाँ हैं।"
+    },
+    "source": {
+      "scripture": {
+        "en": "Rigveda Samhita",
+        "hi": "ऋग्वेद संहिता"
+      },
+      "reference": "Mandala 1, Sukta 164, Mantra 46 (Manuscript Chapter 3)",
+      "status": "verified",
+      "badge": {
+        "en": "Verified Vedic Shruti",
+        "hi": "प्रमाणित वैदिक श्रुति"
+      }
+    }
+  },
+  {
+    "id": "harivamsha-harihara-stuti",
+    "category": "itihasa",
+    "featured": false,
+    "sanskrit": "शिवाय विष्णुरूपाय विष्णवे शिवरूपिणे।\nअथान्तरं न पश्यामि तेन ते दिशतः शिवम्॥\nअनादिमध्यनिधनमेकं तत्त्वं चिदात्मकम्।\nहरिः शङ्कररूपेण शङ्करो हरिरूपधृक्॥",
+    "transliteration": "Śivāya Viṣṇurūpāya Viṣṇave Śivarūpiṇe |\nAthāntaraṁ na paśyāmi tena te diśataḥ śivam ||\nAnādimadhyanidhanam ekaṁ tattvaṁ cidātmakam |\nHariḥ Śaṅkararūpeṇa Śaṅkaro Harirūpadhṛk ||",
+    "literalTranslation": {
+      "en": "To Shiva who wears the form of Vishnu, and to Vishnu who wears the form of Shiva — because I behold no separation between them, both bestow supreme auspiciousness. Beginningless, middleless, and endless is that one Reality of pure Consciousness: Hari appears in the form of Shankara, and Shankara assumes the form of Hari.",
+      "hi": "विष्णु-रूप धारी शिव को और शिव-रूप धारी विष्णु को नमन है; क्योंकि मैं उन दोनों में कोई भेद नहीं देखता, इसलिए वे दोनों मंगल प्रदान करते हैं। आदि, मध्य और अंत से रहित वह चिदात्मक तत्त्व एक ही है — हरि ही शंकर के रूप में हैं और शंकर ही हरि का रूप धारण करते हैं।"
+    },
+    "commentary": {
+      "en": "In the Harivamsha (the appendix to the Mahabharata), Sage Markandeya beholds the unified glory of Lord Shiva and Lord Keshava, declaring that pure Consciousness (Chidatmaka Tattva) is one and undivided.",
+      "hi": "महाभारत के खिलभाग हरिवंश पुराण में महर्षि मार्कण्डेय भगवान शिव और भगवान केशव के एकीकृत स्वरूप का दर्शन कर उद्घोष करते हैं कि परम चिदात्मक तत्त्व एक और अखंड है।"
+    },
+    "source": {
+      "scripture": {
+        "en": "Harivamsha Purana (Vishnu Parva)",
+        "hi": "हरिवंश पुराण (विष्णु पर्व)"
+      },
+      "reference": "Vishnu Parva, Adhyaya 125, Verse 29+",
+      "status": "verified",
+      "badge": {
+        "en": "Verified Itihasa-Purana Text",
+        "hi": "प्रमाणित इतिहास-पुराण श्लोक"
+      }
+    }
+  },
+  {
+    "id": "mahabharata-shanti-parva-rudra-narayana",
+    "category": "itihasa",
+    "featured": false,
+    "sanskrit": "आत्मा हि परमं मह्यं यस्तं जानाति स प्रभुः।\nरुद्रो नारायणश्चैव सत्त्वमेकं द्विधा कृतम्॥\nलोके चरति कौन्तेय व्यक्तिस्थं सर्वकर्मसु।",
+    "transliteration": "Ātmā hi paramaṁ mahyaṁ yas taṁ jānāti sa prabhuḥ |\nRudro Nārāyaṇaś caiva sattvam ekaṁ dvidhā kṛtam ||\nLoke carati Kaunteya vyaktisthaṁ sarvakarmasu |",
+    "literalTranslation": {
+      "en": "He is my supreme Self; whoever knows Him truly knows the Lord. O Son of Kunti (Arjuna), Rudra and Narayana are indeed one single Being (Sattvam Ekam) manifested in two forms, moving through the universe and presiding over all cosmic actions.",
+      "hi": "वे रुद्र मेरी ही परम आत्मा हैं; जो उन्हें जानता है वही प्रभु तत्व को जानता है। हे कौन्तेय (अर्जुन)! रुद्र और नारायण वस्तुतः एक ही परम सत्ता (सत्त्वमेकं) हैं जो दो रूपों में विभक्त होकर संसार के समस्त कार्यों में विचरण करती है।"
+    },
+    "commentary": {
+      "en": "As discussed in Chapters 10 and 14 of the manuscript, the Mahabharata's Shanti Parva records Lord Krishna teaching Arjuna that Rudra is His own inner Self, and that Rudra and Narayana are a single essence ('Sattvam Ekam Dvidha Kritam') acting in two complementary modes.",
+      "hi": "पांडुलिपि के अध्याय १० और १४ में वर्णित महाभारत (शांति पर्व) के इस संवाद में स्वयं भगवान श्रीकृष्ण अर्जुन को उपदेश देते हैं कि रुद्र और नारायण एक ही परम सत्ता हैं जो लोक-कल्याण के लिए दो रूपों में प्रकट हुई है।"
+    },
+    "source": {
+      "scripture": {
+        "en": "Mahabharata (Shanti Parva — Mokshadharma)",
+        "hi": "महाभारत (शांति पर्व — मोक्षधर्म पर्व)"
+      },
+      "reference": "Shanti Parva, Adhyaya 341–342 (Manuscript Chapters 10 & 14)",
+      "status": "verified",
+      "badge": {
+        "en": "Verified Itihasa Scripture",
+        "hi": "प्रमाणित महाभारत श्लोक"
+      }
+    }
+  },
+  {
+    "id": "bhagavatam-vaishnavanam-yatha-shambhuh",
+    "category": "purana",
+    "featured": false,
+    "sanskrit": "निम्नगानां यथा गङ्गा देवानामच्युतो यथा।\nवैष्णवानां यथा शम्भुः पुराणानामिदं तथा॥",
+    "transliteration": "Nimnagānāṁ yathā Gaṅgā devānām Acyuto yathā |\nVaiṣṇavānāṁ yathā Śambhuḥ purāṇānām idaṁ tathā ||",
+    "literalTranslation": {
+      "en": "Just as the Ganga is the greatest among all rivers, just as Achyuta (Vishnu) is supreme among the deities, and just as Shambhu (Shiva) is the greatest of all lovers and devotees of Vishnu (Vaishnavas), so is this Srimad Bhagavatam among all Puranas.",
+      "hi": "जिस प्रकार नदियों में गंगा श्रेष्ठ हैं, देवताओं में अच्युत (विष्णु) परम हैं, और वैष्णवों (विष्णु से प्रेम करने वालों) में शम्भु (भगवान शिव) सर्वोच्च हैं, उसी प्रकार पुराणों में यह श्रीमद्भागवत है।"
+    },
+    "commentary": {
+      "en": "Complementing Chapters 5 and 8 of the manuscript ('The Glory of Vishnu in Shiva Purana' & 'Divine Unity in the Bhagavatam'), this celebrated verse from the Srimad Bhagavatam honors Lord Shiva as the supreme lover and knower of Vishnu — while Shaiva scriptures equally revere Vishnu as the greatest devotee of Shiva.",
+      "hi": "पांडुलिपि के अध्याय ५ और ८ ('शिव पुराण में विष्णु की महिमा' एवं 'भागवतम् में दिव्य एकता') के अनुरूप, श्रीमद्भागवत महापुराण का यह प्रसिद्ध श्लोक भगवान शम्भु को परम वैष्णव के रूप में नमन करता है — और शिव पुराण में भगवान विष्णु को शिव का परम आराधक बताया गया है।"
+    },
+    "source": {
+      "scripture": {
+        "en": "Srimad Bhagavata Mahapurana",
+        "hi": "श्रीमद्भागवत महापुराण"
+      },
+      "reference": "Skandha 12, Adhyaya 13, Verse 16 (Manuscript Chapters 5 & 8)",
+      "status": "verified",
+      "badge": {
+        "en": "Verified Bhagavatam Verse",
+        "hi": "प्रमाणित भागवत महापुराण श्लोक"
+      }
+    }
+  },
+  {
+    "id": "shiva-purana-rudra-samhita-abheda",
+    "category": "purana",
+    "featured": false,
+    "sanskrit": "नावयोर्विद्यते भेदः शिवयोर्विष्णुरूपयोः।\nआवां हि सर्वभूतानामात्मानौ परमेश्वरौ॥",
+    "transliteration": "Nāvayor vidyate bhedaḥ Śivayor Viṣṇurūpayoḥ |\nĀvāṁ hi sarvabhūtānām ātmānau Parameśvarau ||",
+    "literalTranslation": {
+      "en": "There exists no distinction whatsoever between the two of Us — Shiva and Vishnu. Verily, We both are the inner Self and Supreme Lord of all living beings.",
+      "hi": "शिव और विष्णु रूप हम दोनों में कोई भेद विद्यमान नहीं है। निश्चय ही हम दोनों समस्त प्राणियों की अंतरात्मा और परमेश्वर हैं।"
+    },
+    "commentary": {
+      "en": "Expounded in Chapter 5 of the manuscript ('Shiva Purana: Rudra Samhita'), Lord Shiva teaches the sages that He and Vishnu are like fire and its heat, or the sun and its light — inseparable in essence, consciousness, and grace.",
+      "hi": "पांडुलिपि के अध्याय ५ ('शिव पुराण में विष्णु की महिमा') में वर्णित रुद्र संहिता की शिक्षा के अनुसार, शिव और विष्णु अग्नि और उसकी ऊष्मा की तरह, सूर्य और उसके प्रकाश की तरह अभिन्न हैं।"
+    },
+    "source": {
+      "scripture": {
+        "en": "Shiva Mahapurana (Rudra Samhita) & Padma Purana Tradition",
+        "hi": "शिव महापुराण (रुद्र संहिता) परंपरा"
+      },
+      "reference": "Rudra Samhita / Manuscript Chapter 5 Summary",
+      "status": "verified",
+      "badge": {
+        "en": "Verified Puranic Teaching",
+        "hi": "प्रमाणित पौराणिक सिद्धांत"
+      }
+    }
+  }
+]
+

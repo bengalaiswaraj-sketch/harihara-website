@@ -1,0 +1,242 @@
+[
+  {
+    "id": "vid-guhasura-epic",
+    "title": {
+      "en": "The Manifestation of Harihara: The Legend of Guhasura",
+      "hi": "हरिहर का प्रथम प्राकट्य: गुहासुर वध की अमर गाथा"
+    },
+    "category": "Harihara Stories",
+    "categoryLabel": {
+      "en": "Harihara Stories",
+      "hi": "हरिहर कथाएँ"
+    },
+    "aspectRatio": "16:9",
+    "duration": "04:15",
+    "featured": true,
+    "isRecent": true,
+    "thumbnail": "assets/images/videos/vid-guhasura-epic.webp",
+    "description": {
+      "en": "Based on Chapter 1 of Manu Siddharth's manuscript ('Harihara: Do Naam, Ek Pran'): witness how Guhasura's cunning boon of division collapsed when Lord Shiva and Lord Vishnu united as one at the confluence of the Tungabhadra and Haridra rivers.",
+      "hi": "मनु सिद्धार्थ की पांडुलिपि ('हरिहर: दो नाम, एक प्राण', अध्याय १) पर आधारित: देखिए कैसे तुंगभद्रा और हरिद्रा नदियों के संगम पर शिव और विष्णु के एक होने से गुहासुर का कपटपूर्ण वरदान टूट गया।"
+    },
+    "videoType": "storyboard",
+    "videoUrl": "",
+    "youtubeId": "",
+    "instagramUrl": "",
+    "relatedStoryId": "guhasura-manifestation",
+    "editorialStatus": "visual-storyboard-ready",
+    "storyboardSlides": [
+      {
+        "image": "assets/images/stories/guhasura-reign.webp",
+        "captionEn": "Scene I: In ancient Guharanya (Karnataka), Guhasura obtains Brahma's boon that neither Shiva alone nor Vishnu alone can slay him.",
+        "captionHi": "दृश्य १: प्राचीन गुहारण्य में गुहासुर ने ब्रह्मा जी से वरदान पाया कि अकेले शिव या अकेले विष्णु उसे न मार सकें।"
+      },
+      {
+        "image": "assets/images/stories/harihara-cosmic-form.webp",
+        "captionEn": "Scene II: To restore cosmic Dharma, Hari and Hara merge into one undivided form — Lord Harihara (Shankaranarayana).",
+        "captionHi": "दृश्य २: धर्म की रक्षा के लिए हरि और हर ने अपनी सत्ताओं को एक कर लिया — भगवान हरिहर का प्राकट्य हुआ।"
+      },
+      {
+        "image": "assets/images/stories/guhasura-vadh.webp",
+        "captionEn": "Scene III: At Kudalur, wielding both Trishula and Sudarshana Chakra, Harihara vanquishes Guhasura's ego and grants him Moksha.",
+        "captionHi": "दृश्य ३: कुडलूर संगम पर त्रिशूल और सुदर्शन चक्र धारी हरिहर के दर्शन से गुहासुर का अहंकार गला और उसे मोक्ष प्राप्त हुआ।"
+      }
+    ]
+  },
+  {
+    "id": "vid-skanda-shloka-reel",
+    "title": {
+      "en": "Shivasya Hridayam Vishnuh — Sacred Verse of Oneness (Reel)",
+      "hi": "शिवस्य हृदयं विष्णुः — एकता का दिव्य श्लोक (रील)"
+    },
+    "category": "Sacred Shlokas",
+    "categoryLabel": {
+      "en": "Sacred Shlokas",
+      "hi": "पवित्र श्लोक"
+    },
+    "aspectRatio": "9:16",
+    "duration": "00:58",
+    "featured": false,
+    "isRecent": true,
+    "thumbnail": "assets/images/videos/vid-skanda-shloka-reel.webp",
+    "description": {
+      "en": "Vertical devotional visual (9:16 format for Reels & Shorts) exploring the Skanda Upanishad proclamation: 'Vishnu is the heart of Shiva, and Shiva is the heart of Vishnu.'",
+      "hi": "स्कंद उपनिषद के अमर श्लोक 'शिवस्य हृदयं विष्णुर्विष्णोश्च हृदयं शिवः' का ९:१६ (रील्स एवं शॉर्ट्स) प्रारूप में भावपूर्ण प्रस्तुतीकरण।"
+    },
+    "videoType": "storyboard",
+    "videoUrl": "",
+    "youtubeId": "",
+    "instagramUrl": "",
+    "relatedStoryId": "vishnu-in-shiva-heart",
+    "editorialStatus": "visual-storyboard-ready",
+    "storyboardSlides": [
+      {
+        "image": "assets/images/stories/vishnu-in-shiva-heart.webp",
+        "captionEn": "शिवाय विष्णुरूपाय शिवरूपाय विष्णवे। शिवस्य हृदयं विष्णुर्विष्णोश्च हृदयं शिवः॥ (Skanda Upanishad 8)",
+        "captionHi": "शिवाय विष्णुरूपाय शिवरूपाय विष्णवे। शिवस्य हृदयं विष्णुर्विष्णोश्च हृदयं शिवः॥ (स्कंद उपनिषद ८)"
+      },
+      {
+        "image": "assets/images/harihara-cover.webp",
+        "captionEn": "Just as Vishnu is full of Shiva, so too is Shiva full of Vishnu. Those who see no division abide in eternal peace.",
+        "captionHi": "जिस प्रकार विष्णु शिवमय हैं, उसी प्रकार शिव भी विष्णुमय हैं। जो दोनों में भेद नहीं देखता, उसका जीवन मंगलमय होता है।"
+      }
+    ]
+  },
+  {
+    "id": "vid-shiva-heart-vishnu",
+    "title": {
+      "en": "When Vishnu Calmed Shiva's Grief at Daksha's Yajna",
+      "hi": "दक्ष-यज्ञ: जब विष्णु के आलिंगन ने महादेव का शोक शांत किया"
+    },
+    "category": "Shiva–Vishnu Unity",
+    "categoryLabel": {
+      "en": "Shiva–Vishnu Unity",
+      "hi": "शिव–विष्णु एकता"
+    },
+    "aspectRatio": "16:9",
+    "duration": "03:30",
+    "featured": false,
+    "isRecent": true,
+    "thumbnail": "assets/images/videos/vid-shiva-heart-vishnu.webp",
+    "description": {
+      "en": "From Chapter 5 of the manuscript: When Sati entered the sacrificial fire and Shiva's grief shook the three worlds, Vishnu came not with weapons, but as the eternal friend who knows Shiva's heart.",
+      "hi": "पांडुलिपि के अध्याय ५ से: जब माता सती के वियोग में महादेव के क्रोध से तीनों लोक काँप उठे, तब विष्णु शस्त्र लेकर नहीं बल्कि शाश्वत सखा के रूप में आए।"
+    },
+    "videoType": "storyboard",
+    "videoUrl": "",
+    "youtubeId": "",
+    "instagramUrl": "",
+    "relatedStoryId": "vishnu-in-shiva-heart",
+    "editorialStatus": "visual-storyboard-ready",
+    "storyboardSlides": [
+      {
+        "image": "assets/images/stories/vishnu-in-shiva-heart.webp",
+        "captionEn": "In the Shiva Purana (Rudra Samhita), Shiva declares: 'Vishnu and I are like fire and its heat, the sun and its light.'",
+        "captionHi": "शिव पुराण (रुद्र संहिता) में महादेव कहते हैं: 'विष्णु और मैं अग्नि और उसकी ऊष्मा की तरह, सूर्य और उसके प्रकाश की तरह अभिन्न हैं।'"
+      },
+      {
+        "image": "assets/images/harihara-hero.webp",
+        "captionEn": "At Daksha's sacrifice, the Destroyer and the Preserver embraced in deep reverence — restoring balance to the cosmos.",
+        "captionHi": "दक्ष की यज्ञशाला में संहारक और पालनहार ने प्रेम और विश्वास से आलिंगन किया — और सृष्टि पुनः संतुलित हो गई।"
+      }
+    ]
+  },
+  {
+    "id": "vid-harihareshwara-doc",
+    "title": {
+      "en": "Sacred Stones of Unity: Harihareshwara & Lingaraja Temples",
+      "hi": "एकता के पावन तीर्थ: हरिहरेश्वर मंदिर और लिंगराज धाम"
+    },
+    "category": "Divine Temples",
+    "categoryLabel": {
+      "en": "Divine Temples",
+      "hi": "दिव्य मंदिर"
+    },
+    "aspectRatio": "16:9",
+    "duration": "05:10",
+    "featured": false,
+    "isRecent": false,
+    "thumbnail": "assets/images/videos/vid-harihareshwara-doc.webp",
+    "description": {
+      "en": "A visual pilgrimage to the 1223 CE Hoysala Harihareshwara Temple in Karnataka, the 11th-century Lingaraja Temple in Odisha, and the 6th-century Badami rock-cut caves.",
+      "hi": "कर्नाटक के १२२३ ईस्वी के होयसल हरिहरेश्वर मंदिर, ओडिशा के लिंगराज मंदिर और बादामी की प्राचीन गुफाओं की दिव्य दर्शन यात्रा।"
+    },
+    "videoType": "storyboard",
+    "videoUrl": "",
+    "youtubeId": "",
+    "instagramUrl": "",
+    "relatedStoryId": "guhasura-manifestation",
+    "editorialStatus": "visual-storyboard-ready",
+    "storyboardSlides": [
+      {
+        "image": "assets/images/temples/harihareshwara-harihar.webp",
+        "captionEn": "Harihareshwara Temple (1223 CE, Karnataka): Built in soapstone at the very site where Guharanya became Harihar.",
+        "captionHi": "हरिहरेश्वर मंदिर (१२२३ ईस्वी, कर्नाटक): तुंगभद्रा तट पर सोपस्टोन से निर्मित वह पावन धाम जहाँ गुहारण्य 'हरिहर' बना।"
+      },
+      {
+        "image": "assets/images/temples/lingaraja-bhubaneswar.webp",
+        "captionEn": "Lingaraja Temple (Odisha): Where both Bilva leaves (Shiva) and Tulsi leaves (Vishnu) are offered together every day.",
+        "captionHi": "लिंगराज मंदिर (ओडिशा): जहाँ प्रतिदिन बिल्वपत्र और तुलसी दल दोनों एक साथ भगवान हरिहर को अर्पित किए जाते हैं।"
+      }
+    ]
+  },
+  {
+    "id": "vid-three-misconceptions-short",
+    "title": {
+      "en": "Why Do Devotees Divide Shiva & Vishnu? 3 Modern Misconceptions",
+      "hi": "शिव और विष्णु में भेद क्यों? आधुनिक युग की ३ मुख्य भ्रांतियाँ"
+    },
+    "category": "Spiritual Teachings",
+    "categoryLabel": {
+      "en": "Spiritual Teachings",
+      "hi": "आध्यात्मिक शिक्षाएँ"
+    },
+    "aspectRatio": "9:16",
+    "duration": "01:15",
+    "featured": false,
+    "isRecent": true,
+    "thumbnail": "assets/images/videos/vid-three-misconceptions-short.webp",
+    "description": {
+      "en": "From Chapter 17 of the manuscript: How incomplete scriptural reading, historical politics, and possessive ego created walls that the Puranas never taught.",
+      "hi": "पांडुलिपि के अध्याय १७ से: कैसे अपूर्ण अध्ययन, ऐतिहासिक राजनीति और संकीर्ण अहंकार ने वे दीवारें खड़ी कीं जो शास्त्रों में कभी थीं ही नहीं।"
+    },
+    "videoType": "storyboard",
+    "videoUrl": "",
+    "youtubeId": "",
+    "instagramUrl": "",
+    "relatedStoryId": "awakening-harihara-today",
+    "editorialStatus": "visual-storyboard-ready",
+    "storyboardSlides": [
+      {
+        "image": "assets/images/videos/vid-three-misconceptions-short.webp",
+        "captionEn": "1. Incomplete Study  •  2. Historical Politics  •  3. Egoistic Possessiveness in Devotion.",
+        "captionHi": "१. शास्त्रों का अपूर्ण अध्ययन  •  २. सांप्रदायिक राजनीति  •  ३. भक्ति में संकीर्ण अहंकार।"
+      },
+      {
+        "image": "assets/images/harihara-cover.webp",
+        "captionEn": "Remedy: Chant both 'Om Namah Shivaya' and 'Om Namo Narayanaya' — for your Beloved desires unity, not division.",
+        "captionHi": "उपाय: 'ॐ नमः शिवाय' और 'ॐ नमो नारायणाय' दोनों को हृदय में स्थान दें — क्योंकि दोनों एक ही हैं।"
+      }
+    ]
+  },
+  {
+    "id": "vid-iconography-explained",
+    "title": {
+      "en": "Decoding the Sacred Iconography of Lord Harihara",
+      "hi": "भगवान हरिहर के दिव्य स्वरूप और प्रतीकों का रहस्य"
+    },
+    "category": "Mythology Explained",
+    "categoryLabel": {
+      "en": "Mythology Explained",
+      "hi": "पौराणिक रहस्य"
+    },
+    "aspectRatio": "9:16",
+    "duration": "01:20",
+    "featured": false,
+    "isRecent": false,
+    "thumbnail": "assets/images/videos/vid-iconography-explained.webp",
+    "description": {
+      "en": "Explore why the Trishula and Sudarshana Chakra, Vibhuti and Pitambara, and the Crescent Moon and Kirit Mukut join into one seamless form.",
+      "hi": "जानिए क्यों त्रिशूल और सुदर्शन चक्र, भस्म और पीताम्बर, तथा अर्धचंद्र और किरीट मुकुट एक ही देह में संगम करते हैं।"
+    },
+    "videoType": "storyboard",
+    "videoUrl": "",
+    "youtubeId": "",
+    "instagramUrl": "",
+    "relatedStoryId": "cosmic-dance-of-creation",
+    "editorialStatus": "visual-storyboard-ready",
+    "storyboardSlides": [
+      {
+        "image": "assets/images/stories/harihara-cosmic-form.webp",
+        "captionEn": "Trishula + Sudarshana Chakra = Transformation and Preservation acting as two hands of one Cosmic Dancer.",
+        "captionHi": "त्रिशूल + सुदर्शन चक्र = परिवर्तन और पालन, एक ही ब्रह्मांडीय नर्तक के दो हस्त।"
+      },
+      {
+        "image": "assets/images/harihara-cover.webp",
+        "captionEn": "Pitambara + Vibhuti = Living responsibly in the world while remaining inwardly free and detached.",
+        "captionHi": "पीताम्बर + विभूति = संसार के कर्तव्यों का पालन करते हुए भीतर से पूर्णतः मुक्त और अनासक्त रहना।"
+      }
+    ]
+  }
+]
+

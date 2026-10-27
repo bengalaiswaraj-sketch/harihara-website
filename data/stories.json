@@ -1,0 +1,528 @@
+[
+  {
+    "id": "guhasura-manifestation",
+    "number": "01",
+    "manuscriptChapter": {
+      "en": "Part 1 • Chapter 1: Guhasura Vadh — When Hari and Hara Became One",
+      "hi": "भाग १ • अध्याय १: गुहासुर वध — जब हरि और हर एक हुए"
+    },
+    "title": {
+      "en": "The Legend of Guhasura & The First Manifestation of Harihara",
+      "hi": "गुहासुर वध — जब हरि और हर एक हुए"
+    },
+    "subtitle": {
+      "en": "How a cunning demon's boon of separation was shattered by the eternal oneness of Shiva and Vishnu at the confluence of the Tungabhadra and Haridra rivers.",
+      "hi": "कैसे तुंगभद्रा और हरिद्रा के संगम पर शिव और विष्णु की अखंड एकता ने गुहासुर के कपटपूर्ण वरदान का अंत कर उसका उद्धार किया।"
+    },
+    "coverImage": "assets/images/stories/guhasura-vadh.webp",
+    "secondaryImage": "assets/images/stories/guhasura-reign.webp",
+    "sources": [
+      "Skanda Purana",
+      "Brahma Purana",
+      "Harihareshwara Temple Sthala Purana",
+      "Manuscript: 'Harihara: Do Naam, Ek Pran' by Manu Siddharth (Chapter 1)"
+    ],
+    "verificationStatus": "verified-manuscript",
+    "sanskritQuote": {
+      "verse": "शिवाय विष्णुरूपाय शिवरूपाय विष्णवे।",
+      "meaningEn": "Salutations to Shiva who is of the form of Vishnu, and to Vishnu who is of the form of Shiva.",
+      "meaningHi": "विष्णु-स्वरूप शिव को नमस्कार है और शिव-स्वरूप विष्णु को नमस्कार है।"
+    },
+    "introduction": {
+      "en": "This is the story where everything begins. It is not merely a Puranic legend — it is the first cosmic proclamation of the supreme truth that Lord Shiva and Lord Vishnu are not two, and never were. And the first, clearest, most powerful manifestation of this unity took place for the redemption and vanquishing of a demon named Guhasura.",
+      "hi": "यह वह कथा है जहाँ से सब कुछ आरंभ होता है। यह केवल एक पौराणिक आख्यान नहीं है — यह उस परम सत्य का प्रथम ब्रह्मांडीय उद्घोष है कि भगवान शिव और भगवान विष्णु दो नहीं हैं, वे मूलतः एक ही हैं। और इस एकता का सबसे पहला, सबसे स्पष्ट प्रकटन हुआ गुहासुर के वध और उद्धार के लिए।"
+    },
+    "scenes": [
+      {
+        "sceneNumber": 1,
+        "title": {
+          "en": "The Dark Empire of Guharanya",
+          "hi": "गुहारण्य का राज — एक अंधकारमय साम्राज्य"
+        },
+        "image": "assets/images/stories/guhasura-reign.webp",
+        "narrative": {
+          "en": "In ancient times, across the land of modern-day Karnataka, a mighty demon named Guhasura ('the demon of caves') ruled a vast, dense forest known as Guharanya. His empire stretched from Ucchangi Durga in the east to Mudanur in the west, and from Govinahalu in the south to Airani in the north. Guhasura ruled through fear, disorder, and adharma — sages fled their hermitages, sacred fire-sacrifices were disrupted, and the righteous gasped under tyranny.",
+          "hi": "प्राचीन काल में, वर्तमान कर्नाटक की भूमि पर, एक विशाल और घने वन में गुहासुर ('गुफाओं का असुर') का राज था। उसका साम्राज्य पूर्व में उच्चंगी दुर्गा से लेकर पश्चिम में मुदानूर तक, दक्षिण में गोविनहलु से लेकर उत्तर में ऐरानी तक फैला था, जिसे 'गुहारण्य' कहा जाता था। उसकी उपस्थिति मात्र से ऋषि-मुनि आश्रम छोड़ भागते थे और यज्ञ-हवन बाधित होते थे।"
+        }
+      },
+      {
+        "sceneNumber": 2,
+        "title": {
+          "en": "The Deceptive Boon of Division",
+          "hi": "ब्रह्मा से कपटपूर्ण वरदान"
+        },
+        "image": "assets/images/stories/guhasura-reign.webp",
+        "narrative": {
+          "en": "Burning with ambition to rule the universe unchallenged, Guhasura performed fierce penance without food or water until Lord Brahma appeared before him. Cleverly calculating, Guhasura asked: 'O Prajapati! Grant me the boon that no human, deva, gandharva — and not even Lord Shiva or Lord Vishnu themselves — may slay me.' He deliberately named Shiva (Hara) and Vishnu (Hari) as two separate entities, believing that so long as they remained separate, he was invincible. When the devas sought protection, neither Vishnu alone nor Shiva alone could bypass Brahma's word.",
+          "hi": "समस्त सृष्टि पर अजेय राज की कामना से गुहासुर ने घोर तपस्या कर ब्रह्मा जी से वरदान माँगा: 'हे प्रजापति! कृपया मुझे यह वरदान दें कि कोई मनुष्य, देवता, गंधर्व — और यहाँ तक कि स्वयं भगवान शिव और भगवान विष्णु भी — मुझे न मार सकें।' उसने बड़ी चालाकी से शिव (हर) और विष्णु (हरि) को दो अलग-अलग नामों से माँगा था। वरदान की शर्त थी: 'अकेले शिव नहीं, अकेले विष्णु नहीं।'"
+        }
+      },
+      {
+        "sceneNumber": 3,
+        "title": {
+          "en": "The Greatest Cosmic Convergence — Harihara Appears",
+          "hi": "इतिहास का महानतम संयोजन — हरिहर का प्राकट्य"
+        },
+        "image": "assets/images/stories/harihara-cosmic-form.webp",
+        "narrative": {
+          "en": "Then something occurred that cosmic history had never witnessed before. Lord Shiva and Lord Vishnu united their powers, energies, and presence into one undivided form — revealing what had always been one in essence. Hari and Hara became One: HARIHARA (Shankaranarayana). On the right side of the divine body shone Shiva — with Trishula, matted locks, Vibhuti, and crescent moon; on the left side shone Vishnu — with Shankha, Sudarshana Chakra, Pitambara, and Vanamala. One body, one consciousness, one Supreme Truth to which Guhasura's boon of separation could never apply.",
+          "hi": "तब ब्रह्मांड के इतिहास में अद्वितीय घटना घटी। भगवान शिव और भगवान विष्णु ने अपनी शक्तियों और सत्ताओं को एक कर दिया। हरि और हर एक हो गए — हरिहर (शंकरनारायण) का प्राकट्य हुआ। दाईं ओर शिव — त्रिशूल, जटा, विभूति, अर्धचंद्र; बाईं ओर विष्णु — शंख, चक्र, पीताम्बर, वनमाला। किंतु यह एक ही शरीर था, एक ही चेतना थी जिसके लिए ब्रह्मा का वरदान लागू नहीं होता था।"
+        }
+      },
+      {
+        "sceneNumber": 4,
+        "title": {
+          "en": "Final Battle at Kudalur & Guhasura's Liberation",
+          "hi": "पवित्र भूमि पर अंतिम युद्ध और गुहासुर का मोक्ष"
+        },
+        "image": "assets/images/stories/guhasura-vadh.webp",
+        "narrative": {
+          "en": "Harihara descended at Kudalur, the sacred confluence of the Tungabhadra and Haridra rivers. Wielding both Shiva's Trishula and Vishnu's Sudarshana Chakra, Harihara shattered Guhasura's forces. As Guhasura fell and beheld the radiant half-Shiva, half-Vishnu form, the darkness of his heart dissolved. Weeping in surrender, he prayed: 'O Lord! Your divine form has redeemed me. Grant only that this land I defiled be sanctified by Your name.' Harihara granted him Moksha, and Guharanya became forever known as Harihar — where the 13th-century Hoysala Harihareshwara Temple stands today.",
+          "hi": "हरिहर तुंगभद्रा और हरिद्रा नदियों के संगम — कुडलूर — पर अवतरित हुए। हाथ में शिव का त्रिशूल और विष्णु का सुदर्शन चक्र लिए हरिहर के सामने गुहासुर धराशायी हुआ। मृत्यु के द्वार पर उस अद्भुत दर्शन ने उसके अहंकार को गला दिया। उसने प्रार्थना की: 'हे प्रभु! यह भूमि जिसे मैंने कलुषित किया, आपके नाम से पावन हो जाए।' हरिहर ने उसे मोक्ष दिया और गुहारण्य का नाम 'हरिहर' पड़ा — जहाँ १३वीं शताब्दी का होयसल हरिहरेश्वर मंदिर आज भी खड़ा है।"
+        }
+      }
+    ],
+    "spiritualLesson": {
+      "en": "Guhasura assumed Shiva and Vishnu were separate — and in that ignorance he sought his boon. Whenever devotees today divide Shiva and Vishnu or argue over who is superior, they fall into the same illusion as Guhasura, seeing only half of an indivisible Truth.",
+      "hi": "गुहासुर ने शिव और विष्णु को अलग-अलग माना — और इसी अज्ञान में उसने वरदान माँगा। आज जो भक्त शिव और विष्णु को अलग मानकर उनमें विभेद करते हैं, वे भी सत्य के केवल एक पक्ष को देख रहे हैं, पूर्ण सत्य को नहीं।"
+    }
+  },
+  {
+    "id": "vamana-purana-sages-illusion",
+    "number": "02",
+    "manuscriptChapter": {
+      "en": "Part 1 • Chapter 1(B): Vamana Purana — When the Sages' Illusion Broke",
+      "hi": "भाग १ • अध्याय १(ख): वामन पुराण — जब ऋषियों का भ्रम टूटा"
+    },
+    "title": {
+      "en": "When the Sages' Illusion Broke — The Vamana Purana Darshan",
+      "hi": "जब ऋषियों का भ्रम टूटा — वामन पुराण का दिव्य दर्शन"
+    },
+    "subtitle": {
+      "en": "When even gods and sages fell into debate over who was supreme, the Supreme Spirit answered not with words, but with a unified vision.",
+      "hi": "जब देवताओं और ऋषियों के मन में श्रेष्ठता का संशय उठा, तो परमात्मा ने शब्दों से नहीं बल्कि अखंड हरिहर दर्शन से उत्तर दिया।"
+    },
+    "coverImage": "assets/images/stories/harihara-cosmic-form.webp",
+    "secondaryImage": "assets/images/harihara-hero.webp",
+    "sources": [
+      "Vamana Purana",
+      "Manuscript: 'Harihara: Do Naam, Ek Pran' by Manu Siddharth (Chapter 1B)"
+    ],
+    "verificationStatus": "verified-manuscript",
+    "sanskritQuote": {
+      "verse": "यो हरिः स तु वै रुद्रो यो रुद्रः स जनार्दनः।",
+      "meaningEn": "He who is Hari is verily Rudra, and He who is Rudra is truly Janardana (Vishnu).",
+      "meaningHi": "जो हरि हैं वही रुद्र हैं, और जो रुद्र हैं वही जनार्दन विष्णु हैं — दोनों में तनिक भी भेद नहीं।"
+    },
+    "introduction": {
+      "en": "The account of Guhasura showed that when the cosmos needed both powers simultaneously, they came as One. The Vamana Purana reveals an even deeper truth: that this unity is not merely an emergency alliance for battle, but their eternal, primordial nature.",
+      "hi": "गुहासुर की कथा ने दिखाया कि जब संसार को दोनों की एकसाथ आवश्यकता पड़ी, तो वे एक होकर आए। वामन पुराण की यह कथा बताती है कि यह एकता कोई संकटकालीन व्यवस्था नहीं — यह उनका शाश्वत, मूल स्वभाव है।"
+    },
+    "scenes": [
+      {
+        "sceneNumber": 1,
+        "title": {
+          "en": "The Crisis of Divided Devotion",
+          "hi": "ऋषियों का संशय और अस्तित्व का संकट"
+        },
+        "image": "assets/images/harihara-hero.webp",
+        "narrative": {
+          "en": "According to the Vamana Purana, a doubt once arose among the devas and sages regarding who was greater and more powerful between Sri Hari Vishnu and Lord Shiva. While cosmic conflicts raged around Mount Mandara and the sacred land of Kurukshetra, even the sages began debating whom to worship. When seekers themselves become divided, cosmic harmony fractures.",
+          "hi": "वामन पुराण के अनुसार, एक बार देवताओं और ऋषियों के मन में यह संशय उत्पन्न हुआ कि श्रीहरि विष्णु और भगवान शिव में से कौन अधिक श्रेष्ठ और शक्तिशाली हैं। मंदराचल और कुरुक्षेत्र की पावन भूमि पर जब द्वंद्व चल रहा था, तब भक्तों और ऋषियों का यह विभाजन एक अस्तित्व का संकट बन गया।"
+        }
+      },
+      {
+        "sceneNumber": 2,
+        "title": {
+          "en": "The Seamless Form of Harihara",
+          "hi": "अखंड और अभेद हरिहर स्वरूप का प्राकट्य"
+        },
+        "image": "assets/images/stories/harihara-cosmic-form.webp",
+        "narrative": {
+          "en": "As the sages meditated simultaneously upon Sri Hari and Mahadeva for an answer, both Deities set aside their separate appearances and revealed a single, seamless form. On the right half of the body dwelt Shiva with crescent moon, matted locks, serpent garland, sacred ash, Trishula, Damaru, and tiger skin. On the left half dwelt Vishnu with Kirit Mukut, Vaijayanti garland, Pitambara, Shankha, Chakra, Gada, and Padma. What was right was also left; what was Shiva was also Vishnu.",
+          "hi": "जब भक्त और ऋषि समाधान के लिए श्रीहरि और महादेव का एकसाथ ध्यान करने लगे, तब दोनों देवताओं ने संयुक्त, अभेद स्वरूप प्रकट किया। दाहिने भाग में बालचंद्र, जटाजूट, भस्म, त्रिशूल व डमरू धारी शिव; और बाएँ भाग में किरीट मुकुट, वैजयंती माला, पीताम्बर, शंख, चक्र, गदा व पद्म धारी विष्णु। न कोई सीमा, न कोई संधि — बस एक अखंड दिव्य अस्तित्व।"
+        }
+      },
+      {
+        "sceneNumber": 3,
+        "title": {
+          "en": "Two Breaths of One Life",
+          "hi": "एक ही जीवन की दो श्वासें"
+        },
+        "image": "assets/images/stories/vishnu-in-shiva-heart.webp",
+        "narrative": {
+          "en": "In that single vision, all debates and mental knots vanished. Together, Vishnu and Shiva taught: 'Whoever worships Vishnu while harboring malice toward Shiva — his worship is fruitless. Whoever claims to be a devotee of Shiva while disparaging Vishnu — his devotion is hollow. For the one he rejects is merely another name of his own beloved Lord.' Just as inhaling and exhaling are two actions of one life, Vishnu and Shiva are two expressions of the one Supreme Consciousness.",
+          "hi": "उस दर्शन से ऋषियों का सारा भ्रम एक पल में विलीन हो गया। भगवान ने संदेश दिया: 'जो मनुष्य विष्णु की भक्ति करता है लेकिन शिव से द्वेष रखता है — उसकी पूजा निष्फल है। जो शिव का भक्त होकर विष्णु की निंदा करता है — उसकी भक्ति भी खोखली है।' जैसे श्वास लेना और छोड़ना एक ही जीवन की दो क्रियाएँ हैं, वैसे ही विष्णु और शिव एक ही परमात्मा की दो अभिव्यक्तियाँ हैं।"
+        }
+      }
+    ],
+    "spiritualLesson": {
+      "en": "Questions that endless intellectual debates can never settle are dissolved immediately in true devotional vision: rejecting either Hari or Hara is rejecting half of one's own Beloved.",
+      "hi": "जो प्रश्न अनंत तर्कों और बहसों से नहीं सुलझ सकता, वह समग्र भक्ति के दर्शन से तुरंत सुलझ जाता है: जिसे हम अस्वीकार करते हैं, वह वस्तुतः हमारे अपने ही इष्ट का दूसरा नाम है।"
+    }
+  },
+  {
+    "id": "vishnu-in-shiva-heart",
+    "number": "03",
+    "manuscriptChapter": {
+      "en": "Part 3 & 4 • Chapters 5 & 14: Vishnu in the Heart of Shiva",
+      "hi": "भाग ३ एवं ४ • अध्याय ५ एवं १४: शिव के हृदय में विष्णु"
+    },
+    "title": {
+      "en": "Vishnu in the Heart of Shiva — Daksha's Sacrifice & The Thousand Names",
+      "hi": "शिव पुराण में विष्णु की महिमा — जब महादेव ने विष्णु का नाम जपा"
+    },
+    "subtitle": {
+      "en": "How the scripture dedicated to Lord Shiva proclaims Vishnu's glory, and how Vishnu alone could soothe Shiva's cosmic grief.",
+      "hi": "कैसे भगवान शिव को समर्पित महापुराण में स्वयं महादेव विष्णु सहस्रनाम का गान करते हैं और दक्ष-यज्ञ की महाज्वाला केवल विष्णु के आलिंगन से शांत होती है।"
+    },
+    "coverImage": "assets/images/stories/vishnu-in-shiva-heart.webp",
+    "secondaryImage": "assets/images/harihara-hero.webp",
+    "sources": [
+      "Shiva Mahapurana (Rudra Samhita)",
+      "Mahabharata (Shanti Parva)",
+      "Manuscript: 'Harihara: Do Naam, Ek Pran' by Manu Siddharth (Chapters 5 & 14)"
+    ],
+    "verificationStatus": "verified-manuscript",
+    "sanskritQuote": {
+      "verse": "शिवस्य हृदयं विष्णुर्विष्णोश्च हृदयं शिवः।",
+      "meaningEn": "Vishnu is the heart of Shiva, and Shiva is the heart of Vishnu.",
+      "meaningHi": "शिव का हृदय विष्णु हैं और विष्णु का हृदय शिव हैं।"
+    },
+    "introduction": {
+      "en": "Nothing touches the seeker's heart more deeply than opening the Shiva Mahapurana — a scripture bearing Shiva's name and celebrating His infinite majesty — only to discover within its pages the most tender praises of Lord Vishnu, spoken by Mahadeva Himself.",
+      "hi": "हृदय को गहराई से छू लेने वाला अनुभव है — भगवान शिव को समर्पित 'शिव पुराण' खोलना और उसके पन्नों में स्वयं महादेव के मुख से भगवान विष्णु की सबसे सुंदर स्तुतियाँ पाना। स्वयं शिव विष्णु के परम भक्त हैं।"
+    },
+    "scenes": [
+      {
+        "sceneNumber": 1,
+        "title": {
+          "en": "Shiva's Words in the Rudra Samhita: 'Fire and Its Heat'",
+          "hi": "रुद्र संहिता में शिव के वचन: 'अग्नि और उसकी ऊष्मा'"
+        },
+        "image": "assets/images/stories/vishnu-in-shiva-heart.webp",
+        "narrative": {
+          "en": "In the Rudra Samhita of the Shiva Purana, Lord Shiva instructs the sages directly: 'Supreme Lord Vishnu and I are not separate. I abide in Vishnu, and Vishnu abides in Me. Those who perceive any division between Us dwell in ignorance.' The Purana explains that Shiva and Vishnu are like fire and its heat, or the sun and its light — inseparable in reality.",
+          "hi": "शिव पुराण की रुद्र संहिता में स्वयं शिव ऋषियों से कहते हैं: 'परम भगवान विष्णु और मैं अलग नहीं हैं। मैं विष्णु में हूँ और विष्णु मुझमें हैं। जो हममें कोई भेद देखते हैं वे अज्ञान में हैं।' शिव और विष्णु अग्नि और उसकी ऊष्मा की तरह हैं, सूर्य और उसके प्रकाश की तरह।"
+        }
+      },
+      {
+        "sceneNumber": 2,
+        "title": {
+          "en": "The Embrace at Daksha's Yajna",
+          "hi": "दक्ष के यज्ञ में शिव की पीड़ा और विष्णु का आलिंगन"
+        },
+        "image": "assets/images/harihara-hero.webp",
+        "narrative": {
+          "en": "When Goddess Sati entered the sacred fire at Daksha's sacrifice, Shiva's unfathomable grief erupted into cosmic wrath through Virabhadra, shaking the three worlds. In that hour of cataclysm, who could calm Mahadeva? Vishnu entered the sacrificial hall — not as a rival bearing weapons, but as an eternal friend who knows Shiva's heart better than anyone in existence. Seeing Vishnu, the flame of Shiva's third eye softened; grief found its companion. Bowing in deep mutual reverence, the Destroyer and the Preserver embraced, and the universe regained its balance.",
+          "hi": "दक्ष के यज्ञ में जब देवी सती यज्ञ-कुंड में समा गईं, तो शिव के अथाह शोक और क्रोध से तीनों लोक काँप उठे। उस महातूफान को कौन थाम सकता था? विष्णु यज्ञशाला में आए — शस्त्र लेकर प्रतिद्वंद्वी के रूप में नहीं, बल्कि एक शाश्वत मित्र के रूप में जो शिव के हृदय को सबसे बेहतर जानते हैं। विष्णु को देखते ही तीसरी आँख की ज्वाला शांत हुई; दोनों ने गहरे आदर के साथ आलिंगन किया और सृष्टि फिर संतुलित हुई।"
+        }
+      },
+      {
+        "sceneNumber": 3,
+        "title": {
+          "en": "Mahadeva Chanting the Thousand Names of Vishnu",
+          "hi": "महादेव द्वारा विष्णु सहस्रनाम का पाठ"
+        },
+        "image": "assets/images/stories/vishnu-in-shiva-heart.webp",
+        "narrative": {
+          "en": "Across multiple sections of the Shiva Purana and the Mahabharata's Shanti Parva, Lord Shiva praises Rama as the pinnacle of Dharma, bows to Krishna as Vasudeva, and teaches Parvati and the sages the thousand names of Vishnu (Vishnu Sahasranama). As the manuscript reminds us: claiming to love Shiva while disrespecting Vishnu is like claiming to love the moon while hating the night sky that cradles it.",
+          "hi": "शिव पुराण के कई खंडों में और महाभारत के शांति पर्व में स्वयं शिव पार्वती और ऋषियों को विष्णु सहस्रनाम सिखाते हैं तथा श्रीराम और श्रीकृष्ण का स्मरण करते हैं। शिव की पूजा करते हुए विष्णु का अनादर करना चंद्रमा से प्रेम का दावा करते हुए रात्रि के आकाश से घृणा करने जैसा है।"
+        }
+      }
+    ],
+    "spiritualLesson": {
+      "en": "In the meditation of Mount Kailash, Shiva holds Vishnu in His heart. To truly honor Mahadeva is to honor the One whom Mahadeva loves ceaselessly.",
+      "hi": "कैलाश की ध्यान-समाधि में महादेव अपने हृदय में श्रीहरि को धारण करते हैं। शिव को सच्चा प्रेम करने का अर्थ है उनसे प्रेम करना जिन्हें शिव स्वयं जपते हैं।"
+    }
+  },
+  {
+    "id": "shiva-in-vishnu-heart",
+    "number": "04",
+    "manuscriptChapter": {
+      "en": "Part 3 & 4 • Chapters 6, 8, 9 & 13: Shiva in the Heart of Vishnu",
+      "hi": "भाग ३ एवं ४ • अध्याय ६, ८, ९ एवं १३: जब विष्णु शिव के भक्त बने"
+    },
+    "title": {
+      "en": "Shiva in the Heart of Vishnu — Rameshwaram, Mahakala & Linga Puja",
+      "hi": "जब विष्णु और उनके अवतारों ने महादेव की आराधना की"
+    },
+    "subtitle": {
+      "en": "From Lord Rama consecrating Rameshwaram to Lord Krishna worshipping Mahakala in Ujjain and Vishnu offering Linga-puja in the Kurma Purana.",
+      "hi": "विष्णु पुराण और कूर्म पुराण से लेकर रामेश्वरम में श्रीराम की शिव-पूजा और उज्जैन में श्रीकृष्ण के महाकाल दर्शन तक।"
+    },
+    "coverImage": "assets/images/harihara-cover.webp",
+    "secondaryImage": "assets/images/stories/harihara-cosmic-form.webp",
+    "sources": [
+      "Vishnu Purana (Book 1)",
+      "Srimad Bhagavatam (Skandha 8 & 10)",
+      "Kurma Purana & Linga Purana",
+      "Ramayana Tradition",
+      "Manuscript: 'Harihara: Do Naam, Ek Pran' by Manu Siddharth (Chapters 6, 7, 8, 9, 13)"
+    ],
+    "verificationStatus": "verified-manuscript",
+    "sanskritQuote": {
+      "verse": "वैष्णवानां यथा शम्भुः पुराणानामिदं तथा।",
+      "meaningEn": "Among all devotees of Vishnu, Shambhu (Shiva) is supreme — and Vishnu Himself worships the Shivalinga as the symbol of the same Supreme Reality.",
+      "meaningHi": "विष्णु पुराण और कूर्म पुराण में स्वयं भगवान विष्णु रुद्र को अज्ञान का संहारक और अपना ही परम स्वरूप कहकर शिवलिंग की आराधना करते हैं।"
+    },
+    "introduction": {
+      "en": "Turning to the other mirror — the Vaishnava Puranas and Itihasas — we find the exact same reverence reflected back. Everything the Shiva Purana proclaims in glory of Vishnu, the Vishnu Purana, Bhagavatam, and Kurma Purana proclaim in reverence of Shiva.",
+      "hi": "जब हम दूसरे दर्पण — विष्णु पुराण, भागवतम् और कूर्म पुराण — की ओर मुड़ते हैं, तो पाते हैं कि शिव पुराण ने विष्णु की महिमा में जो कहा, वही सब वैष्णव ग्रंथ शिव की महिमा में कहते हैं।"
+    },
+    "scenes": [
+      {
+        "sceneNumber": 1,
+        "title": {
+          "en": "Vishnu Purana & Kurma Purana: Vishnu Worships the Shivalinga",
+          "hi": "विष्णु पुराण एवं कूर्म पुराण: विष्णु द्वारा लिंग-पूजन"
+        },
+        "image": "assets/images/stories/harihara-cosmic-form.webp",
+        "narrative": {
+          "en": "In Book 1 of the Vishnu Purana, Vishnu extols Rudra as the destroyer of ignorance and liberator of souls, arising from the same supreme consciousness like a ray from the sun. In the Kurma Purana, Lord Vishnu Himself worships a Shivalinga — declaring not 'This is other than Me,' but 'This is the sacred emblem of the Supreme Truth that I Myself am.' And in the Linga Purana, before the infinite pillar of fire (Jyotirlinga), Vishnu honors Shiva as a river honors the ocean.",
+          "hi": "विष्णु पुराण की प्रथम पुस्तक में विष्णु रुद्र को 'अज्ञान का संहारक और आत्माओं का मुक्तिदाता' कहकर सम्मान देते हैं। कूर्म पुराण में स्वयं भगवान विष्णु शिवलिंग की पूजा करते हैं और कहते हैं — 'यह उसी परम सत्य का प्रतीक है जो मैं भी हूँ।' तथा लिंग पुराण में अनंत ज्योतिर्लिंग के समक्ष विष्णु पूर्ण श्रद्धा से नतमस्तक होते हैं।"
+        }
+      },
+      {
+        "sceneNumber": 2,
+        "title": {
+          "en": "Samudra Manthan & Krishna Worshipping Mahakala",
+          "hi": "समुद्र मंथन में हलाहल पान और श्रीकृष्ण की शिव-पूजा"
+        },
+        "image": "assets/images/harihara-cover.webp",
+        "narrative": {
+          "en": "In the 8th Skandha of the Srimad Bhagavatam, when the deadly Kalakuta poison emerged from the churning of the cosmic ocean, it was Shiva — with Vishnu's inspiration and reverence — who drank the poison to save all creation. Furthermore, in the Bhagavatam and Mahabharata, Lord Krishna Himself worships Shiva, journeys to Ujjain to behold Mahakala, and performs tapasya alongside Arjuna to receive the Pashupatastra.",
+          "hi": "श्रीमद्भागवतम् के अष्टम स्कंध में समुद्र मंथन के समय जब कालकूट विष निकला, तब विष्णु की प्रेरणा और सम्मान के साथ शिव ने ही विष पीकर सृष्टि की रक्षा की। भागवतम् और महाभारत में स्वयं भगवान श्रीकृष्ण शिव की पूजा करते हैं, उज्जैन में महाकाल के दर्शन करते हैं और अर्जुन के साथ पाशुपतास्त्र के लिए शिव की आराधना करते हैं।"
+        }
+      },
+      {
+        "sceneNumber": 3,
+        "title": {
+          "en": "Sri Rama at Rameshwaram",
+          "hi": "रामेश्वरम में मर्यादा पुरुषोत्तम श्रीराम की शिव-भक्ति"
+        },
+        "image": "assets/images/stories/vishnu-in-shiva-heart.webp",
+        "narrative": {
+          "en": "Before crossing the ocean to Lanka, Maryada Purushottama Sri Rama — the direct incarnation of Lord Vishnu — established the Shivalinga at Rameshwaram upon the seashore and bowed before Mahadeva to seek blessings for victory. When the incarnation of Vishnu bows to Shiva, how can any devotee of Vishnu ever neglect Shiva?",
+          "hi": "लंका पर अभियान से पूर्व भगवान श्रीराम — साक्षात् विष्णु के अवतार — समुद्र तट पर रामेश्वरम में शिवलिंग की स्थापना कर महादेव के समक्ष नतमस्तक होते हैं। जब विष्णु के अवतार स्वयं शिव की पूजा करें, तो वैष्णव भक्त को भी अपने प्रभु के पथ का ही अनुसरण करना चाहिए।"
+        }
+      }
+    ],
+    "spiritualLesson": {
+      "en": "Loving Vishnu means loving whom Vishnu loves — and Vishnu loves Shiva with the fullness of His infinite being.",
+      "hi": "विष्णु से प्रेम का अर्थ है विष्णु जिसे प्रेम करते हैं उसे प्रेम करना — और विष्णु अपनी असीम सत्ता की पूर्णता से शिव से प्रेम करते हैं।"
+    }
+  },
+  {
+    "id": "bhasmasura-mohini-hanuman",
+    "number": "05",
+    "manuscriptChapter": {
+      "en": "Part 3 & 4 • Chapters 10 & 12: Hanuman, Krishna, Bhasmasura & Mohini",
+      "hi": "भाग ३ एवं ४ • अध्याय १० एवं १२: हनुमान, कृष्ण, भस्मासुर और मोहिनी"
+    },
+    "title": {
+      "en": "Living Proofs of Oneness — Hanuman's Devotion & Mohini's Dance",
+      "hi": "एकता के जीवंत प्रमाण — हनुमान की राम-भक्ति और मोहिनी की लीला"
+    },
+    "subtitle": {
+      "en": "How Shiva serves Rama in the form of Hanuman, and how Vishnu became the enchanting Mohini to protect Mahadeva from Bhasmasura.",
+      "hi": "कैसे शिव के अंश हनुमान श्रीराम की सेवा करते हैं और कैसे महादेव की रक्षा के लिए विष्णु ने मोहिनी रूप धारण कर नृत्य किया।"
+    },
+    "coverImage": "assets/images/harihara-hero.webp",
+    "secondaryImage": "assets/images/stories/harihara-cosmic-form.webp",
+    "sources": [
+      "Srimad Bhagavatam & Puranic Tradition",
+      "Ramayana & Mahabharata",
+      "Manuscript: 'Harihara: Do Naam, Ek Pran' by Manu Siddharth (Chapters 10 & 12)"
+    ],
+    "verificationStatus": "verified-manuscript",
+    "sanskritQuote": {
+      "verse": "रुद्रो नारायणश्चैव सत्त्वमेकं द्विधा कृतम्।",
+      "meaningEn": "Rudra and Narayana are one single Divine Essence manifested in two forms.",
+      "meaningHi": "रुद्र और नारायण एक ही परम सत्ता हैं जो दो रूपों में प्रकट हुई है।"
+    },
+    "introduction": {
+      "en": "Sometimes the deepest truths stand right before our eyes, yet we miss them because we are entangled in arguments. The sacred narratives of Hanuman, Krishna, and Mohini are living, breathing testimonies of Harihara unity.",
+      "hi": "कभी-कभी सबसे गहरे सत्य हमारे ठीक सामने होते हैं। हनुमान जी की राम-भक्ति और भस्मासुर प्रसंग में विष्णु का मोहिनी अवतार — ये हरि और हर की अटूट एकता के सबसे जीवंत प्रमाण हैं।"
+    },
+    "scenes": [
+      {
+        "sceneNumber": 1,
+        "title": {
+          "en": "Hanuman — The Heart of Shiva Serving Lord Rama",
+          "hi": "हनुमान — शिव का हृदय, श्रीराम की सेवा में"
+        },
+        "image": "assets/images/stories/vishnu-in-shiva-heart.webp",
+        "narrative": {
+          "en": "Across sacred traditions, Lord Hanuman is revered as Rudra-amsha — the very radiance and power of Lord Shiva manifested on earth. And whom does Hanuman serve with every breath? Lord Rama, the incarnation of Vishnu! In Hanuman's chest abides Rama, and that chest itself belongs to Shiva. What greater living proof of unity could exist?",
+          "hi": "अनेक परंपराओं में हनुमान जी को रुद्र का अंश — भगवान शंकर की ही साक्षात् शक्ति — माना जाता है। और वे किसकी निरंतर सेवा करते हैं? विष्णु के अवतार श्रीराम की! हनुमान के हृदय में राम हैं, और वह हृदय स्वयं शिव का है।"
+        }
+      },
+      {
+        "sceneNumber": 2,
+        "title": {
+          "en": "Bhasmasura's Boon & The Dance of Mohini",
+          "hi": "भस्मासुर का वरदान और मोहिनी का दिव्य नृत्य"
+        },
+        "image": "assets/images/harihara-hero.webp",
+        "narrative": {
+          "en": "When the demon Bhasmasura obtained from innocent-hearted Shiva (Bholenath) the boon that anyone whose head he touched would turn to ash, he immediately tried to test it upon Shiva Himself! Seeing this, Lord Vishnu smiled and assumed the enchanting form of Mohini. Captivated, Bhasmasura agreed to match Mohini's dance step for step — until Mohini gracefully placed Her hand upon Her own head, and Bhasmasura reduced himself to ashes.",
+          "hi": "जब भस्मासुर ने भोलेनाथ से 'जिसके सिर पर हाथ रखूँ वह भस्म हो जाए' का वरदान पाकर स्वयं शिव पर ही प्रयोग करना चाहा, तब विष्णु ने मुस्कुराकर अपूर्व सुंदरी मोहिनी का रूप धारण किया। मोहिनी के साथ नृत्य करते हुए भस्मासुर ने जैसे ही मोहिनी की मुद्रा का अनुसरण कर अपने सिर पर हाथ रखा, वह स्वयं भस्म हो गया।"
+        }
+      },
+      {
+        "sceneNumber": 3,
+        "title": {
+          "en": "Seeing Oneself in the Beloved",
+          "hi": "एक-दूसरे में स्वयं का दर्शन"
+        },
+        "image": "assets/images/stories/harihara-cosmic-form.webp",
+        "narrative": {
+          "en": "When Shiva beheld Vishnu's Mohini form, He was filled with divine wonder and affection — a union associated in regional Puranic traditions with the birth of Hariharaputra (Shasta / Ayyappa, and in some narratives connected with divine progeny). When Shiva was enchanted by Mohini, He was enchanted by Vishnu's form — which was truly His own reflection.",
+          "hi": "जब शिव को बचाने के लिए विष्णु मोहिनी बने, तो यह केवल एक लीला नहीं थी — यह हर और हरि के उस गहरे बंधन का प्रतीक था जहाँ वे एक-दूसरे में स्वयं को देखते हैं।"
+        }
+      }
+    ],
+    "spiritualLesson": {
+      "en": "Where Shiva's simplicity grants a boon, Vishnu's wisdom protects cosmic order; where Vishnu descends for Dharma, Shiva descends as Hanuman to serve Him.",
+      "hi": "जहाँ शिव की भोली करुणा वरदान देती है, वहाँ विष्णु की प्रज्ञा रक्षा करती है; और जहाँ विष्णु धर्म के लिए अवतरित होते हैं, वहाँ शिव हनुमान बनकर उनकी सेवा में खड़े होते हैं।"
+    }
+  },
+  {
+    "id": "cosmic-dance-of-creation",
+    "number": "06",
+    "manuscriptChapter": {
+      "en": "Part 4 & 5 • Chapters 11, 15 & 16: The Spiritual Science of Harihara",
+      "hi": "भाग ४ एवं ५ • अध्याय ११, १५ एवं १६: एकता का आध्यात्मिक विज्ञान और सृष्टि का नृत्य"
+    },
+    "title": {
+      "en": "One Consciousness, Two Forces — The Cosmic Dance of Creation",
+      "hi": "एक चेतना, दो शक्तियाँ — सृष्टि का दिव्य नृत्य"
+    },
+    "subtitle": {
+      "en": "Understanding Ardhanarishwara and Harihara through the natural rhythm of day and night, birth and renewal, inhalation and exhalation.",
+      "hi": "अर्धनारीश्वर और हरिहर स्वरूप के माध्यम से सृजन-पालन और परिवर्तन-विसर्जन के आध्यात्मिक विज्ञान का दर्शन।"
+    },
+    "coverImage": "assets/images/stories/harihara-cosmic-form.webp",
+    "secondaryImage": "assets/images/stories/vishnu-in-shiva-heart.webp",
+    "sources": [
+      "Upanishadic Sat-Chit-Ananda Philosophy",
+      "Manuscript: 'Harihara: Do Naam, Ek Pran' by Manu Siddharth (Chapters 11, 15, 16)"
+    ],
+    "verificationStatus": "verified-manuscript",
+    "sanskritQuote": {
+      "verse": "सच्चिदानन्दरूपाय विश्वोत्पत्त्यादिहेतवे।",
+      "meaningEn": "To the Supreme Reality of Existence-Consciousness-Bliss, the single cause of cosmic creation, sustenance, and dissolution.",
+      "meaningHi": "सत्-चित्-आनंद स्वरूप वह परम चेतना जब आनंद में लीला करती है, तो विष्णु के रूप में पालती है और शिव के रूप में मुक्त करती है।"
+    },
+    "introduction": {
+      "en": "Just as the image of Ardhanarishwara (half Shiva, half Parvati) teaches us that Purusha and Prakriti are one, the image of Harihara (half Shiva, half Vishnu) reveals the spiritual science of how the universe breathes and moves.",
+      "hi": "जिस प्रकार अर्धनारीश्वर की छवि हमें सिखाती है कि शिव और शक्ति एक हैं, उसी प्रकार हरिहर की छवि हमें वह आध्यात्मिक विज्ञान समझाती है जिससे यह समस्त ब्रह्मांड गतिमान है।"
+    },
+    "scenes": [
+      {
+        "sceneNumber": 1,
+        "title": {
+          "en": "Day and Night, Inhale and Exhale",
+          "hi": "दिन और रात, श्वास का भरना और छोड़ना"
+        },
+        "image": "assets/images/stories/harihara-cosmic-form.webp",
+        "narrative": {
+          "en": "Look closely at nature: Day and night. Birth and death. Inhaling and exhaling. The sprouting of a seed and the falling of a petal. Are day and night enemies? Are inhalation and exhalation rivals? No — they are two halves of one living cycle. Vishnu is the sustaining energy of compassion, order, and preservation; Shiva is the transforming energy of detachment, renewal, and liberation.",
+          "hi": "सृष्टि में दो शक्तियाँ कार्य कर रही हैं — दिन और रात, जन्म और मृत्यु, श्वास का भरना और छोड़ना, बीज का अंकुरित होना और पुष्प का झड़ना। क्या दिन और रात शत्रु हैं? नहीं — वे एक ही चक्र के दो भाग हैं। विष्णु संसार को बनाए रखने वाली करुणा और व्यवस्था हैं; शिव पुराने को हटाकर नए के लिए स्थान बनाने वाला रूपांतरण और मोक्ष हैं।"
+        }
+      },
+      {
+        "sceneNumber": 2,
+        "title": {
+          "en": "The Two Hands of the Cosmic Dancer",
+          "hi": "दिव्य नर्तक के दो हस्त"
+        },
+        "image": "assets/images/harihara-cover.webp",
+        "narrative": {
+          "en": "Have you ever watched a classical dance closely? The dancer's right arm rises while the left bends; one foot steps forward while the other anchors behind; a moment of stillness flows into a moment of motion. These movements do not oppose each other — together, they create the dance. Preservation without dissolution is stagnation; dissolution without preservation is emptiness. Together, they are Life.",
+          "hi": "किसी नृत्य को ध्यान से देखिए — नर्तक की दाईं भुजा उठती है, बाईं झुकती है; एक क्षण स्थिरता, अगले क्षण गति। ये हरकतें विरोधी नहीं हैं, वे मिलकर नृत्य बनाती हैं। पालन बिना संहार के — ठहराव। संहार बिना पालन के — रिक्तता। दोनों मिलकर — जीवन।"
+        }
+      }
+    ],
+    "spiritualLesson": {
+      "en": "He who sustains the universe also renews it; He who dissolves worn-out forms makes room for new blossoms. Both acts are acts of one infinite Love.",
+      "hi": "जो संसार का पालन करता है वही उसका नवीनीकरण भी करता है; जो पुराने को मिटाता है वह नए निर्माण के लिए स्थान बनाता है। ये दोनों कार्य एक ही प्रेम के कार्य हैं।"
+    }
+  },
+  {
+    "id": "awakening-harihara-today",
+    "number": "07",
+    "manuscriptChapter": {
+      "en": "Part 5 & 6 • Chapters 17, 18, 19 & 20: Healing Modern Misconceptions & Daily Sadhana",
+      "hi": "भाग ५ एवं ६ • अध्याय १७, १८, १९ एवं २०: आधुनिक भ्रांतियाँ और एकम् की अनुभूति"
+    },
+    "title": {
+      "en": "Healing the Wound of Division — Living Harihara in Daily Life",
+      "hi": "आधुनिक भ्रांतियों का निवारण और दैनिक जीवन में हरिहर की जागृति"
+    },
+    "subtitle": {
+      "en": "Why sectarian rivalry arose in history, how to dissolve the three modern misconceptions, and how to bring Harihara unity into daily worship.",
+      "hi": "सांप्रदायिक विभाजन के तीन कारणों की पहचान, दैनिक पूजा में हरिहर भाव का समावेश, और अपने हृदय में 'एकम्' की अनुभूति।"
+    },
+    "coverImage": "assets/images/harihara-cover.webp",
+    "secondaryImage": "assets/images/stories/vishnu-in-shiva-heart.webp",
+    "sources": [
+      "Manuscript: 'Harihara: Do Naam, Ek Pran' by Manu Siddharth (Chapters 17–20)",
+      "Skanda Upanishad"
+    ],
+    "verificationStatus": "verified-manuscript",
+    "sanskritQuote": {
+      "verse": "ॐ नमः शिवाय। ॐ नमो नारायणाय। हरि ॐ तत्सत्।",
+      "meaningEn": "Om Namah Shivaya. Om Namo Narayanaya. Hari Om Tat Sat — two sacred doorways to the one Eternal Reality.",
+      "meaningHi": "ॐ नमः शिवाय और ॐ नमो नारायणाय — एक ही परम सत्य के दो पावन द्वार।"
+    },
+    "introduction": {
+      "en": "If the scriptures are so crystal clear — if Shiva Himself worships Vishnu and Vishnu Himself worships Shiva — then where did sectarian division come from? And how can we heal it in our own homes, temples, and hearts today?",
+      "hi": "यदि शास्त्र इतने स्पष्ट हैं, यदि स्वयं शिव विष्णु की पूजा करते हैं और विष्णु शिव की — तो फिर यह विभाजन आया कहाँ से? और हम इसे अपने दैनिक जीवन और साधना में कैसे दूर कर सकते हैं?"
+    },
+    "scenes": [
+      {
+        "sceneNumber": 1,
+        "title": {
+          "en": "The Three Roots of Sectarian Misconception",
+          "hi": "आधुनिक युग की तीन मुख्य भ्रांतियाँ"
+        },
+        "image": "assets/images/harihara-hero.webp",
+        "narrative": {
+          "en": "In Chapter 17, the manuscript identifies three roots of confusion: (1) Incomplete Study — reading only isolated verses praising one deity while skipping the chapters where that very deity praises the other; (2) Historical Sectarian Politics — periods when royal patronage turned spiritual paths into political competition not found in the scriptures; and (3) Egoistic Possessiveness in Devotion — distorting natural love for one's Ishta-Devata into disrespect toward other forms of the Divine.",
+          "hi": "अध्याय १७ में तीन मुख्य भ्रांतियों का विश्लेषण है: (१) अपूर्ण अध्ययन — पुराणों के केवल कुछ अंश पढ़ना और उन अध्यायों को छोड़ देना जहाँ शिव विष्णु की और विष्णु शिव की स्तुति करते हैं; (२) सांप्रदायिक राजनीति — इतिहास में राजकीय प्रतिस्पर्धा का धर्म में प्रवेश; और (३) भक्ति में संकीर्ण अहंकार — 'मेरे इष्ट ही सर्वोच्च हैं' के सुंदर भाव को दूसरे रूपों के अनादर में बदल देना।"
+        }
+      },
+      {
+        "sceneNumber": 2,
+        "title": {
+          "en": "Four Simple Practices for Daily Sadhana",
+          "hi": "दैनिक पूजा में एकता के चार सरल सूत्र"
+        },
+        "image": "assets/images/stories/vishnu-in-shiva-heart.webp",
+        "narrative": {
+          "en": "Chapter 18 offers practical steps for every household: (1) In morning remembrance, chant both 'Om Namah Shivaya' and 'Om Namo Narayanaya' as two doorways to one Truth; (2) Hold the Harihara Bhava during puja — remembering Vishnu when worshipping Shiva, and remembering Shiva when worshipping Vishnu; (3) Teach children at home that both forms are supreme and one; and (4) Step away from debates of superiority with a peaceful smile, saying: 'Both are One.'",
+          "hi": "अध्याय १८ में दैनिक साधना के चार सरल उपाय दिए गए हैं: (१) प्रातः स्मरण में 'ॐ नमः शिवाय' के साथ 'ॐ नमो नारायणाय' भी जपें; (२) पूजा में हरिहर भाव रखें; (३) बच्चों को बचपन से ही दोनों की एकता के संस्कार दें; और (४) 'कौन बड़ा है?' के विवाद से दूर रहकर शांति से कहें — 'दोनों एक हैं।'"
+        }
+      },
+      {
+        "sceneNumber": 3,
+        "title": {
+          "en": "Epilogue — Your Own Heart Is the Body of Harihara",
+          "hi": "उपसंहार — यह देह आपका ही हृदय है"
+        },
+        "image": "assets/images/stories/harihara-cosmic-form.webp",
+        "narrative": {
+          "en": "In the culminating words of Chapter 20: 'In that Ardhanarishwara-like form of Harihara, where Shiva is on the right and Vishnu is on the left — both are one single body. That body is your own heart. The day no wall remains between Shiva and Vishnu within your heart — that day you have realized Ekam (the One). That day your devotion is complete. That day, you yourself have become Harihara.'",
+          "hi": "अध्याय २० के उपसंहार के शब्दों में: 'हरिहर के उस स्वरूप में, जहाँ दाईं ओर शिव और बाईं ओर विष्णु हैं — दोनों एक ही देह हैं। यह देह आपका हृदय है। जिस दिन आपके हृदय में शिव और विष्णु के बीच कोई दीवार नहीं रही — उस दिन आपने एकम् की अनुभूति की। उस दिन आपकी भक्ति पूर्ण हुई। उस दिन आप हरिहार हो गए।'"
+        }
+      }
+    ],
+    "spiritualLesson": {
+      "en": "When we learn to behold the oneness of two divine forms, we learn to behold unity across families, communities, and all humanity. That is Sanatana Dharma's universal gift to the world.",
+      "hi": "जब हम दो देवताओं की एकता देखना सीखते हैं, तब हम परिवार, समाज और समस्त मानवता में भी भिन्नता के भीतर एकता देखना सीखते हैं। यही सनातन धर्म का सार्वभौमिक उपहार है।"
+    }
+  }
+]
+

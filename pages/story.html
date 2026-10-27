@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sacred Stories of Harihara — Manuscript Chapter Reader | HARIHARA</title>
+  <meta name="description" content="Read full chapters and sacred Puranic narratives from 'Harihara: Do Naam, Ek Pran' by Manu Siddharth." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&amp;family=Noto+Sans+Devanagari:wght@400;500;600;700&amp;family=Noto+Serif+Devanagari:wght@500;600;700&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../assets/css/main.css" />
+  <link rel="stylesheet" href="../assets/css/animations.css" />
+  <link rel="stylesheet" href="../assets/css/responsive.css" />
+</head>
+<body data-lang="en">
+  <header class="site-header is-scrolled">
+    <div class="site-header__inner">
+      <a href="../index.html" class="brand">
+        <span class="brand__emblem" lang="sa">ह</span>
+        <span class="brand__text">
+          <span class="brand__title">HARIHARA</span>
+          <span class="brand__sub" lang="sa">हरिहर • कथा अध्याय</span>
+        </span>
+      </a>
+      <div class="header-controls">
+        <a href="../index.html#divine-stories" class="control-pill">← Back to All Stories</a>
+        <button type="button" id="page-lang-btn" class="control-pill">अ/A <span id="page-lang-label">हिन्दी</span></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="section" style="padding-top:calc(var(--header-height) + 3rem);">
+    <div class="container--narrow">
+      <div id="story-switcher" class="filter-pills" style="margin-bottom:2rem;"></div>
+      <article id="story-reader-root" class="story-stage"></article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container" style="text-align:center;">
+      <p class="footer-closing__quote">“May devotion unite what ignorance divides.”</p>
+      <p style="margin-top:0.75rem;"><a href="../index.html">← Return to HARIHARA Digital Temple</a></p>
+    </div>
+  </footer>
+
+  <script defer src="../assets/js/i18n.js"></script>
+  <script defer src="../assets/js/content.js"></script>
+  <script>
+    window.addEventListener('DOMContentLoaded', async function () {
+      const { getLang, setLang, toggleLang, onLangChange, pickLang } = window.HARIHARA.i18n;
+      setLang(getLang());
+
+      const langBtn = document.getElementById('page-lang-btn');
+      const langLabel = document.getElementById('page-lang-label');
+      const updateLangLabel = () => {
+        if (langLabel) langLabel.textContent = getLang() === 'en' ? 'हिन्दी' : 'English';
+      };
+      updateLangLabel();
+
+      if (langBtn) {
+        langBtn.addEventListener('click', () => {
+          toggleLang();
+          updateLangLabel();
+        });
+      }
+
+      const data = await window.HARIHARA.loadAllContent('../');
+      const stories = data.stories || [];
+      const params = new URLSearchParams(window.location.search);
+      let currentId = params.get('id') || (stories[0] && stories[0].id);
+
+      function fixPath(p) {
+        if (!p) return '';
+        return p.startsWith('http') || p.startsWith('../') ? p : `../${p}`;
+      }
+
+      function renderPage() {
+        const lang = getLang();
+        const story = stories.find((s) => s.id === currentId) || stories[0];
+        if (!story) return;
+
+        document.title = `${pickLang(story.title)} — HARIHARA`;
+
+        const switcher = document.getElementById('story-switcher');
+        if (switcher) {
+          switcher.innerHTML = stories
+            .map(
+              (s) => `
+              <button type="button" class="filter-pill ${s.id === story.id ? 'is-active' : ''}" data-sid="${s.id}">
+                ${s.number}. ${pickLang(s.title).slice(0, 32)}
+              </button>
+            `
+            )
+            .join('');
+
+          switcher.querySelectorAll('[data-sid]').forEach((b) => {
+            b.addEventListener('click', () => {
+              currentId = b.getAttribute('data-sid');
+              try { history.replaceState(null, '', `?id=${currentId}`); } catch (_) {}
+              renderPage();
+            });
+          });
+        }
+
+        const root = document.getElementById('story-reader-root');
+        root.innerHTML = `
+          <div class="story-stage__hero">
+            <img src="${fixPath(story.coverImage)}" alt="${pickLang(story.title)}" class="story-stage__hero-img" />
+            <div class="story-stage__hero-overlay"></div>
+            <div class="story-stage__hero-content">
+              <span class="story-stage__chapter-badge">📜 ${pickLang(story.manuscriptChapter)}</span>
+              <h1 class="story-stage__title">${pickLang(story.title)}</h1>
+              <p style="color:var(--temple-ivory-muted);">${pickLang(story.subtitle)}</p>
+            </div>
+          </div>
+          <div class="story-stage__body">
+            <div style="padding:1.15rem 1.4rem; border-radius:12px; background:rgba(6,10,23,0.75); border-left:3px solid var(--divine-gold);">
+              <p class="sanskrit-text" lang="sa" style="font-size:1.22rem; color:var(--divine-gold-bright); font-weight:600;">
+                “${story.sanskritQuote.verse}”
+              </p>
+              <p style="font-size:0.92rem; color:var(--temple-ivory-muted); margin-top:0.3rem;">
+                ${lang === 'hi' ? story.sanskritQuote.meaningHi : story.sanskritQuote.meaningEn}
+              </p>
+            </div>
+            <p style="font-size:1.08rem; color:var(--temple-ivory);">${pickLang(story.introduction)}</p>
+            <div class="story-scenes">
+              ${(story.scenes || [])
+                .map(
+                  (sc) => `
+                <div class="story-scene">
+                  <div class="story-scene__img-wrap">
+                    <img src="${fixPath(sc.image)}" alt="${pickLang(sc.title)}" class="story-scene__img" />
+                  </div>
+                  <div>
+                    <div class="story-scene__num">${lang === 'hi' ? `दृश्य ${sc.sceneNumber}` : `Scene 0${sc.sceneNumber}`}</div>
+                    <h2 class="story-scene__title">${pickLang(sc.title)}</h2>
+                    <p style="color:var(--temple-ivory-muted);">${pickLang(sc.narrative)}</p>
+                  </div>
+                </div>
+              `
+                )
+                .join('')}
+            </div>
+            <div class="story-lesson-box">
+              <strong style="display:block; color:var(--divine-gold-bright); margin-bottom:0.4rem;">
+                ✦ ${lang === 'hi' ? 'आध्यात्मिक संदेश:' : 'Concluding Spiritual Lesson:'}
+              </strong>
+              <p>${pickLang(story.spiritualLesson)}</p>
+            </div>
+            <div style="font-size:0.85rem; color:var(--temple-ivory-subtle);">
+              <strong>${lang === 'hi' ? 'स्रोत:' : 'Verified Sources:'}</strong> ${(story.sources || []).join(' • ')}
+            </div>
+          </div>
+        `;
+      }
+
+      renderPage();
+      onLangChange(renderPage);
+    });
+  </script>
+</body>
+</html>

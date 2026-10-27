@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sacred Temples of Harihara — Shrine Explorer | HARIHARA</title>
+  <meta name="description" content="Explore historic temples and sacred places dedicated to Lord Harihara across India." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&amp;family=Noto+Sans+Devanagari:wght@400;500;600;700&amp;family=Noto+Serif+Devanagari:wght@500;600;700&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../assets/css/main.css" />
+  <link rel="stylesheet" href="../assets/css/animations.css" />
+  <link rel="stylesheet" href="../assets/css/responsive.css" />
+</head>
+<body data-lang="en">
+  <header class="site-header is-scrolled">
+    <div class="site-header__inner">
+      <a href="../index.html" class="brand">
+        <span class="brand__emblem" lang="sa">ह</span>
+        <span class="brand__text">
+          <span class="brand__title">HARIHARA</span>
+          <span class="brand__sub" lang="sa">पावन तीर्थ दर्शन</span>
+        </span>
+      </a>
+      <div class="header-controls">
+        <a href="../index.html#sacred-temples" class="control-pill">← Back to All Temples</a>
+        <button type="button" id="page-lang-btn" class="control-pill">अ/A <span id="page-lang-label">हिन्दी</span></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="section" style="padding-top:calc(var(--header-height) + 3rem);">
+    <div class="container--narrow">
+      <div id="temple-switcher" class="filter-pills" style="margin-bottom:2rem;"></div>
+      <article id="temple-reader-root" class="story-stage"></article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container" style="text-align:center;">
+      <p class="footer-closing__quote">“May devotion unite what ignorance divides.”</p>
+      <p style="margin-top:0.75rem;"><a href="../index.html">← Return to HARIHARA Digital Temple</a></p>
+    </div>
+  </footer>
+
+  <script defer src="../assets/js/i18n.js"></script>
+  <script defer src="../assets/js/content.js"></script>
+  <script>
+    window.addEventListener('DOMContentLoaded', async function () {
+      const { getLang, setLang, toggleLang, onLangChange, pickLang } = window.HARIHARA.i18n;
+      setLang(getLang());
+
+      const langBtn = document.getElementById('page-lang-btn');
+      const langLabel = document.getElementById('page-lang-label');
+      const updateLangLabel = () => {
+        if (langLabel) langLabel.textContent = getLang() === 'en' ? 'हिन्दी' : 'English';
+      };
+      updateLangLabel();
+
+      if (langBtn) {
+        langBtn.addEventListener('click', () => {
+          toggleLang();
+          updateLangLabel();
+        });
+      }
+
+      const data = await window.HARIHARA.loadAllContent('../');
+      const temples = data.temples || [];
+      const params = new URLSearchParams(window.location.search);
+      let currentId = params.get('id') || (temples[0] && temples[0].id);
+
+      function fixPath(p) {
+        if (!p) return '';
+        return p.startsWith('http') || p.startsWith('../') ? p : `../${p}`;
+      }
+
+      function renderPage() {
+        const lang = getLang();
+        const tp = temples.find((t) => t.id === currentId) || temples[0];
+        if (!tp) return;
+
+        document.title = `${pickLang(tp.name)} — HARIHARA Sacred Places`;
+
+        const switcher = document.getElementById('temple-switcher');
+        if (switcher) {
+          switcher.innerHTML = temples
+            .map(
+              (t) => `
+              <button type="button" class="filter-pill ${t.id === tp.id ? 'is-active' : ''}" data-tid="${t.id}">
+                ${pickLang(t.name)}
+              </button>
+            `
+            )
+            .join('');
+
+          switcher.querySelectorAll('[data-tid]').forEach((b) => {
+            b.addEventListener('click', () => {
+              currentId = b.getAttribute('data-tid');
+              try { history.replaceState(null, '', `?id=${currentId}`); } catch (_) {}
+              renderPage();
+            });
+          });
+        }
+
+        const root = document.getElementById('temple-reader-root');
+        root.innerHTML = `
+          <div class="story-stage__hero">
+            <img src="${fixPath(tp.image)}" alt="${pickLang(tp.name)}" class="story-stage__hero-img" />
+            <div class="story-stage__hero-overlay"></div>
+            <div class="story-stage__hero-content">
+              <span class="story-stage__chapter-badge">🏛 ${pickLang(tp.period)}</span>
+              <h1 class="story-stage__title">${pickLang(tp.name)}</h1>
+              <p style="color:var(--divine-gold);">📍 ${pickLang(tp.location)}</p>
+            </div>
+          </div>
+
+          <div class="story-stage__body">
+            <div>
+              <h2 style="font-family:var(--font-heading); font-size:1.25rem; color:var(--divine-gold-bright); margin-bottom:0.4rem;">
+                ${lang === 'hi' ? 'ऐतिहासिक पृष्ठभूमि (Historical Background)' : 'Historical Background'}
+              </h2>
+              <p style="color:var(--temple-ivory);">${pickLang(tp.historicalBackground)}</p>
+            </div>
+
+            <div>
+              <h2 style="font-family:var(--font-heading); font-size:1.25rem; color:var(--divine-gold-bright); margin-bottom:0.4rem;">
+                ${lang === 'hi' ? 'आराध्य स्वरूप एवं प्रतिमा विज्ञान (Deity & Iconography)' : 'Deity & Sacred Iconography'}
+              </h2>
+              <p style="color:var(--temple-ivory);">${pickLang(tp.deityAndIconography)}</p>
+            </div>
+
+            <div>
+              <h2 style="font-family:var(--font-heading); font-size:1.25rem; color:var(--divine-gold-bright); margin-bottom:0.4rem;">
+                ${lang === 'hi' ? 'स्थापत्य कला (Architectural Style)' : 'Architectural Style'}
+              </h2>
+              <p style="color:var(--temple-ivory);">${pickLang(tp.architecture)}</p>
+            </div>
+
+            <div>
+              <h2 style="font-family:var(--font-heading); font-size:1.25rem; color:var(--divine-gold-bright); margin-bottom:0.4rem;">
+                ${lang === 'hi' ? 'पवित्र परंपराएँ एवं स्थल पुराण (Sacred Traditions)' : 'Sacred Traditions & Legends'}
+              </h2>
+              <p style="color:var(--temple-ivory);">${pickLang(tp.sacredTraditions)}</p>
+            </div>
+
+            <div class="story-lesson-box">
+              <strong style="display:block; color:var(--divine-gold-bright); margin-bottom:0.5rem;">
+                ✦ ${lang === 'hi' ? 'महत्वपूर्ण तथ्य:' : 'Notable Highlights:'}
+              </strong>
+              <ul style="padding-left:1.2rem; display:grid; gap:0.4rem;">
+                ${(tp.interestingFacts || []).map((f) => `<li>${pickLang(f)}</li>`).join('')}
+              </ul>
+            </div>
+
+            <div style="display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:1rem; padding-top:1rem; border-top:1px solid rgba(216,180,106,0.2);">
+              <div style="font-size:0.84rem; color:var(--temple-ivory-subtle);">
+                <strong>${lang === 'hi' ? 'संदर्भ:' : 'Sources:'}</strong> ${(tp.sources || []).join(' • ')}
+              </div>
+              <a href="${tp.mapUrl}" target="_blank" rel="noopener noreferrer" class="btn btn--primary" style="padding:0.65rem 1.4rem;">
+                📍 ${lang === 'hi' ? 'गूगल मानचित्र पर मार्ग देखें ↗' : 'Open Directions on Google Maps ↗'}
+              </a>
+            </div>
+          </div>
+        `;
+      }
+
+      renderPage();
+      onLangChange(renderPage);
+    });
+  </script>
+</body>
+</html>

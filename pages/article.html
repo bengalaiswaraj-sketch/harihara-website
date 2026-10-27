@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harihara Knowledge Library — Article Reader | HARIHARA</title>
+  <meta name="description" content="In-depth scholarly and devotional articles from the Harihara Knowledge Library." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&amp;family=Noto+Sans+Devanagari:wght@400;500;600;700&amp;family=Noto+Serif+Devanagari:wght@500;600;700&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../assets/css/main.css" />
+  <link rel="stylesheet" href="../assets/css/animations.css" />
+  <link rel="stylesheet" href="../assets/css/responsive.css" />
+</head>
+<body data-lang="en">
+  <header class="site-header is-scrolled">
+    <div class="site-header__inner">
+      <a href="../index.html" class="brand">
+        <span class="brand__emblem" lang="sa">ह</span>
+        <span class="brand__text">
+          <span class="brand__title">HARIHARA</span>
+          <span class="brand__sub" lang="sa">ज्ञान पुस्तकालय</span>
+        </span>
+      </a>
+      <div class="header-controls">
+        <a href="../index.html#knowledge-library" class="control-pill">← Back to Library</a>
+        <button type="button" id="page-lang-btn" class="control-pill">अ/A <span id="page-lang-label">हिन्दी</span></button>
+      </div>
+    </div>
+  </header>
+
+  <main class="section" style="padding-top:calc(var(--header-height) + 3rem);">
+    <div class="container--narrow">
+      <div id="article-switcher" class="filter-pills" style="margin-bottom:2rem;"></div>
+      <article id="article-reader-root" class="story-stage" style="padding:clamp(1.75rem,4vw,3rem);"></article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container" style="text-align:center;">
+      <p class="footer-closing__quote">“May devotion unite what ignorance divides.”</p>
+      <p style="margin-top:0.75rem;"><a href="../index.html">← Return to HARIHARA Digital Temple</a></p>
+    </div>
+  </footer>
+
+  <script defer src="../assets/js/i18n.js"></script>
+  <script defer src="../assets/js/content.js"></script>
+  <script>
+    window.addEventListener('DOMContentLoaded', async function () {
+      const { getLang, setLang, toggleLang, onLangChange, pickLang } = window.HARIHARA.i18n;
+      setLang(getLang());
+
+      const langBtn = document.getElementById('page-lang-btn');
+      const langLabel = document.getElementById('page-lang-label');
+      const updateLangLabel = () => {
+        if (langLabel) langLabel.textContent = getLang() === 'en' ? 'हिन्दी' : 'English';
+      };
+      updateLangLabel();
+
+      if (langBtn) {
+        langBtn.addEventListener('click', () => {
+          toggleLang();
+          updateLangLabel();
+        });
+      }
+
+      const data = await window.HARIHARA.loadAllContent('../');
+      const articles = data.articles || [];
+      const params = new URLSearchParams(window.location.search);
+      let currentId = params.get('id') || (articles[0] && articles[0].id);
+
+      function renderPage() {
+        const lang = getLang();
+        const idx = articles.findIndex((a) => a.id === currentId);
+        const art = idx >= 0 ? articles[idx] : articles[0];
+        if (!art) return;
+
+        const prevArt = articles[(articles.indexOf(art) - 1 + articles.length) % articles.length];
+        const nextArt = articles[(articles.indexOf(art) + 1) % articles.length];
+
+        document.title = `${pickLang(art.title)} — HARIHARA Library`;
+
+        const switcher = document.getElementById('article-switcher');
+        if (switcher) {
+          switcher.innerHTML = articles
+            .map(
+              (a) => `
+              <button type="button" class="filter-pill ${a.id === art.id ? 'is-active' : ''}" data-aid="${a.id}">
+                ${pickLang(a.title).slice(0, 30)}...
+              </button>
+            `
+            )
+            .join('');
+
+          switcher.querySelectorAll('[data-aid]').forEach((b) => {
+            b.addEventListener('click', () => {
+              currentId = b.getAttribute('data-aid');
+              try { history.replaceState(null, '', `?id=${currentId}`); } catch (_) {}
+              renderPage();
+            });
+          });
+        }
+
+        const root = document.getElementById('article-reader-root');
+        root.innerHTML = `
+          <div style="display:grid; gap:1.5rem;">
+            <div>
+              <div style="display:flex; flex-wrap:wrap; gap:0.75rem; align-items:center; margin-bottom:0.75rem;">
+                <span class="verified-badge">${pickLang(art.categoryLabel)}</span>
+                <span style="font-size:0.85rem; color:var(--divine-gold);">⏱ ${art.readingTime}</span>
+                <span style="font-size:0.85rem; color:var(--temple-ivory-subtle);">• ${art.manuscriptRef}</span>
+              </div>
+              <h1 style="font-family:var(--font-heading); font-size:clamp(1.6rem,3vw,2.4rem); color:#FFF; margin-bottom:0.75rem;">
+                ${pickLang(art.title)}
+              </h1>
+              <p style="font-size:1.05rem; color:var(--temple-ivory-muted);">${pickLang(art.summary)}</p>
+            </div>
+
+            <div style="padding:1.15rem 1.4rem; border-radius:12px; background:rgba(8,13,29,0.78); border:1px solid rgba(216,180,106,0.3);">
+              <strong style="font-size:0.82rem; text-transform:uppercase; letter-spacing:0.12em; color:var(--sacred-saffron);">
+                ${lang === 'hi' ? 'विषय-सूची (Table of Contents)' : 'Table of Contents'}
+              </strong>
+              <ul style="list-style:none; display:grid; gap:0.45rem; margin-top:0.55rem;">
+                ${(art.sections || [])
+                  .map((s, i) => `<li><a href="#sec-${i}">${pickLang(s.heading)}</a></li>`)
+                  .join('')}
+              </ul>
+            </div>
+
+            <div style="display:grid; gap:1.65rem;">
+              ${(art.sections || [])
+                .map(
+                  (s, i) => `
+                <section id="sec-${i}" style="padding-top:1rem; border-top:1px solid rgba(216,180,106,0.16);">
+                  <h2 style="font-family:var(--font-heading); font-size:1.35rem; color:var(--divine-gold-bright); margin-bottom:0.65rem;">
+                    ${pickLang(s.heading)}
+                  </h2>
+                  <p style="color:var(--temple-ivory); line-height:1.85;">${pickLang(s.body)}</p>
+                </section>
+              `
+                )
+                .join('')}
+            </div>
+
+            <div style="padding:1.15rem 1.4rem; border-radius:12px; background:rgba(216,180,106,0.08); border:1px solid rgba(216,180,106,0.28);">
+              <strong style="color:var(--divine-gold);">📚 ${lang === 'hi' ? 'संदर्भ ग्रंथ सूची:' : 'Source Bibliography:'}</strong>
+              <ul style="margin-top:0.5rem; padding-left:1.25rem; color:var(--temple-ivory-muted);">
+                ${(art.bibliography || []).map((b) => `<li>${b}</li>`).join('')}
+              </ul>
+            </div>
+
+            <div style="display:flex; flex-wrap:wrap; justify-content:space-between; gap:1rem; padding-top:1rem; border-top:1px solid rgba(216,180,106,0.2);">
+              <button type="button" class="btn btn--ghost" id="prev-art-btn">← ${pickLang(prevArt.title).slice(0, 32)}...</button>
+              <button type="button" class="btn btn--ghost" id="next-art-btn">${pickLang(nextArt.title).slice(0, 32)}... →</button>
+            </div>
+          </div>
+        `;
+
+        document.getElementById('prev-art-btn')?.addEventListener('click', () => {
+          currentId = prevArt.id;
+          try { history.replaceState(null, '', `?id=${currentId}`); } catch (_) {}
+          renderPage();
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        document.getElementById('next-art-btn')?.addEventListener('click', () => {
+          currentId = nextArt.id;
+          try { history.replaceState(null, '', `?id=${currentId}`); } catch (_) {}
+          renderPage();
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+      }
+
+      renderPage();
+      onLangChange(renderPage);
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,2237 @@
+/* ==========================================================================
+   HARIHARA — TWO FORMS, ONE DIVINE CONSCIOUSNESS
+   Master Design System & Core Stylesheet (main.css)
+   Pure HTML5 / Advanced CSS3 / Vanilla ES6+
+   ========================================================================== */
+
+:root {
+  /* Sacred Color Palette */
+  --bg-cosmic-navy: #080D1D;
+  --bg-cosmic-deep: #050813;
+  --bg-temple-card: rgba(14, 21, 44, 0.78);
+  --bg-temple-elevated: rgba(22, 31, 62, 0.88);
+  --shiva-blue-grey: #718BA3;
+  --shiva-silver-glow: rgba(113, 139, 163, 0.35);
+  --vishnu-royal-blue: #194BC4;
+  --vishnu-blue-glow: rgba(25, 75, 196, 0.4);
+  --divine-gold: #D8B46A;
+  --divine-gold-bright: #F3D792;
+  --divine-gold-dim: rgba(216, 180, 106, 0.25);
+  --divine-gold-border: rgba(216, 180, 106, 0.32);
+  --sacred-saffron: #ECA24C;
+  --temple-ivory: #F2EADC;
+  --temple-ivory-muted: rgba(242, 234, 220, 0.78);
+  --temple-ivory-subtle: rgba(242, 234, 220, 0.56);
+  --cosmic-violet: #34234D;
+  --success-emerald: #46B886;
+  --error-crimson: #E06C75;
+
+  /* Typography */
+  --font-heading: 'Cinzel', 'Marcellus', Georgia, 'Times New Roman', serif;
+  --font-sanskrit: 'Noto Serif Devanagari', 'Mangal', 'Siddhanta', serif;
+  --font-hindi: 'Noto Sans Devanagari', 'Noto Serif Devanagari', sans-serif;
+  --font-body: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Layout & Spacing */
+  --container-max: 1320px;
+  --container-narrow: 960px;
+  --header-height: 80px;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --radius-xl: 32px;
+
+  /* Motion & Easing Tokens */
+  --ease-sacred: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-temple-doors: cubic-bezier(0.65, 0, 0.25, 1);
+  --ease-soft: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration-fast: 240ms;
+  --duration-normal: 480ms;
+  --duration-slow: 900ms;
+  --duration-doors: 1850ms;
+
+  /* Shadows & Illumination */
+  --shadow-card: 0 20px 50px rgba(3, 6, 16, 0.65), 0 0 0 1px rgba(216, 180, 106, 0.18);
+  --shadow-gold-glow: 0 0 35px rgba(216, 180, 106, 0.28), 0 12px 40px rgba(0, 0, 0, 0.65);
+  --shadow-unity: -15px 0 40px rgba(25, 75, 196, 0.22), 15px 0 40px rgba(113, 139, 163, 0.22);
+}
+
+/* ==========================================================================
+   1. RESET & BASE STYLES
+   ========================================================================== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+  background-color: var(--bg-cosmic-navy);
+  color: var(--temple-ivory);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--bg-cosmic-navy);
+  background-image:
+    radial-gradient(circle at 18% 15%, rgba(25, 75, 196, 0.14) 0%, transparent 45%),
+    radial-gradient(circle at 82% 15%, rgba(113, 139, 163, 0.12) 0%, transparent 45%),
+    radial-gradient(circle at 50% 50%, rgba(52, 35, 77, 0.28) 0%, transparent 65%);
+  background-attachment: fixed;
+  color: var(--temple-ivory);
+  line-height: 1.7;
+  overflow-x: hidden;
+  min-height: 100vh;
+  selection-background-color: var(--divine-gold);
+}
+
+body[data-lang="hi"] {
+  font-family: var(--font-hindi), var(--font-body);
+  line-height: 1.82;
+}
+
+body.intro-locked,
+body.modal-open {
+  overflow: hidden;
+}
+
+::selection {
+  background: rgba(216, 180, 106, 0.35);
+  color: #fff;
+}
+
+img,
+svg,
+video {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: var(--divine-gold);
+  text-decoration: none;
+  transition: color var(--duration-fast) var(--ease-soft);
+}
+
+a:hover {
+  color: var(--divine-gold-bright);
+}
+
+button,
+input,
+select {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Accessible Focus Ring */
+:focus-visible {
+  outline: 2px solid var(--divine-gold-bright);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* Skip to Content Link */
+.skip-link {
+  position: fixed;
+  top: -100px;
+  left: 1.5rem;
+  z-index: 10000;
+  background: var(--divine-gold);
+  color: var(--bg-cosmic-deep);
+  padding: 0.75rem 1.25rem;
+  font-weight: 700;
+  border-radius: var(--radius-sm);
+  transition: top 0.2s ease;
+}
+
+.skip-link:focus {
+  top: 1rem;
+}
+
+/* Screen Reader Only */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ==========================================================================
+   2. TYPOGRAPHY & REUSABLE SACRED UI TOKENS
+   ========================================================================== */
+.sanskrit-text {
+  font-family: var(--font-sanskrit);
+  letter-spacing: 0.02em;
+  line-height: 1.85;
+}
+
+.hindi-text {
+  font-family: var(--font-hindi);
+  line-height: 1.8;
+}
+
+.container {
+  width: min(100% - 2.5rem, var(--container-max));
+  margin-inline: auto;
+}
+
+.container--narrow {
+  width: min(100% - 2.5rem, var(--container-narrow));
+  margin-inline: auto;
+}
+
+.section {
+  position: relative;
+  padding-block: clamp(4.5rem, 8vw, 7.5rem);
+  z-index: 2;
+}
+
+.section--alt {
+  background: linear-gradient(
+    180deg,
+    rgba(8, 13, 29, 0) 0%,
+    rgba(16, 23, 48, 0.55) 18%,
+    rgba(20, 26, 54, 0.55) 82%,
+    rgba(8, 13, 29, 0) 100%
+  );
+}
+
+.section__header {
+  text-align: center;
+  max-width: 820px;
+  margin: 0 auto clamp(3rem, 5vw, 4.5rem);
+}
+
+.section__eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  font-family: var(--font-heading);
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.24em;
+  color: var(--divine-gold);
+  padding: 0.4rem 1.1rem;
+  border-radius: 999px;
+  background: rgba(216, 180, 106, 0.09);
+  border: 1px solid rgba(216, 180, 106, 0.28);
+  margin-bottom: 1.15rem;
+}
+
+.section__title {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 4.2vw, 3.35rem);
+  font-weight: 600;
+  line-height: 1.22;
+  color: var(--temple-ivory);
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, #FFFFFF 0%, var(--temple-ivory) 45%, var(--divine-gold) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+body[data-lang="hi"] .section__title {
+  font-family: var(--font-sanskrit);
+  line-height: 1.38;
+}
+
+.section__subtitle {
+  font-size: clamp(1.02rem, 1.5vw, 1.2rem);
+  color: var(--temple-ivory-muted);
+  max-width: 68ch;
+  margin-inline: auto;
+}
+
+/* Sacred Divider */
+.sacred-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  margin: 1.5rem auto 0;
+  max-width: 340px;
+  color: var(--divine-gold);
+  opacity: 0.85;
+}
+
+.sacred-divider::before,
+.sacred-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--divine-gold), transparent);
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+  padding: 0.9rem 1.85rem;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.96rem;
+  letter-spacing: 0.04em;
+  transition:
+    transform var(--duration-fast) var(--ease-sacred),
+    box-shadow var(--duration-fast) var(--ease-sacred),
+    background var(--duration-fast) var(--ease-sacred),
+    border-color var(--duration-fast) var(--ease-sacred);
+  position: relative;
+  overflow: hidden;
+}
+
+.btn--primary {
+  background: linear-gradient(135deg, #E5C378 0%, #C99B49 50%, #DFB76C 100%);
+  color: #080D1D;
+  box-shadow: 0 8px 28px rgba(216, 180, 106, 0.35), inset 0 1px 1px rgba(255, 255, 255, 0.55);
+}
+
+.btn--primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 36px rgba(216, 180, 106, 0.55), inset 0 1px 2px rgba(255, 255, 255, 0.75);
+  color: #050813;
+}
+
+.btn--secondary {
+  background: rgba(14, 21, 44, 0.72);
+  color: var(--temple-ivory);
+  border: 1px solid rgba(216, 180, 106, 0.48);
+  backdrop-filter: blur(10px);
+}
+
+.btn--secondary:hover {
+  transform: translateY(-2px);
+  border-color: var(--divine-gold-bright);
+  background: rgba(216, 180, 106, 0.14);
+  box-shadow: 0 8px 26px rgba(216, 180, 106, 0.2);
+}
+
+.btn--ghost {
+  padding: 0.55rem 1.1rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(216, 180, 106, 0.28);
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--temple-ivory-muted);
+  font-size: 0.86rem;
+}
+
+.btn--ghost:hover {
+  border-color: var(--divine-gold);
+  color: var(--divine-gold-bright);
+  background: rgba(216, 180, 106, 0.1);
+}
+
+/* ==========================================================================
+   3. SIGNATURE CINEMATIC OPENING EXPERIENCE (SECTION 4)
+   ========================================================================== */
+.divine-intro {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  height: 100dvh;
+  z-index: 9000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  perspective: 1800px;
+  overflow: hidden;
+  user-select: none;
+  background: #040711;
+  transition: visibility 0.4s ease, opacity 0.4s ease;
+}
+
+.divine-intro.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+/* The 3D Stage holding the two halves of bg_cover.png */
+.divine-intro__stage {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+
+/* Left (Vishnu) and Right (Shiva) Panels — Clipped at exact 50% seam */
+.divine-intro__door {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  will-change: transform, filter, opacity;
+  transition:
+    transform var(--duration-doors) var(--ease-temple-doors),
+    filter var(--duration-doors) var(--ease-temple-doors),
+    opacity 0.55s ease 1.45s;
+}
+
+.divine-intro__door-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-image: image-set(
+    url('../images/harihara-cover.webp') type('image/webp'),
+    url('../../images/bg_cover.png') type('image/png')
+  );
+  background-image: url('../../images/bg_cover.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transform: scale(1.03);
+  transition: transform 2.2s var(--ease-sacred), filter 1.2s ease;
+}
+
+.divine-intro.is-ready .divine-intro__door-image {
+  transform: scale(1);
+}
+
+/* Left Panel = Lord Vishnu (0% to 50%) */
+.divine-intro__door--left {
+  clip-path: inset(0 50% 0 0);
+  transform-origin: left center;
+}
+
+/* Right Panel = Lord Shiva (50% to 100%) */
+.divine-intro__door--right {
+  clip-path: inset(0 0 0 50%);
+  transform-origin: right center;
+}
+
+/* Subtle vignettes & deity aura overlays on each door */
+.divine-intro__door--left::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(90deg, rgba(5, 9, 22, 0.52) 0%, rgba(25, 75, 196, 0.08) 35%, transparent 50%),
+    linear-gradient(180deg, rgba(4, 7, 17, 0.38) 0%, transparent 28%, transparent 62%, rgba(4, 7, 17, 0.86) 100%);
+  pointer-events: none;
+}
+
+.divine-intro__door--right::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(270deg, rgba(5, 9, 22, 0.52) 0%, rgba(113, 139, 163, 0.08) 35%, transparent 50%),
+    linear-gradient(180deg, rgba(4, 7, 17, 0.38) 0%, transparent 28%, transparent 62%, rgba(4, 7, 17, 0.86) 100%);
+  pointer-events: none;
+}
+
+/* Golden Seam Edge on Each Door */
+.divine-intro__door-edge {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(
+    180deg,
+    rgba(216, 180, 106, 0.2) 0%,
+    #F8E2A6 25%,
+    #FFFFFF 50%,
+    #F8E2A6 75%,
+    rgba(216, 180, 106, 0.2) 100%
+  );
+  box-shadow: 0 0 22px 4px rgba(243, 215, 146, 0.85), 0 0 50px 10px rgba(236, 162, 76, 0.45);
+  z-index: 4;
+}
+
+/* Central Luminous Golden Line & Rays */
+.divine-intro__seam {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 4px;
+  transform: translateX(-50%);
+  z-index: 6;
+  pointer-events: none;
+  background: linear-gradient(
+    180deg,
+    transparent 0%,
+    rgba(216, 180, 106, 0.85) 12%,
+    #FFF7DF 50%,
+    rgba(216, 180, 106, 0.85) 88%,
+    transparent 100%
+  );
+  box-shadow:
+    0 0 18px 3px rgba(243, 215, 146, 0.9),
+    0 0 45px 12px rgba(216, 180, 106, 0.55),
+    0 0 90px 24px rgba(236, 162, 76, 0.3);
+  transition: all 0.6s var(--ease-sacred);
+}
+
+.divine-intro__rays {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  pointer-events: none;
+  opacity: 0;
+  background: radial-gradient(
+    ellipse 38% 85% at 50% 50%,
+    rgba(255, 246, 214, 0.92) 0%,
+    rgba(216, 180, 106, 0.48) 28%,
+    rgba(25, 75, 196, 0.15) 60%,
+    transparent 80%
+  );
+  transition: opacity 0.75s ease, transform 1.6s var(--ease-sacred);
+}
+
+/* Deity Half Labels on Cover */
+.divine-intro__half-badge {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 7;
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0.75rem 1.2rem;
+  border-radius: var(--radius-md);
+  background: rgba(8, 13, 29, 0.58);
+  border: 1px solid rgba(216, 180, 106, 0.3);
+  backdrop-filter: blur(8px);
+  transition: opacity 0.5s ease, transform 0.6s ease;
+}
+
+.divine-intro__half-badge--left {
+  left: clamp(1rem, 3.5vw, 3rem);
+  border-left: 3px solid #4A80FF;
+  text-align: left;
+}
+
+.divine-intro__half-badge--right {
+  right: clamp(1rem, 3.5vw, 3rem);
+  border-right: 3px solid #9CB8D2;
+  text-align: right;
+}
+
+.divine-intro__half-badge-name {
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--divine-gold-bright);
+}
+
+.divine-intro__half-badge-sub {
+  font-size: 0.76rem;
+  color: var(--temple-ivory-muted);
+}
+
+/* Intro Overlay Content (Top Title + Bottom Invitation) */
+.divine-intro__overlay {
+  position: relative;
+  z-index: 8;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: clamp(1.5rem, 4vh, 3rem) 1.5rem clamp(1.75rem, 5vh, 3.5rem);
+  pointer-events: none;
+  transition: opacity 0.55s ease, transform 0.65s ease;
+}
+
+.divine-intro__top-bar {
+  width: min(100%, 1240px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  pointer-events: auto;
+}
+
+.divine-intro__mantra-pill {
+  font-family: var(--font-sanskrit);
+  font-size: clamp(0.82rem, 1.2vw, 0.98rem);
+  color: var(--divine-gold-bright);
+  background: rgba(8, 13, 29, 0.68);
+  border: 1px solid rgba(216, 180, 106, 0.35);
+  padding: 0.45rem 1.1rem;
+  border-radius: 999px;
+  backdrop-filter: blur(8px);
+}
+
+.divine-intro__skip-btn {
+  pointer-events: auto;
+  padding: 0.45rem 1rem;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--temple-ivory-muted);
+  background: rgba(8, 13, 29, 0.68);
+  border: 1px solid rgba(216, 180, 106, 0.32);
+  backdrop-filter: blur(8px);
+  transition: all 0.25s ease;
+}
+
+.divine-intro__skip-btn:hover {
+  color: var(--divine-gold-bright);
+  border-color: var(--divine-gold);
+  background: rgba(216, 180, 106, 0.16);
+}
+
+.divine-intro__bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 680px;
+  padding: 1.35rem 2.25rem;
+  border-radius: var(--radius-xl);
+  background: radial-gradient(
+    ellipse at center,
+    rgba(8, 13, 29, 0.86) 0%,
+    rgba(8, 13, 29, 0.68) 70%,
+    rgba(8, 13, 29, 0.3) 100%
+  );
+  border: 1px solid rgba(216, 180, 106, 0.38);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8), 0 0 40px rgba(216, 180, 106, 0.2);
+  backdrop-filter: blur(10px);
+  pointer-events: auto;
+}
+
+.divine-intro__sanskrit-title {
+  font-family: var(--font-sanskrit);
+  font-size: clamp(2.5rem, 6vw, 4.4rem);
+  font-weight: 700;
+  line-height: 1.15;
+  color: #FFF6DC;
+  text-shadow:
+    0 0 28px rgba(216, 180, 106, 0.85),
+    0 4px 18px rgba(0, 0, 0, 0.95);
+  margin-bottom: 0.2rem;
+}
+
+.divine-intro__tagline {
+  font-family: var(--font-heading);
+  font-size: clamp(1rem, 2vw, 1.38rem);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--divine-gold-bright);
+  margin-bottom: 0.25rem;
+}
+
+.divine-intro__hindi-tagline {
+  font-family: var(--font-sanskrit);
+  font-size: clamp(0.95rem, 1.5vw, 1.15rem);
+  color: var(--temple-ivory-muted);
+  margin-bottom: 1.1rem;
+}
+
+.divine-intro__enter-btn {
+  pointer-events: auto;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.85rem 2.4rem;
+  border-radius: 999px;
+  background: linear-gradient(135deg, rgba(216, 180, 106, 0.26) 0%, rgba(236, 162, 76, 0.36) 50%, rgba(216, 180, 106, 0.26) 100%);
+  border: 1.5px solid var(--divine-gold-bright);
+  box-shadow: 0 0 30px rgba(216, 180, 106, 0.45), inset 0 0 18px rgba(243, 215, 146, 0.25);
+  color: #FFFFFF;
+  transition: transform 0.3s var(--ease-sacred), box-shadow 0.3s var(--ease-sacred), background 0.3s ease;
+}
+
+.divine-intro__enter-btn:hover {
+  transform: scale(1.04);
+  background: linear-gradient(135deg, rgba(216, 180, 106, 0.42) 0%, rgba(236, 162, 76, 0.52) 100%);
+  box-shadow: 0 0 45px rgba(243, 215, 146, 0.75), inset 0 0 22px rgba(255, 255, 255, 0.35);
+}
+
+.divine-intro__enter-main {
+  font-family: var(--font-heading);
+  font-size: clamp(0.98rem, 1.6vw, 1.18rem);
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #FFF8E5;
+}
+
+.divine-intro__enter-sub {
+  font-size: 0.76rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--divine-gold-bright);
+  opacity: 0.92;
+}
+
+/* SEQUENCE C — DOORWAY OPENING STATE */
+.divine-intro.is-opening {
+  background: transparent;
+  pointer-events: none;
+}
+
+.divine-intro.is-opening .divine-intro__seam {
+  width: 24px;
+  box-shadow:
+    0 0 55px 20px #FFFDF5,
+    0 0 130px 55px rgba(243, 215, 146, 0.95),
+    0 0 240px 100px rgba(236, 162, 76, 0.8);
+  opacity: 0;
+  transition: width 0.5s ease, box-shadow 0.5s ease, opacity 0.75s ease 0.55s;
+}
+
+.divine-intro.is-opening .divine-intro__rays {
+  opacity: 1;
+  transform: scaleX(2.8);
+  animation: raysFadeOut 1.85s ease forwards;
+}
+
+@keyframes raysFadeOut {
+  0% { opacity: 0.95; }
+  45% { opacity: 0.75; }
+  100% { opacity: 0; }
+}
+
+.divine-intro.is-opening .divine-intro__overlay,
+.divine-intro.is-opening .divine-intro__half-badge {
+  opacity: 0;
+  transform: translateY(16px) scale(0.96);
+  pointer-events: none;
+}
+
+.divine-intro.is-opening .divine-intro__door--left {
+  transform: translate3d(-54%, 0, 0) rotateY(8deg) scale(1.02);
+  filter: drop-shadow(22px 0 45px rgba(0, 0, 0, 0.9));
+}
+
+.divine-intro.is-opening .divine-intro__door--right {
+  transform: translate3d(54%, 0, 0) rotateY(-8deg) scale(1.02);
+  filter: drop-shadow(-22px 0 45px rgba(0, 0, 0, 0.9));
+}
+
+/* ==========================================================================
+   4. FLOATING SACRED HEADER & NAVIGATION (SECTION 15)
+   ========================================================================== */
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--header-height);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  background: rgba(8, 13, 29, 0.45);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid rgba(216, 180, 106, 0.14);
+  transition: background 0.35s ease, box-shadow 0.35s ease, height 0.35s ease;
+}
+
+.site-header.is-scrolled {
+  background: rgba(6, 10, 24, 0.92);
+  border-bottom-color: rgba(216, 180, 106, 0.32);
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.6);
+  height: 70px;
+}
+
+.site-header__inner {
+  width: min(100% - 2rem, 1400px);
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: var(--temple-ivory);
+}
+
+.brand__emblem {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, rgba(25, 75, 196, 0.4), rgba(216, 180, 106, 0.3), rgba(113, 139, 163, 0.4));
+  border: 1px solid var(--divine-gold);
+  box-shadow: 0 0 16px rgba(216, 180, 106, 0.3);
+  font-family: var(--font-sanskrit);
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--divine-gold-bright);
+}
+
+.brand__text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+}
+
+.brand__title {
+  font-family: var(--font-heading);
+  font-size: 1.12rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  color: var(--temple-ivory);
+}
+
+.brand__sub {
+  font-family: var(--font-sanskrit);
+  font-size: 0.75rem;
+  color: var(--divine-gold);
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0.5rem 0.78rem;
+  font-size: 0.86rem;
+  font-weight: 500;
+  color: var(--temple-ivory-muted);
+  border-radius: var(--radius-sm);
+  transition: color 0.2s ease, background 0.2s ease;
+  white-space: nowrap;
+}
+
+.nav-link:hover,
+.nav-link.is-active {
+  color: var(--divine-gold-bright);
+  background: rgba(216, 180, 106, 0.1);
+}
+
+.header-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.control-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.42rem 0.8rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  border: 1px solid rgba(216, 180, 106, 0.32);
+  background: rgba(14, 21, 44, 0.75);
+  color: var(--temple-ivory);
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.control-pill:hover,
+.control-pill.is-active {
+  border-color: var(--divine-gold-bright);
+  color: var(--divine-gold-bright);
+  background: rgba(216, 180, 106, 0.16);
+}
+
+.mobile-menu-toggle {
+  display: none;
+  width: 42px;
+  height: 42px;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(216, 180, 106, 0.35);
+  align-items: center;
+  justify-content: center;
+  color: var(--divine-gold-bright);
+}
+
+/* ==========================================================================
+   5. HOMEPAGE HERO — THE DIVINE REALM (SECTION 5)
+   ========================================================================== */
+.hero {
+  position: relative;
+  min-height: 100vh;
+  padding: calc(var(--header-height) + 2.5rem) 0 4.5rem;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.hero__bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-image: image-set(
+    url('../images/harihara-hero.webp') type('image/webp'),
+    url('../../images/bg_cover.png') type('image/png')
+  );
+  background-image: url('../../images/bg_cover.png');
+  background-size: cover;
+  background-position: center 22%;
+  opacity: 0.34;
+  filter: saturate(1.1) contrast(1.05);
+}
+
+.hero__bg-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background:
+    radial-gradient(circle at 50% 38%, rgba(8, 13, 29, 0.25) 0%, rgba(8, 13, 29, 0.85) 68%, #080D1D 100%),
+    linear-gradient(180deg, rgba(8, 13, 29, 0.75) 0%, transparent 25%, transparent 70%, #080D1D 100%);
+}
+
+.hero__mandala {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: min(82vw, 760px);
+  height: min(82vw, 760px);
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  opacity: 0.16;
+  pointer-events: none;
+}
+
+.hero__grid {
+  position: relative;
+  z-index: 3;
+  display: grid;
+  grid-template-columns: 1.12fr 0.88fr;
+  gap: clamp(2rem, 4.5vw, 4rem);
+  align-items: center;
+}
+
+.hero__shloka-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.55rem 1.2rem;
+  border-radius: 999px;
+  background: rgba(14, 21, 44, 0.78);
+  border: 1px solid rgba(216, 180, 106, 0.38);
+  font-family: var(--font-sanskrit);
+  font-size: clamp(0.88rem, 1.3vw, 1.04rem);
+  color: var(--divine-gold-bright);
+  margin-bottom: 1.25rem;
+  box-shadow: 0 0 25px rgba(216, 180, 106, 0.16);
+}
+
+.hero__sanskrit-display {
+  font-family: var(--font-sanskrit);
+  font-size: clamp(3.2rem, 7vw, 5.5rem);
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--divine-gold-bright);
+  text-shadow: 0 0 40px rgba(216, 180, 106, 0.45);
+  margin-bottom: 0.5rem;
+}
+
+.hero__title {
+  font-family: var(--font-heading);
+  font-size: clamp(2.1rem, 4.4vw, 3.6rem);
+  font-weight: 700;
+  line-height: 1.18;
+  margin-bottom: 1.15rem;
+  color: #FFFFFF;
+}
+
+body[data-lang="hi"] .hero__title {
+  font-family: var(--font-sanskrit);
+  line-height: 1.32;
+}
+
+.hero__lead {
+  font-size: clamp(1.06rem, 1.55vw, 1.26rem);
+  color: var(--temple-ivory-muted);
+  max-width: 56ch;
+  margin-bottom: 1.5rem;
+}
+
+.hero__book-attribution {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  padding: 0.85rem 1.15rem;
+  border-radius: var(--radius-md);
+  background: rgba(20, 29, 58, 0.65);
+  border-left: 3px solid var(--divine-gold);
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+  color: var(--temple-ivory-muted);
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* Hero Altar Portrait Frame */
+.hero__altar {
+  position: relative;
+  margin-inline: auto;
+  width: min(100%, 540px);
+}
+
+.hero__altar-frame {
+  position: relative;
+  border-radius: 240px 240px 24px 24px;
+  overflow: hidden;
+  border: 2px solid rgba(216, 180, 106, 0.55);
+  box-shadow:
+    0 25px 70px rgba(0, 0, 0, 0.85),
+    -20px 0 55px rgba(25, 75, 196, 0.35),
+    20px 0 55px rgba(113, 139, 163, 0.32),
+    0 0 35px rgba(216, 180, 106, 0.35);
+  aspect-ratio: 16 / 11;
+  background: #060A17;
+}
+
+.hero__altar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  transition: transform 0.9s var(--ease-sacred);
+}
+
+.hero__altar-frame:hover .hero__altar-img {
+  transform: scale(1.04);
+}
+
+.hero__altar-caption {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.85rem 1.25rem;
+  background: rgba(8, 13, 29, 0.9);
+  border-top: 1px solid rgba(216, 180, 106, 0.3);
+  font-size: 0.82rem;
+}
+
+.hero__scroll-cue {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.76rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--divine-gold);
+  opacity: 0.85;
+}
+
+/* ==========================================================================
+   6. THE ETERNAL UNITY OF SHIVA & VISHNU (SECTION 6)
+   ========================================================================== */
+.unity-showcase {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  gap: 1.75rem;
+  align-items: stretch;
+  margin-bottom: 3.5rem;
+}
+
+.deity-pillar {
+  position: relative;
+  padding: 2.25rem;
+  border-radius: var(--radius-lg);
+  background: var(--bg-temple-card);
+  border: 1px solid var(--divine-gold-border);
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+  transition: transform var(--duration-normal) var(--ease-sacred), box-shadow var(--duration-normal) ease;
+}
+
+.deity-pillar--vishnu {
+  background: linear-gradient(145deg, rgba(25, 75, 196, 0.22) 0%, rgba(14, 21, 44, 0.86) 65%);
+  border-top: 3px solid #3B73F0;
+}
+
+.deity-pillar--shiva {
+  background: linear-gradient(215deg, rgba(113, 139, 163, 0.24) 0%, rgba(14, 21, 44, 0.86) 65%);
+  border-top: 3px solid #95B4D0;
+}
+
+.deity-pillar__tag {
+  display: inline-block;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--divine-gold);
+  margin-bottom: 0.5rem;
+}
+
+.deity-pillar__name {
+  font-family: var(--font-heading);
+  font-size: clamp(1.5rem, 2.4vw, 2rem);
+  color: #FFF;
+  margin-bottom: 0.75rem;
+}
+
+.deity-pillar__list {
+  list-style: none;
+  margin-top: 1.25rem;
+  display: grid;
+  gap: 0.65rem;
+}
+
+.deity-pillar__list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  font-size: 0.94rem;
+  color: var(--temple-ivory-muted);
+}
+
+.deity-pillar__list li::before {
+  content: '❖';
+  color: var(--divine-gold);
+  flex-shrink: 0;
+}
+
+/* Central Energy Convergence Column */
+.unity-nexus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 1rem;
+  position: relative;
+}
+
+.unity-nexus__orb {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  padding: 4px;
+  background: linear-gradient(135deg, #2B65EC, var(--divine-gold-bright), #8BA7C0);
+  box-shadow: 0 0 40px rgba(216, 180, 106, 0.45);
+  display: grid;
+  place-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+.unity-nexus__orb-inner {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #080D1D;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+/* Interactive Comparison Matrix */
+.comparison-grid {
+  display: grid;
+  gap: 1.25rem;
+  margin-bottom: 3.5rem;
+}
+
+.comparison-row {
+  display: grid;
+  grid-template-columns: 1fr 1.25fr 1fr;
+  gap: 1.25rem;
+  padding: 1.5rem;
+  border-radius: var(--radius-md);
+  background: rgba(14, 21, 44, 0.72);
+  border: 1px solid rgba(216, 180, 106, 0.22);
+  align-items: center;
+  transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+.comparison-row:hover {
+  border-color: var(--divine-gold);
+  transform: translateY(-2px);
+}
+
+.comparison-cell--center {
+  text-align: center;
+  padding: 1rem 1.25rem;
+  border-radius: var(--radius-sm);
+  background: linear-gradient(135deg, rgba(25, 75, 196, 0.14), rgba(216, 180, 106, 0.16), rgba(113, 139, 163, 0.14));
+  border: 1px solid rgba(216, 180, 106, 0.32);
+}
+
+/* Philosophical Schools Grid */
+.philosophy-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+  gap: 1.5rem;
+}
+
+.philosophy-card {
+  padding: 1.75rem;
+  border-radius: var(--radius-md);
+  background: var(--bg-temple-card);
+  border: 1px solid var(--divine-gold-border);
+  box-shadow: var(--shadow-card);
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.philosophy-card__acharya {
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--sacred-saffron);
+  font-weight: 600;
+}
+
+.philosophy-card__title {
+  font-family: var(--font-heading);
+  font-size: 1.22rem;
+  color: var(--divine-gold-bright);
+}
+
+/* ==========================================================================
+   7. SACRED SHLOKAS SECTION (SECTION 7)
+   ========================================================================== */
+.shloka-controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2.25rem;
+  padding: 1rem 1.35rem;
+  border-radius: var(--radius-md);
+  background: rgba(14, 21, 44, 0.72);
+  border: 1px solid rgba(216, 180, 106, 0.24);
+}
+
+.filter-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.filter-pill {
+  padding: 0.5rem 1.05rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--temple-ivory-muted);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(216, 180, 106, 0.22);
+  transition: all 0.22s ease;
+}
+
+.filter-pill:hover,
+.filter-pill.is-active {
+  background: linear-gradient(135deg, rgba(216, 180, 106, 0.25), rgba(236, 162, 76, 0.25));
+  color: var(--divine-gold-bright);
+  border-color: var(--divine-gold);
+}
+
+.shlokas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 540px), 1fr));
+  gap: 1.85rem;
+}
+
+.shloka-card {
+  position: relative;
+  padding: clamp(1.5rem, 3vw, 2.35rem);
+  border-radius: var(--radius-lg);
+  background:
+    radial-gradient(circle at top right, rgba(216, 180, 106, 0.1), transparent 55%),
+    var(--bg-temple-card);
+  border: 1px solid rgba(216, 180, 106, 0.34);
+  box-shadow: var(--shadow-card);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.25rem;
+  transition: transform 0.35s var(--ease-sacred), border-color 0.35s ease, box-shadow 0.35s ease;
+}
+
+.shloka-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--divine-gold-bright);
+  box-shadow: var(--shadow-gold-glow);
+}
+
+.shloka-card__top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.shloka-card__source {
+  font-family: var(--font-heading);
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  color: var(--divine-gold);
+}
+
+.verified-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.25rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.74rem;
+  font-weight: 600;
+  background: rgba(70, 184, 134, 0.14);
+  color: #7CE3B4;
+  border: 1px solid rgba(70, 184, 134, 0.35);
+}
+
+.shloka-card__sanskrit {
+  font-family: var(--font-sanskrit);
+  font-size: clamp(1.22rem, 2vw, 1.52rem);
+  font-weight: 600;
+  line-height: 1.85;
+  color: #FFF7E0;
+  padding: 1.15rem 1.35rem;
+  border-radius: var(--radius-md);
+  background: rgba(6, 10, 23, 0.68);
+  border-left: 3px solid var(--divine-gold);
+  white-space: pre-line;
+}
+
+.shloka-card__translit {
+  font-style: italic;
+  font-size: 0.92rem;
+  color: var(--shiva-blue-grey);
+  white-space: pre-line;
+}
+
+.shloka-card__translation-block {
+  display: grid;
+  gap: 0.75rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid rgba(216, 180, 106, 0.16);
+}
+
+.shloka-card__label {
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--sacred-saffron);
+  font-weight: 700;
+}
+
+.shloka-card__commentary {
+  padding: 0.95rem 1.15rem;
+  border-radius: var(--radius-sm);
+  background: rgba(216, 180, 106, 0.07);
+  border: 1px solid rgba(216, 180, 106, 0.18);
+  font-size: 0.92rem;
+  color: var(--temple-ivory-muted);
+}
+
+.shloka-card__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  padding-top: 0.5rem;
+}
+
+/* ==========================================================================
+   8. DIVINE INCARNATION STORIES — MANUSCRIPT EXPLORER (SECTION 8)
+   ========================================================================== */
+.stories-explorer {
+  display: grid;
+  grid-template-columns: 330px 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.stories-nav {
+  position: sticky;
+  top: calc(var(--header-height) + 1.25rem);
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  padding: 1.25rem;
+  border-radius: var(--radius-lg);
+  background: var(--bg-temple-card);
+  border: 1px solid var(--divine-gold-border);
+  box-shadow: var(--shadow-card);
+}
+
+.story-tab {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.85rem;
+  padding: 0.9rem 1rem;
+  border-radius: var(--radius-md);
+  text-align: left;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid transparent;
+  transition: all 0.25s ease;
+}
+
+.story-tab:hover {
+  background: rgba(216, 180, 106, 0.08);
+  border-color: rgba(216, 180, 106, 0.25);
+}
+
+.story-tab.is-active {
+  background: linear-gradient(135deg, rgba(25, 75, 196, 0.25), rgba(216, 180, 106, 0.18));
+  border-color: var(--divine-gold);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+.story-tab__num {
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--divine-gold);
+  background: rgba(216, 180, 106, 0.14);
+  padding: 0.2rem 0.5rem;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+.story-tab__title {
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--temple-ivory);
+  line-height: 1.38;
+}
+
+.story-stage {
+  border-radius: var(--radius-lg);
+  background: var(--bg-temple-card);
+  border: 1px solid var(--divine-gold-border);
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+}
+
+.story-stage__hero {
+  position: relative;
+  min-height: 360px;
+  display: flex;
+  align-items: flex-end;
+  padding: clamp(1.5rem, 3.5vw, 2.75rem);
+  overflow: hidden;
+}
+
+.story-stage__hero-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 25%;
+  opacity: 0.48;
+  transition: transform 0.8s ease;
+}
+
+.story-stage__hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(8, 13, 29, 0.25) 0%, rgba(8, 13, 29, 0.82) 65%, rgba(14, 21, 44, 0.98) 100%);
+}
+
+.story-stage__hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 780px;
+}
+
+.story-stage__chapter-badge {
+  display: inline-block;
+  padding: 0.3rem 0.85rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--divine-gold-bright);
+  background: rgba(216, 180, 106, 0.16);
+  border: 1px solid rgba(216, 180, 106, 0.38);
+  margin-bottom: 0.75rem;
+}
+
+.story-stage__title {
+  font-family: var(--font-heading);
+  font-size: clamp(1.65rem, 3vw, 2.4rem);
+  color: #FFF;
+  margin-bottom: 0.6rem;
+}
+
+body[data-lang="hi"] .story-stage__title {
+  font-family: var(--font-sanskrit);
+}
+
+.story-stage__body {
+  padding: clamp(1.5rem, 3.5vw, 2.75rem);
+  display: grid;
+  gap: 2rem;
+}
+
+.story-scenes {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.story-scene {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  border-radius: var(--radius-md);
+  background: rgba(8, 13, 29, 0.65);
+  border: 1px solid rgba(216, 180, 106, 0.22);
+  align-items: center;
+}
+
+.story-scene__img-wrap {
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  border: 1px solid rgba(216, 180, 106, 0.35);
+  aspect-ratio: 4 / 3;
+}
+
+.story-scene__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.story-scene__num {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--sacred-saffron);
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+
+.story-scene__title {
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  color: var(--divine-gold-bright);
+  margin-bottom: 0.55rem;
+}
+
+body[data-lang="hi"] .story-scene__title {
+  font-family: var(--font-sanskrit);
+}
+
+.story-lesson-box {
+  padding: 1.5rem 1.75rem;
+  border-radius: var(--radius-md);
+  background: linear-gradient(135deg, rgba(216, 180, 106, 0.14), rgba(25, 75, 196, 0.14));
+  border: 1px solid var(--divine-gold);
+}
+
+/* ==========================================================================
+   9. HARIHARA VIDEO GALLERY (SECTION 9)
+   ========================================================================== */
+.video-featured {
+  display: grid;
+  grid-template-columns: 1.35fr 1fr;
+  gap: 2rem;
+  padding: 1.75rem;
+  border-radius: var(--radius-lg);
+  background: var(--bg-temple-card);
+  border: 1px solid var(--divine-gold-border);
+  box-shadow: var(--shadow-card);
+  margin-bottom: 2.5rem;
+  align-items: center;
+}
+
+.video-featured__thumb-wrap {
+  position: relative;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+  border: 1px solid rgba(216, 180, 106, 0.38);
+  cursor: pointer;
+}
+
+.video-featured__thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s var(--ease-sacred);
+}
+
+.video-featured__thumb-wrap:hover .video-featured__thumb {
+  transform: scale(1.04);
+}
+
+.play-overlay {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle, rgba(8, 13, 29, 0.25) 0%, rgba(8, 13, 29, 0.65) 100%);
+  display: grid;
+  place-items: center;
+}
+
+.play-btn-circle {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  background: rgba(216, 180, 106, 0.92);
+  color: #080D1D;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 0 30px rgba(216, 180, 106, 0.7);
+  transition: transform 0.3s var(--ease-sacred), background 0.3s ease;
+}
+
+.video-featured__thumb-wrap:hover .play-btn-circle,
+.video-card:hover .play-btn-circle {
+  transform: scale(1.1);
+  background: var(--divine-gold-bright);
+}
+
+.videos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+  gap: 1.65rem;
+}
+
+.video-card {
+  border-radius: var(--radius-md);
+  background: var(--bg-temple-card);
+  border: 1px solid var(--divine-gold-border);
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s var(--ease-sacred), border-color 0.3s ease;
+}
+
+.video-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--divine-gold-bright);
+}
+
+.video-card__media {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: #050813;
+  cursor: pointer;
+}
+
+.video-card__media--portrait {
+  aspect-ratio: 16 / 10;
+}
+
+.video-card__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.video-card:hover .video-card__img {
+  transform: scale(1.05);
+}
+
+.video-card__badges {
+  position: absolute;
+  top: 0.75rem;
+  left: 0.75rem;
+  right: 0.75rem;
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.video-badge {
+  padding: 0.22rem 0.65rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  background: rgba(8, 13, 29, 0.85);
+  color: var(--divine-gold-bright);
+  border: 1px solid rgba(216, 180, 106, 0.4);
+}
+
+.video-card__body {
+  padding: 1.35rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  flex: 1;
+}
+
+.video-card__title {
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  color: #FFF;
+  line-height: 1.35;
+}
+
+body[data-lang="hi"] .video-card__title {
+  font-family: var(--font-sanskrit);
+}
+
+/* ==========================================================================
+   10. SACRED PLACES OF HARIHARA — TEMPLES (SECTION 10)
+   ========================================================================== */
+.temples-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 380px), 1fr));
+  gap: 1.85rem;
+}
+
+.temple-card {
+  border-radius: var(--radius-lg);
+  background: var(--bg-temple-card);
+  border: 1px solid var(--divine-gold-border);
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.35s var(--ease-sacred), border-color 0.35s ease;
+}
+
+.temple-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--divine-gold-bright);
+}
+
+.temple-card__img-wrap {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+}
+
+.temple-card__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.65s ease;
+}
+
+.temple-card:hover .temple-card__img {
+  transform: scale(1.05);
+}
+
+.temple-card__period {
+  position: absolute;
+  bottom: 0.75rem;
+  left: 0.75rem;
+  padding: 0.3rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  background: rgba(8, 13, 29, 0.88);
+  color: var(--divine-gold-bright);
+  border: 1px solid rgba(216, 180, 106, 0.4);
+}
+
+.temple-card__body {
+  padding: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  flex: 1;
+}
+
+.temple-card__title {
+  font-family: var(--font-heading);
+  font-size: 1.32rem;
+  color: #FFF;
+}
+
+body[data-lang="hi"] .temple-card__title {
+  font-family: var(--font-sanskrit);
+}
+
+.temple-card__loc {
+  font-size: 0.86rem;
+  color: var(--divine-gold);
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.temple-card__details {
+  margin-top: 0.5rem;
+  padding-top: 0.85rem;
+  border-top: 1px solid rgba(216, 180, 106, 0.16);
+  font-size: 0.9rem;
+  color: var(--temple-ivory-muted);
+  display: grid;
+  gap: 0.6rem;
+}
+
+.temple-card__footer {
+  margin-top: auto;
+  padding-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
+
+/* ==========================================================================
+   11. INTERACTIVE HARIHARA KNOWLEDGE QUIZ (SECTION 11)
+   ========================================================================== */
+.quiz-shell {
+  max-width: 920px;
+  margin-inline: auto;
+  border-radius: var(--radius-lg);
+  background: var(--bg-temple-card);
+  border: 1px solid rgba(216, 180, 106, 0.38);
+  box-shadow: var(--shadow-gold-glow);
+  padding: clamp(1.5rem, 3.5vw, 2.75rem);
+}
+
+.quiz-setup {
+  display: grid;
+  gap: 1.65rem;
+}
+
+.quiz-controls-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.15rem;
+}
+
+.quiz-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.quiz-field label {
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--divine-gold);
+}
+
+.quiz-select {
+  padding: 0.78rem 1rem;
+  border-radius: var(--radius-sm);
+  background: rgba(8, 13, 29, 0.85);
+  border: 1px solid rgba(216, 180, 106, 0.35);
+  color: var(--temple-ivory);
+}
+
+.quiz-best-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  border-radius: var(--radius-md);
+  background: rgba(216, 180, 106, 0.08);
+  border: 1px solid rgba(216, 180, 106, 0.25);
+}
+
+.quiz-hud {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(216, 180, 106, 0.2);
+}
+
+.quiz-progress-bar {
+  width: 100%;
+  height: 8px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+
+.quiz-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--vishnu-royal-blue), var(--divine-gold), var(--shiva-blue-grey));
+  transition: width 0.35s var(--ease-sacred);
+}
+
+.quiz-question-text {
+  font-family: var(--font-heading);
+  font-size: clamp(1.2rem, 2.2vw, 1.5rem);
+  color: #FFF;
+  margin-bottom: 1.35rem;
+}
+
+body[data-lang="hi"] .quiz-question-text {
+  font-family: var(--font-sanskrit);
+}
+
+.quiz-options {
+  display: grid;
+  gap: 0.85rem;
+  margin-bottom: 1.5rem;
+}
+
+.quiz-option-btn {
+  width: 100%;
+  text-align: left;
+  padding: 1rem 1.25rem;
+  border-radius: var(--radius-md);
+  background: rgba(8, 13, 29, 0.72);
+  border: 1px solid rgba(216, 180, 106, 0.26);
+  color: var(--temple-ivory);
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  transition: all 0.22s ease;
+}
+
+.quiz-option-btn:hover:not(:disabled) {
+  border-color: var(--divine-gold-bright);
+  background: rgba(216, 180, 106, 0.12);
+  transform: translateX(4px);
+}
+
+.quiz-option-btn.is-correct {
+  border-color: var(--success-emerald);
+  background: rgba(70, 184, 134, 0.18);
+  box-shadow: 0 0 25px rgba(70, 184, 134, 0.28);
+}
+
+.quiz-option-btn.is-wrong {
+  border-color: var(--error-crimson);
+  background: rgba(224, 108, 117, 0.18);
+}
+
+.quiz-feedback {
+  padding: 1.25rem;
+  border-radius: var(--radius-md);
+  background: rgba(8, 13, 29, 0.82);
+  border-left: 4px solid var(--divine-gold);
+  margin-bottom: 1.5rem;
+}
+
+.quiz-results {
+  text-align: center;
+  display: grid;
+  gap: 1.5rem;
+  justify-items: center;
+}
+
+.score-ring-wrap {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  display: grid;
+  place-items: center;
+}
+
+.score-ring-text {
+  position: absolute;
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--divine-gold-bright);
+}
+
+/* ==========================================================================
+   12. DIVINE REFLECTIONS (SECTION 12)
+   ========================================================================== */
+.reflection-sanctuary {
+  max-width: 860px;
+  margin-inline: auto;
+  text-align: center;
+  padding: clamp(2rem, 4.5vw, 3.5rem);
+  border-radius: var(--radius-xl);
+  background:
+    radial-gradient(circle at 50% 0%, rgba(216, 180, 106, 0.16), transparent 65%),
+    var(--bg-temple-card);
+  border: 1px solid rgba(216, 180, 106, 0.36);
+  box-shadow: var(--shadow-gold-glow);
+}
+
+.reflection-quote {
+  font-family: var(--font-heading);
+  font-size: clamp(1.3rem, 2.5vw, 1.85rem);
+  line-height: 1.55;
+  color: #FFF8E6;
+  margin-bottom: 1.25rem;
+}
+
+body[data-lang="hi"] .reflection-quote {
+  font-family: var(--font-sanskrit);
+}
+
+.reflection-context {
+  font-size: 1rem;
+  color: var(--temple-ivory-muted);
+  max-width: 62ch;
+  margin: 0 auto 1.25rem;
+}
+
+.reflection-meta {
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--divine-gold);
+  margin-bottom: 1.75rem;
+}
+
+/* ==========================================================================
+   13. DIGITAL KNOWLEDGE LIBRARY (SECTION 13)
+   ========================================================================== */
+.library-toolbar {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+
+.search-input-wrap {
+  position: relative;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.9rem 1.25rem 0.9rem 2.85rem;
+  border-radius: 999px;
+  background: rgba(14, 21, 44, 0.85);
+  border: 1px solid rgba(216, 180, 106, 0.35);
+  color: var(--temple-ivory);
+}
+
+.search-input:focus {
+  border-color: var(--divine-gold-bright);
+  box-shadow: 0 0 20px rgba(216, 180, 106, 0.25);
+}
+
+.search-icon {
+  position: absolute;
+  left: 1.1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--divine-gold);
+  pointer-events: none;
+}
+
+.articles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 1.65rem;
+}
+
+.article-card {
+  border-radius: var(--radius-md);
+  background: var(--bg-temple-card);
+  border: 1px solid var(--divine-gold-border);
+  box-shadow: var(--shadow-card);
+  padding: 1.65rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  transition: transform 0.3s var(--ease-sacred), border-color 0.3s ease;
+}
+
+.article-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--divine-gold-bright);
+}
+
+.article-card__meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.78rem;
+  color: var(--divine-gold);
+}
+
+.article-card__title {
+  font-family: var(--font-heading);
+  font-size: 1.24rem;
+  color: #FFF;
+  line-height: 1.35;
+}
+
+body[data-lang="hi"] .article-card__title {
+  font-family: var(--font-sanskrit);
+}
+
+mark.search-highlight {
+  background: rgba(216, 180, 106, 0.38);
+  color: #FFF;
+  padding: 0 0.2rem;
+  border-radius: 3px;
+}
+
+/* ==========================================================================
+   14. ACCESSIBLE MODAL SYSTEM (VIDEO PLAYER & ARTICLE READER)
+   ========================================================================== */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 5000;
+  background: rgba(4, 7, 17, 0.88);
+  backdrop-filter: blur(12px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.modal-backdrop.is-open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-dialog {
+  width: min(100%, 960px);
+  max-height: 90vh;
+  overflow-y: auto;
+  border-radius: var(--radius-lg);
+  background: #0B1228;
+  border: 1px solid var(--divine-gold);
+  box-shadow: 0 25px 80px rgba(0, 0, 0, 0.9);
+  padding: clamp(1.5rem, 3vw, 2.5rem);
+  position: relative;
+}
+
+.modal-close {
+  position: sticky;
+  top: 0;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(216, 180, 106, 0.18);
+  border: 1px solid var(--divine-gold);
+  color: var(--divine-gold-bright);
+  display: grid;
+  place-items: center;
+  z-index: 10;
+}
+
+/* ==========================================================================
+   15. SACRED FOOTER (SECTION 15)
+   ========================================================================== */
+.site-footer {
+  position: relative;
+  z-index: 2;
+  background: #040711;
+  border-top: 1px solid rgba(216, 180, 106, 0.28);
+  padding: 4.5rem 0 2.5rem;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1.2fr;
+  gap: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.footer-heading {
+  font-family: var(--font-heading);
+  font-size: 0.95rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--divine-gold);
+  margin-bottom: 1rem;
+}
+
+.footer-links {
+  list-style: none;
+  display: grid;
+  gap: 0.6rem;
+}
+
+.footer-links a {
+  color: var(--temple-ivory-muted);
+  font-size: 0.92rem;
+}
+
+.footer-links a:hover {
+  color: var(--divine-gold-bright);
+}
+
+.footer-closing {
+  text-align: center;
+  padding: 2rem 1rem;
+  border-top: 1px solid rgba(216, 180, 106, 0.16);
+  border-bottom: 1px solid rgba(216, 180, 106, 0.16);
+  margin-bottom: 1.75rem;
+}
+
+.footer-closing__quote {
+  font-family: var(--font-heading);
+  font-size: clamp(1.15rem, 2vw, 1.5rem);
+  color: var(--divine-gold-bright);
+}
+
+.footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.84rem;
+  color: var(--temple-ivory-subtle);
+}
+
+/* Toast Notification */
+.toast {
+  position: fixed;
+  bottom: 1.75rem;
+  right: 1.75rem;
+  z-index: 9500;
+  padding: 0.85rem 1.35rem;
+  border-radius: var(--radius-md);
+  background: rgba(11, 18, 40, 0.96);
+  border: 1px solid var(--divine-gold);
+  color: var(--divine-gold-bright);
+  box-shadow: var(--shadow-gold-glow);
+  transform: translateY(120%);
+  opacity: 0;
+  transition: transform 0.3s var(--ease-sacred), opacity 0.3s ease;
+}
+
+.toast.is-visible {
+  transform: translateY(0);
+  opacity: 1;
+}
+

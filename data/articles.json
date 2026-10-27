@@ -1,0 +1,359 @@
+[
+  {
+    "id": "art-vedic-origins-hari-hara",
+    "category": "History and Origins",
+    "categoryLabel": { "en": "History and Origins", "hi": "इतिहास एवं उद्गम" },
+    "title": {
+      "en": "Rudra and Vishnu in the Vedas: Ekam Sat & Sri Rudram",
+      "hi": "वेदों में हरि और हर: 'एकं सत्' और श्री रुद्रम् की छिपी एकता"
+    },
+    "summary": {
+      "en": "From the Rigveda's proclamation 'Ekam Sat Vipra Bahudha Vadanti' to the Yajurveda's Sri Rudram and the Purusha Sukta — exploring where the unity of Shiva and Vishnu truly begins.",
+      "hi": "ऋग्वेद के महावाक्य 'एकं सद्विप्रा बहुधा वदन्ति' से लेकर यजुर्वेद के श्री रुद्रम् और पुरुष सूक्त तक — जानिए शिव और विष्णु की एकता का सबसे प्राचीन वैदिक मूल।"
+    },
+    "readingTime": "6 min read",
+    "manuscriptRef": "Part 2 • Chapters 2 & 3",
+    "image": "assets/images/stories/harihara-cosmic-form.webp",
+    "sections": [
+      {
+        "heading": {
+          "en": "1. Shruti: The Voice of the Infinite",
+          "hi": "१. श्रुति: अनंत की वाणी और 'एकम्' का सत्य"
+        },
+        "body": {
+          "en": "When we speak of the Vedas, we speak of Shruti — that which was heard by sages whose minds had grown so still that they could receive the breath of the Infinite. What did those rishis behold? They beheld Ekam — the One without a second — shining across the sky of consciousness as Rudra and Vishnu. In the Rigveda, Rudra (Lord of transformation and fierce compassion) and Vishnu (the all-pervading Preserver) are never rivals; they are praised and invoked side by side.",
+          "hi": "जब हम वेदों की बात करते हैं, तो हम 'श्रुति' की बात करते हैं — वह सत्य जो शांत चित्त ऋषियों की चेतना में उतरा। उन्होंने 'एकम्' का सत्य सुना। ऋग्वेद में रुद्र (परिवर्तन और तीव्र करुणा के स्वामी) और विष्णु (सर्वव्यापी संरक्षक) को कभी प्रतिद्वंद्वी नहीं माना गया, बल्कि एक ही परम सत्य के दो प्रकाशमान चेहरों के रूप में साथ-साथ वंदित किया गया।"
+        }
+      },
+      {
+        "heading": {
+          "en": "2. Sri Rudram: The All-Pervasiveness That Defines Vishnu",
+          "hi": "२. श्री रुद्रम्: रुद्र में विष्णु की सर्वव्यापकता"
+        },
+        "body": {
+          "en": "In the Yajurveda, the sacred hymn Sri Rudram praises Rudra as all-pervading — dwelling in waters, plants, mountains, rivers, and the dust of the earth. Yet this very quality of all-pervasiveness (vyapti — being present everywhere in everything) is the exact etymological meaning of the word 'Vishnu'. When the Vedas praise Rudra's omnipresence, they describe the very nature that defines Vishnu.",
+          "hi": "यजुर्वेद में 'श्री रुद्रम्' स्तुति रुद्र को जल, वनस्पतियों, पर्वतों, नदियों और पृथ्वी के कण-कण में सर्वव्यापी बताती है। हर स्थान पर व्याप्त होने का यही गुण ठीक वही है जो 'विष्णु' शब्द का अर्थ है। अर्थात् जब वेद रुद्र की सर्वव्यापकता की प्रशंसा करते हैं, तो वे उसी स्वभाव का वर्णन कर रहे हैं जो विष्णु को परिभाषित करता है।"
+        }
+      },
+      {
+        "heading": {
+          "en": "3. Purusha Sukta: The Cosmic Person Before All Names",
+          "hi": "३. पुरुष सूक्त: नाम और रूप से पूर्व का ब्रह्मांडीय पुरुष"
+        },
+        "body": {
+          "en": "The Purusha Sukta describes the thousand-headed, thousand-eyed Cosmic Being from whose self-offering all creation arose. Some traditions behold this Cosmic Purusha as Vishnu; others behold Him as Shiva. Both are right — for the Purusha Sukta describes the One prior to name and form, of whom Hari and Hara are the two grandest manifestations: 'Ekam Sat Vipra Bahudha Vadanti' (Rigveda 1.164.46).",
+          "hi": "पुरुष सूक्त उस सहस्र-शीर्ष ब्रह्मांडीय पुरुष का वर्णन करता है जिससे समस्त सृष्टि उत्पन्न हुई। विभिन्न परंपराएँ इसे विष्णु या शिव के रूप में देखती हैं — और दोनों सही हैं, क्योंकि वह नाम और रूप से पूर्व का 'एकं सत्' है जिसे विद्वान अनेक नामों से पुकारते हैं।"
+        }
+      }
+    ],
+    "relatedIds": ["art-philosophical-foundations", "art-puranic-proofs-of-unity"],
+    "bibliography": [
+      "Rigveda Samhita 1.164.46 & Purusha Sukta (10.90)",
+      "Krishna Yajurveda, Taittiriya Samhita 4.5 (Sri Rudram)",
+      "Manu Siddharth, 'Harihara: Do Naam, Ek Pran', Chapters 2 & 3"
+    ]
+  },
+  {
+    "id": "art-philosophical-foundations",
+    "category": "Spiritual Philosophy",
+    "categoryLabel": { "en": "Spiritual Philosophy", "hi": "आध्यात्मिक दर्शन" },
+    "title": {
+      "en": "Advaita, Vishishtadvaita & Kashmir Shaivism on Harihara Unity",
+      "hi": "अद्वैत वेदांत, विशिष्टाद्वैत और कश्मीर शैवदर्शन में हरिहर तत्व"
+    },
+    "summary": {
+      "en": "How Adi Shankaracharya, Sri Ramanujacharya, and Abhinavagupta built philosophical frameworks that honor the underlying unity of Shiva and Vishnu.",
+      "hi": "आदि शंकराचार्य, श्री रामानुजाचार्य और अभिनवगुप्त के दार्शनिक सिद्धांत कैसे भिन्न भाषाओं में एक ही हरिहर सत्य की पुष्टि करते हैं।"
+    },
+    "readingTime": "7 min read",
+    "manuscriptRef": "Part 2 & 5 • Chapters 4, 15 & 16",
+    "image": "assets/images/stories/vishnu-in-shiva-heart.webp",
+    "sections": [
+      {
+        "heading": {
+          "en": "1. Advaita Vedanta: The Ocean and Its Waves",
+          "hi": "१. अद्वैत वेदांत: सागर और उसकी लहरें"
+        },
+        "body": {
+          "en": "Expounded by Adi Shankaracharya, Advaita ('not two') teaches that Brahman alone is the unchanging ocean of reality. Every wave has its own name, contour, and movement, yet if you ask any wave what it is, the answer is always water. Shankaracharya himself composed both the 'Shivananda Lahari' in praise of Shiva and the 'Krishnashtakam' in praise of Vishnu, showing that all sacred forms point toward the same non-dual Absolute.",
+          "hi": "आदि शंकराचार्य द्वारा प्रतिपादित अद्वैत दर्शन में ब्रह्म सागर है और शिव तथा विष्णु उस सागर की दो महिमाशाली लहरें हैं। शंकराचार्य ने स्वयं शिव की स्तुति में 'शिवानंद लहरी' और विष्णु की स्तुति में 'कृष्णाष्टकम्' लिखा, क्योंकि सभी रूप उसी निराकार सत्य की ओर इशारा करते हैं।"
+        }
+      },
+      {
+        "heading": {
+          "en": "2. Vishishtadvaita & Kashmir Shaivism: Different Maps of One Territory",
+          "hi": "२. विशिष्टाद्वैत और कश्मीर शैवदर्शन: एक ही सत्य के भिन्न मानचित्र"
+        },
+        "body": {
+          "en": "In Sri Ramanujacharya's Vishishtadvaita, the Supreme is understood as the inner Self whose cosmic body encompasses all souls and functions, accepting Maheshwara's sacred work of cosmic dissolution. Meanwhile, in the Kashmir Shaivism of Vasugupta and Abhinavagupta, Paramashiva is Pure Consciousness (Chit) performing five cosmic acts (Pancha-Kritya), and Vishnu is revered as Shiva's own nourishing, sustaining power — inseparable as a hand from the body.",
+          "hi": "रामानुजाचार्य के विशिष्टाद्वैत और अभिनवगुप्त के कश्मीर शैवदर्शन में भाषाएँ भिन्न हैं, पर मूल एकता अखंड है। कश्मीर शैवदर्शन में शिव पाँच ब्रह्मांडीय कार्य करते हैं और विष्णु को शिव की ही पालन-शक्ति के रूप में स्वीकार किया जाता है — जैसे हाथ शरीर से अलग नहीं होता।"
+        }
+      },
+      {
+        "heading": {
+          "en": "3. The Spiritual Science of Sat-Chit-Ananda",
+          "hi": "३. सत्-चित्-आनंद और सृष्टि का दिव्य नृत्य"
+        },
+        "body": {
+          "en": "As Chapters 15 and 16 explain, the universe operates through two complementary energies: preservation (Vishnu) and transformation (Shiva) — like day and night, or inhalation and exhalation. When Sat-Chit-Ananda plays in bliss, It nurtures as Vishnu and liberates as Shiva. Preservation without dissolution is stagnation; dissolution without preservation is emptiness. Together, they are Life.",
+          "hi": "अध्याय १५ और १६ के अनुसार, जब सत्-चित्-आनंद स्वरूप परम चेतना अपनी लीला करती है, तो वह विष्णु के रूप में पालती है और शिव के रूप में मुक्त करती है। पालन बिना संहार के ठहराव है; संहार बिना पालन के रिक्तता। दोनों मिलकर ही जीवन का नृत्य बनाते हैं।"
+        }
+      }
+    ],
+    "relatedIds": ["art-vedic-origins-hari-hara", "art-modern-misconceptions-sadhana"],
+    "bibliography": [
+      "Adi Shankaracharya, Shivananda Lahari & Krishnashtakam",
+      "Abhinavagupta, Tantraloka & Pratyabhijna Hridayam",
+      "Manu Siddharth, 'Harihara: Do Naam, Ek Pran', Chapters 4, 15 & 16"
+    ]
+  },
+  {
+    "id": "art-puranic-proofs-of-unity",
+    "category": "Scriptural References",
+    "categoryLabel": { "en": "Scriptural References", "hi": "शास्त्रीय प्रमाण" },
+    "title": {
+      "en": "Scriptural Proofs Across Six Mahapuranas & The Mahabharata",
+      "hi": "छह महापुराणों और महाभारत में हरिहर एकता के प्रामाणिक साक्ष्य"
+    },
+    "summary": {
+      "en": "A systematic guide to Chapters 5–10 of the manuscript: how the Shiva, Vishnu, Linga, Bhagavata, Skanda, and Kurma Puranas establish mutual reverence.",
+      "hi": "पांडुलिपि के अध्याय ५ से १० का संपूर्ण सार: शिव पुराण, विष्णु पुराण, लिंग पुराण, भागवतम्, स्कंद पुराण और कूर्म पुराण में परस्पर आराधना के प्रमाण।"
+    },
+    "readingTime": "8 min read",
+    "manuscriptRef": "Part 3 • Chapters 5, 6, 7, 8, 9 & 10",
+    "image": "assets/images/harihara-cover.webp",
+    "sections": [
+      {
+        "heading": {
+          "en": "1. Shiva Purana & Vishnu Purana: Two Mirrors Reflecting One Light",
+          "hi": "१. शिव पुराण और विष्णु पुराण: एक ही प्रकाश के दो दर्पण"
+        },
+        "body": {
+          "en": "In the Rudra Samhita of the Shiva Purana (Chapter 5), Shiva declares: 'Vishnu and I are not separate; I am in Vishnu and Vishnu is in Me.' Shiva teaches the Vishnu Sahasranama and embraces Vishnu at Daksha's Yajna. Conversely, in Book 1 of the Vishnu Purana (Chapter 6), Vishnu praises Rudra as the supreme destroyer of ignorance and liberator of souls, arising like a ray from the sun without diminishing its source.",
+          "hi": "शिव पुराण की रुद्र संहिता (अध्याय ५) में महादेव स्वयं कहते हैं: 'विष्णु और मैं अलग नहीं हैं; मैं विष्णु में हूँ और विष्णु मुझमें हैं।' वहीं विष्णु पुराण (अध्याय ६) में भगवान विष्णु रुद्र को अज्ञान का संहारक और आत्माओं का मुक्तिदाता कहकर उनकी स्तुति करते हैं।"
+        }
+      },
+      {
+        "heading": {
+          "en": "2. Linga Purana, Srimad Bhagavatam & Kurma Purana",
+          "hi": "२. लिंग पुराण, श्रीमद्भागवतम् और कूर्म पुराण"
+        },
+        "body": {
+          "en": "In the Linga Purana (Chapter 7), Vishnu witnesses the infinite pillar of light (Jyotirlinga) with deep reverence. In the Srimad Bhagavatam (Chapter 8), Shiva drinks the Kalakuta poison during Samudra Manthan with Vishnu's inspiration, and Lord Krishna visits Ujjain to worship Mahakala. And in the Kurma Purana (Chapter 9), Lord Vishnu Himself worships a Shivalinga as the symbol of the same Supreme Truth.",
+          "hi": "लिंग पुराण (अध्याय ७) में अनंत ज्योतिर्लिंग का दर्शन, श्रीमद्भागवतम् (अध्याय ८) में समुद्र मंथन के कालकूट विष का पान व श्रीकृष्ण की शिव-पूजा, तथा कूर्म पुराण (अध्याय ९) में स्वयं भगवान विष्णु द्वारा शिवलिंग का पूजन — ये सभी शास्त्र एक ही सत्य की घोषणा करते हैं।"
+        }
+      },
+      {
+        "heading": {
+          "en": "3. Hanuman and Krishna: Living Proofs in the Itihasas",
+          "hi": "३. हनुमान और श्रीकृष्ण: इतिहास ग्रंथों के जीवंत प्रमाण"
+        },
+        "body": {
+          "en": "In the Ramayana, Hanuman — revered as Rudra-amsha (an aspect of Shiva) — eternally serves Sri Rama, and Rama Himself consecrates the Shivalinga at Rameshwaram (Chapter 13). In the Mahabharata's Shanti Parva (Chapters 10 & 14), Krishna and Arjuna worship Shiva for the Pashupatastra, while Shiva praises Krishna as Supreme Vasudeva.",
+          "hi": "रामायण में शिव के अंश हनुमान श्रीराम की सेवा करते हैं और स्वयं श्रीराम रामेश्वरम में शिवलिंग की स्थापना करते हैं (अध्याय १३)। महाभारत के शांति पर्व (अध्याय १० व १४) में कृष्ण शिव की और शिव कृष्ण की स्तुति करते हैं।"
+        }
+      }
+    ],
+    "relatedIds": ["art-guhasura-vamana-narratives", "art-iconography-ardhanarishwara-harihara"],
+    "bibliography": [
+      "Shiva Mahapurana (Rudra Samhita), Vishnu Purana (Book 1), Linga Purana, Kurma Purana",
+      "Srimad Bhagavatam (Skandha 8, 10, 12) & Mahabharata (Shanti Parva)",
+      "Manu Siddharth, 'Harihara: Do Naam, Ek Pran', Chapters 5–10, 13–14"
+    ]
+  },
+  {
+    "id": "art-guhasura-vamana-narratives",
+    "category": "Sacred Stories",
+    "categoryLabel": { "en": "Sacred Stories", "hi": "पवित्र कथाएँ" },
+    "title": {
+      "en": "Guhasura, Vamana Purana & Bhasmasura: Sacred Narratives of Oneness",
+      "hi": "गुहासुर वध, वामन पुराण दर्शन और भस्मासुर-मोहिनी की पावन कथाएँ"
+    },
+    "summary": {
+      "en": "In-depth study of Chapters 1, 1(B), and 12 of the manuscript — how divine lila repeatedly shatters the illusion of separation.",
+      "hi": "पांडुलिपि के अध्याय १, १(ख) और १२ का गहन अध्ययन — कैसे दिव्य लीला बार-बार पृथकता के भ्रम को तोड़ती है।"
+    },
+    "readingTime": "7 min read",
+    "manuscriptRef": "Part 1 & 4 • Chapters 1, 1(B) & 12",
+    "image": "assets/images/stories/guhasura-vadh.webp",
+    "sections": [
+      {
+        "heading": {
+          "en": "1. Guhasura's Boon and Redemption at Kudalur",
+          "hi": "१. गुहासुर का वरदान और कुडलूर संगम पर मोक्ष"
+        },
+        "body": {
+          "en": "Ruling Guharanya in Karnataka, Guhasura obtained Brahma's boon that neither Shiva nor Vishnu could slay him individually. By manifesting as the unified Harihara at the confluence of the Tungabhadra and Haridra rivers, the Lord bypassed the boon of division, vanquished Guhasura's tyranny, and granted his dying wish that the land be sanctified as 'Harihar'.",
+          "hi": "कर्नाटक के गुहारण्य में गुहासुर ने शिव और विष्णु को अलग मानकर ब्रह्मा जी से वरदान लिया। तुंगभद्रा और हरिद्रा के संगम पर हरिहर रूप में प्रकट होकर भगवान ने न केवल उसका अंत किया, बल्कि उसके अहंकार को गलाकर मोक्ष दिया और उस भूमि को 'हरिहर' नाम से पावन किया।"
+        }
+      },
+      {
+        "heading": {
+          "en": "2. Vamana Purana: Dissolving the Sages' Debate",
+          "hi": "२. वामन पुराण: जब ऋषियों का विवाद दर्शन में पिघल गया"
+        },
+        "body": {
+          "en": "In the Vamana Purana (Chapter 1B), when sages debated who was superior between Hari and Hara, the Lord revealed a single seamless body — Shiva on the right, Vishnu on the left — proclaiming 'Yo Harih sa tu vai Rudro yo Rudrah sa Janardanah'. Worship of one while harboring malice toward the other was declared hollow.",
+          "hi": "वामन पुराण (अध्याय १ख) में जब ऋषियों में श्रेष्ठता का विवाद उठा, तब भगवान ने संयुक्त दर्शन देकर घोषित किया — 'यो हरिः स तु वै रुद्रो यो रुद्रः स जनार्दनः।' एक की पूजा करते हुए दूसरे से द्वेष रखना निष्फल बताया गया।"
+        }
+      },
+      {
+        "heading": {
+          "en": "3. Bhasmasura and Mohini: Protective Grace in Action",
+          "hi": "३. भस्मासुर और मोहिनी: प्रेम और प्रज्ञा की लीला"
+        },
+        "body": {
+          "en": "In Chapter 12, when Bhasmasura tried to use Shiva's own boon against Him, Vishnu assumed the enchanting form of Mohini and led Bhasmasura into placing his hand upon his own head in dance. Where Shiva's innocent compassion grants, Vishnu's protective wisdom safeguards.",
+          "hi": "अध्याय १२ में जब भस्मासुर ने शिव के ही वरदान का प्रयोग शिव पर करना चाहा, तब विष्णु ने मोहिनी रूप धारण कर नृत्य की मुद्रा से महादेव की रक्षा की।"
+        }
+      }
+    ],
+    "relatedIds": ["art-puranic-proofs-of-unity", "art-temples-of-harihara"],
+    "bibliography": [
+      "Skanda Purana, Brahma Purana & Vamana Purana",
+      "Harihareshwara Temple Sthala Purana",
+      "Manu Siddharth, 'Harihara: Do Naam, Ek Pran', Chapters 1, 1(B) & 12"
+    ]
+  },
+  {
+    "id": "art-iconography-ardhanarishwara-harihara",
+    "category": "Divine Symbolism",
+    "categoryLabel": { "en": "Divine Symbolism", "hi": "दिव्य प्रतीक विज्ञान" },
+    "title": {
+      "en": "The Sacred Iconography of Harihara: Every Attribute Decoded",
+      "hi": "हरिहर स्वरूप का प्रतीक विज्ञान: जटा-मुकुट और त्रिशूल-चक्र का रहस्य"
+    },
+    "summary": {
+      "en": "Why the classical murti of Harihara places Shiva on the right and Vishnu on the left, and how each ornament and weapon reveals a deeper spiritual truth.",
+      "hi": "शास्त्रीय प्रतिमा विज्ञान में दाहिना अंग शिव और बायाँ अंग विष्णु क्यों है, तथा प्रत्येक आभूषण और शस्त्र का आध्यात्मिक अर्थ क्या है।"
+    },
+    "readingTime": "5 min read",
+    "manuscriptRef": "Part 1 & 4 • Chapters 1, 1(B) & 11",
+    "image": "assets/images/stories/harihara-cosmic-form.webp",
+    "sections": [
+      {
+        "heading": {
+          "en": "1. The Split Form: Deity's Perspective vs. Viewer's Perspective",
+          "hi": "१. अर्ध-विभाजन: प्रतिमा शास्त्रीय और दर्शक दृष्टिकोण"
+        },
+        "body": {
+          "en": "In classical Shilpa Shastra and Puranic descriptions (Chapters 1, 1B, and 11), the right half of the deity's body (Dakshinanga) is Hara (Shiva) and the left half (Vamanga) is Hari (Vishnu). In devotional art, artists sometimes orient Vishnu on the viewer's left and Shiva on the viewer's right (as in our temple doorway cover artwork) or Shiva on the viewer's left (representing the deity's own right side). In both depictions, the central vertical axis represents the Sushumna — the indivisible seam of pure Brahman.",
+          "hi": "शिल्प शास्त्र और पुराणों (अध्याय १, १ख एवं ११) में विग्रह के दाहिने अंग में शिव और बाएँ अंग में विष्णु का वर्णन है। कलाकृतियों में कभी दर्शक के बाईं ओर विष्णु और दाईं ओर शिव (जैसे मुख्य द्वार चित्र में) अथवा विग्रह के दाहिने भाग के अनुसार अंकन होता है। दोनों ही स्थितियों में मध्य की स्वर्णिम रेखा अविभाज्य ब्रह्म-चेतना का प्रतीक है।"
+        }
+      },
+      {
+        "heading": {
+          "en": "2. Complementary Symbols in One Body",
+          "hi": "२. एक ही देह में पूरक प्रतीकों का संगम"
+        },
+        "body": {
+          "en": "Every symbol on the Shiva side finds its partner on the Vishnu side: the matted locks (Jata) with Ganga and crescent moon meet the golden Kirit Mukut; sacred ash (Vibhuti) and tiger skin meet yellow silk (Pitambara) and the Vaijayanti garland; the Trishula and Damaru meet the Sudarshana Chakra and Panchajanya Shankha. Together they teach that inner detachment and outer dharma are one.",
+          "hi": "जटाजूट और अर्धचंद्र के साथ किरीट मुकुट; भस्म और व्याघ्रचर्म के साथ पीताम्बर और वैजयंती माला; त्रिशूल और डमरू के साथ सुदर्शन चक्र और शंख — ये सभी प्रतीक सिखाते हैं कि आंतरिक वैराग्य और बाह्य धर्म-पालन एक ही जीवन के दो पहलू हैं।"
+        }
+      }
+    ],
+    "relatedIds": ["art-temples-of-harihara", "art-philosophical-foundations"],
+    "bibliography": [
+      "T.A. Gopinatha Rao, 'Elements of Hindu Iconography'",
+      "Vamana Purana & Skanda Purana",
+      "Manu Siddharth, 'Harihara: Do Naam, Ek Pran', Chapters 1, 1(B) & 11"
+    ]
+  },
+  {
+    "id": "art-temples-of-harihara",
+    "category": "Temples and Traditions",
+    "categoryLabel": { "en": "Temples and Traditions", "hi": "मंदिर एवं परंपराएँ" },
+    "title": {
+      "en": "Sacred Geography of Harihara: From Karnataka & Odisha to Jharkhand & Tamil Nadu",
+      "hi": "हरिहर के पावन तीर्थ: कर्नाटक और ओडिशा से झारखंड और तमिलनाडु तक"
+    },
+    "summary": {
+      "en": "Historical and liturgical survey of Harihareshwara Temple (Harihar), Lingaraja Temple (Bhubaneswar), Sankaranarayanar Temple (Tamil Nadu), Badami Caves, and Harihar Dham (Jharkhand).",
+      "hi": "हरिहरेश्वर मंदिर (हरिहर), लिंगराज मंदिर (भुवनेश्वर), शंकरनारायणर मंदिर (तमिलनाडु), बादामी गुफाओं और हरिहर धाम (झारखंड) का ऐतिहासिक परिचय।"
+    },
+    "readingTime": "6 min read",
+    "manuscriptRef": "Part 1 • Chapter 1 & Regional Pilgrimage Traditions",
+    "image": "assets/images/temples/harihareshwara-harihar.webp",
+    "sections": [
+      {
+        "heading": {
+          "en": "1. Harihareshwara Temple (Karnataka) & Badami Cave Reliefs",
+          "hi": "१. हरिहरेश्वर मंदिर (कर्नाटक) और बादामी गुफा शिल्प"
+        },
+        "body": {
+          "en": "In Davanagere district, Karnataka, at the confluence of the Tungabhadra and Haridra rivers, stands the 1223–1224 CE Hoysala soapstone temple of Sri Harihareshwara, commemorating the Guhasura legend. Earlier still in Karnataka, the late-6th-century (578 CE) Chalukya rock-cut caves at Badami preserve monumental stone reliefs of Harihara flanked by both Parvati-Nandi and Lakshmi-Garuda.",
+          "hi": "कर्नाटक के दावणगेरे जिले में तुंगभद्रा और हरिद्रा नदियों के संगम पर १२२३–१२२४ ईस्वी का होयसल हरिहरेश्वर मंदिर स्थित है। इससे भी पूर्व छठी शताब्दी (५७८ ईस्वी) की बादामी गुफाओं में चालुक्य कालीन विशाल हरिहर पाषाण प्रतिमाएँ उकेरी गई हैं।"
+        }
+      },
+      {
+        "heading": {
+          "en": "2. Lingaraja (Odisha), Sankarankovil (Tamil Nadu) & Harihar Dham (Jharkhand)",
+          "hi": "२. लिंगराज (ओडिशा), शंकरनकोविल (तमिलनाडु) और हरिहर धाम (झारखंड)"
+        },
+        "body": {
+          "en": "In Bhubaneswar's 11th-century Lingaraja Temple, the Svayambhu Linga is worshipped as Harihara with both Bilva and Tulsi leaves. In Tamil Nadu's 1022 CE Sankarankovil, the Adi Thapasu festival celebrates the vision of Sankaranarayana. And in Bagodar, Jharkhand, the modern (1988) 65-foot Shivalinga shrine of Harihar Dham carries the inclusive name of Harihara into contemporary pilgrimage.",
+          "hi": "भुवनेश्वर के ११वीं सदी के लिंगराज मंदिर में बिल्वपत्र और तुलसी दल दोनों से हरिहर पूजा होती है। तमिलनाडु के शंकरनकोविल (१०२२ ईस्वी) में 'आदि तपसु' उत्सव मनाया जाता है, और झारखंड के बगोदर में ६५ फीट ऊँचे शिवलिंग वाला आधुनिक 'हरिहर धाम' (१९८८) आस्था का केंद्र है।"
+        }
+      }
+    ],
+    "relatedIds": ["art-guhasura-vamana-narratives", "art-iconography-ardhanarishwara-harihara"],
+    "bibliography": [
+      "Archaeological Survey of India (ASI) Epigraphic & Monument Records",
+      "Manu Siddharth, 'Harihara: Do Naam, Ek Pran', Chapter 1"
+    ]
+  },
+  {
+    "id": "art-modern-misconceptions-sadhana",
+    "category": "Common Questions",
+    "categoryLabel": { "en": "Common Questions", "hi": "सामान्य प्रश्न एवं समाधान" },
+    "title": {
+      "en": "Why Did Sectarian Division Arise & How Can We Practice Unity Daily?",
+      "hi": "सांप्रदायिक भ्रांतियाँ क्यों उत्पन्न हुईं और दैनिक पूजा में एकता कैसे लाएँ?"
+    },
+    "summary": {
+      "en": "Addressing the most common questions seekers ask today — based on Chapters 17, 18, 19, and 20 of Manu Siddharth's manuscript.",
+      "hi": "पांडुलिपि के अध्याय १७ से २० के आधार पर आधुनिक साधकों के सबसे महत्वपूर्ण प्रश्नों का सरल और व्यावहारिक समाधान।"
+    },
+    "readingTime": "6 min read",
+    "manuscriptRef": "Part 5 & 6 • Chapters 17, 18, 19 & 20",
+    "image": "assets/images/stories/vishnu-in-shiva-heart.webp",
+    "sections": [
+      {
+        "heading": {
+          "en": "1. Question: If Scriptures Teach Unity, Why Do Some People Debate Who Is Supreme?",
+          "hi": "१. प्रश्न: यदि शास्त्र एकता सिखाते हैं, तो 'कौन बड़ा है' का विवाद कहाँ से आया?"
+        },
+        "body": {
+          "en": "Chapter 17 explains three causes: (1) Incomplete reading — quoting verses from one chapter while ignoring chapters in the same Purana where Shiva praises Vishnu or Vishnu praises Shiva; (2) Historical sectarian politics under certain medieval patronage systems; and (3) The human ego's tendency to turn sweet devotion ('My beloved Lord is everything to me') into sectarian pride ('Other forms are inferior').",
+          "hi": "अध्याय १७ इसके तीन कारण स्पष्ट करता है: (१) अपूर्ण अध्ययन — पुराणों को पूरा न पढ़कर केवल चुने हुए अंश पढ़ना; (२) मध्यकालीन इतिहास में राजकीय संरक्षण से जुड़ी सांप्रदायिक राजनीति; और (३) मानवीय अहंकार द्वारा 'मेरे इष्ट सर्वोच्च हैं' की सुंदर भावना को दूसरे रूपों के अनादर में बदल देना।"
+        }
+      },
+      {
+        "heading": {
+          "en": "2. Question: How Can a Devotee Practice Harihara Unity at Home?",
+          "hi": "२. प्रश्न: गृहस्थ साधक अपनी दैनिक पूजा में हरिहर भाव कैसे अपनाएँ?"
+        },
+        "body": {
+          "en": "Chapter 18 recommends four gentle practices: (1) Greet each morning with both 'Om Namah Shivaya' and 'Om Namo Narayanaya'; (2) Hold reverence for Vishnu while worshipping Shiva, and reverence for Shiva while worshipping Vishnu; (3) Raise children free from sectarian prejudice; and (4) When anyone starts an argument over who is greater, smile peacefully and share the story of Harihara.",
+          "hi": "अध्याय १८ चार सरल सूत्र देता है: (१) प्रातः स्मरण में 'ॐ नमः शिवाय' और 'ॐ नमो नारायणाय' दोनों का जप करें; (२) शिव-पूजा में विष्णु के प्रति और विष्णु-पूजा में शिव के प्रति श्रद्धा रखें; (३) बच्चों को बचपन से ही दोनों की एकता सिखाएँ; और (४) किसी भी श्रेष्ठता के विवाद में शांति से कहें — 'दोनों एक हैं।'"
+        }
+      },
+      {
+        "heading": {
+          "en": "3. The Universal Message: Realizing Ekam in the Heart",
+          "hi": "३. सार्वभौमिक संदेश: हृदय में 'एकम्' की अनुभूति"
+        },
+        "body": {
+          "en": "As Chapters 19 and 20 conclude, seeing the unity of Shiva and Vishnu trains our eyes to see harmony across all seeming opposites — in family, society, and humanity. The day no wall remains between Shiva and Vishnu in your heart, that day your devotion is complete.",
+          "hi": "अध्याय १९ और २० के अनुसार, जब हम शिव और विष्णु में एकता देखना सीखते हैं, तब हम परिवार, समाज और मानवता में भी सामंजस्य देखना सीखते हैं। जिस दिन हृदय में कोई दीवार नहीं रहती, उसी दिन भक्ति पूर्ण होती है।"
+        }
+      }
+    ],
+    "relatedIds": ["art-philosophical-foundations", "art-puranic-proofs-of-unity"],
+    "bibliography": [
+      "Skanda Upanishad, Verses 8–9",
+      "Manu Siddharth, 'Harihara: Do Naam, Ek Pran', Chapters 17, 18, 19 & 20"
+    ]
+  }
+]
+

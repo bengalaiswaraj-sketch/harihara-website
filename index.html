@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HARIHARA (हरिहर) — Two Forms, One Divine Consciousness | Shiva &amp; Vishnu Unity</title>
+  <meta name="description" content="Enter the sacred digital temple of Lord Harihara (Shankaranarayana), celebrating the spiritual oneness of Lord Shiva and Lord Vishnu through verified Sanskrit shlokas, Puranic stories from 'Harihara: Do Naam, Ek Pran' by Manu Siddharth, sacred temples, and interactive learning." />
+  <meta name="keywords" content="Harihara, हरिहर, Shankaranarayana, Shiva Vishnu Unity, Guhasura, Harihareshwara Temple, Skanda Upanishad, Vamana Purana, Manu Siddharth, शिवस्य हृदयं विष्णुः" />
+  <meta name="theme-color" content="#080D1D" />
+
+  <!-- Open Graph / Social Sharing Metadata -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="HARIHARA (हरिहर) — Two Forms. One Eternal Truth." />
+  <meta property="og:description" content="शिवस्य हृदयं विष्णुर्विष्णोश्च हृदयं शिवः — Explore the eternal unity of Lord Shiva and Lord Vishnu through sacred shlokas, manuscript stories, historic temples, and interactive quizzes." />
+  <meta property="og:image" content="images/bg_cover.png" />
+
+  <!-- Preload Main Divine Cover Image -->
+  <link rel="preload" as="image" href="images/bg_cover.png" />
+
+  <!-- Google Fonts: Cinzel, Noto Serif Devanagari, Noto Sans Devanagari, Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&amp;family=Noto+Sans+Devanagari:wght@400;500;600;700&amp;family=Noto+Serif+Devanagari:wght@500;600;700&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/animations.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "HARIHARA — Two Forms, One Divine Consciousness",
+    "alternateName": "हरिहर: दो नाम, एक प्राण",
+    "description": "Sacred educational digital sanctuary dedicated to Lord Harihara, celebrating the spiritual unity of Lord Shiva and Lord Vishnu.",
+    "author": {
+      "@type": "Person",
+      "name": "Manu Siddharth"
+    },
+    "inLanguage": ["en", "hi", "sa"]
+  }
+  </script>
+</head>
+<body data-lang="en">
+  <!-- Accessibility Skip Link -->
+  <a href="#main-content" class="skip-link" data-i18n="skipToContent">Skip to main content</a>
+
+  <!-- Subtle Meditative Cosmic Particle Canvas -->
+  <canvas id="cosmic-particles" aria-hidden="true"></canvas>
+
+  <!-- ========================================================================
+       SIGNATURE CINEMATIC OPENING EXPERIENCE (SECTION 4)
+       Left Half: Lord Vishnu (Hari) | Right Half: Lord Shiva (Hara)
+       Opens from the exact 50% vertical golden seam like sacred temple doors
+       ======================================================================== -->
+  <aside
+    id="divine-intro"
+    class="divine-intro"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="intro-title"
+  >
+    <div class="divine-intro__stage" title="Click or Tap to Open the Sacred Doors of Harihara" onclick="if(window.openDivineDoors) window.openDivineDoors(event)">
+      <!-- Left Door Panel — Lord Vishnu (0% to 50%) -->
+      <div class="divine-intro__door divine-intro__door--left" aria-hidden="true">
+        <div class="divine-intro__door-image"></div>
+        <div class="divine-intro__door-edge"></div>
+      </div>
+
+      <!-- Right Door Panel — Lord Shiva (50% to 100%) -->
+      <div class="divine-intro__door divine-intro__door--right" aria-hidden="true">
+        <div class="divine-intro__door-image"></div>
+        <div class="divine-intro__door-edge"></div>
+      </div>
+
+      <!-- Central Golden Seam & Divine Light Rays -->
+      <div class="divine-intro__seam" aria-hidden="true"></div>
+      <div class="divine-intro__rays" aria-hidden="true"></div>
+
+      <!-- Deity Side Identification Badges -->
+      <div class="divine-intro__half-badge divine-intro__half-badge--left" aria-hidden="true">
+        <span class="divine-intro__half-badge-name" data-i18n="vishnuHalfTitle">Lord Vishnu (Hari)</span>
+        <span class="divine-intro__half-badge-sub" data-i18n="vishnuHalfSub">Preservation • Chakra • Pitambara</span>
+      </div>
+
+      <div class="divine-intro__half-badge divine-intro__half-badge--right" aria-hidden="true">
+        <span class="divine-intro__half-badge-name" data-i18n="shivaHalfTitle">Lord Shiva (Hara)</span>
+        <span class="divine-intro__half-badge-sub" data-i18n="shivaHalfSub">Transformation • Trishula • Vibhuti</span>
+      </div>
+    </div>
+
+    <!-- Interactive Overlay Content -->
+    <div class="divine-intro__overlay">
+      <div class="divine-intro__top-bar">
+        <div class="divine-intro__mantra-pill" lang="sa" data-i18n="introMantra">
+          शिवस्य हृदयं विष्णुर्विष्णोश्च हृदयं शिवः॥
+        </div>
+        <button type="button" id="intro-skip-btn" class="divine-intro__skip-btn" data-i18n="introSkip" onclick="if(window.skipDivineDoors) window.skipDivineDoors(event)">
+          Skip Intro ✕
+        </button>
+      </div>
+
+      <div class="divine-intro__bottom">
+        <h1 id="intro-title" class="divine-intro__sanskrit-title" lang="sa">हरिहर</h1>
+        <p class="divine-intro__tagline" data-i18n="introTagline">Two Forms. One Eternal Truth.</p>
+        <p class="divine-intro__hindi-tagline" lang="hi" data-i18n="introHindiTagline">शिव में विष्णु, विष्णु में शिव।</p>
+
+        <button type="button" id="intro-enter-btn" class="divine-intro__enter-btn" onclick="if(window.openDivineDoors) window.openDivineDoors(event)">
+          <span class="divine-intro__enter-main" data-i18n="introEnterMain">Enter the Divine Unity</span>
+          <span class="divine-intro__enter-sub" data-i18n="introEnterSub">Tap or Press Enter to Open the Sacred Doors</span>
+        </button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ========================================================================
+       FLOATING SACRED HEADER & NAVIGATION (SECTION 15)
+       ======================================================================== -->
+  <header id="site-header" class="site-header">
+    <div class="site-header__inner">
+      <a href="#home" class="brand" aria-label="HARIHARA Home">
+        <span class="brand__emblem" lang="sa" aria-hidden="true">ह</span>
+        <span class="brand__text">
+          <span class="brand__title">HARIHARA</span>
+          <span class="brand__sub" lang="sa">हरिहर • दो नाम, एक प्राण</span>
+        </span>
+      </a>
+
+      <nav aria-label="Primary Sacred Navigation">
+        <ul id="main-nav-list" class="nav-list">
+          <li><a href="#home" class="nav-link" data-i18n="navHome">Home</a></li>
+          <li><a href="#divine-unity" class="nav-link" data-i18n="navUnity">Divine Unity</a></li>
+          <li><a href="#sacred-shlokas" class="nav-link" data-i18n="navShlokas">Sacred Shlokas</a></li>
+          <li><a href="#divine-stories" class="nav-link" data-i18n="navStories">Stories</a></li>
+          <li><a href="#video-gallery" class="nav-link" data-i18n="navVideos">Videos</a></li>
+          <li><a href="#sacred-temples" class="nav-link" data-i18n="navTemples">Temples</a></li>
+          <li><a href="#knowledge-quiz" class="nav-link" data-i18n="navQuiz">Quiz</a></li>
+          <li><a href="#knowledge-library" class="nav-link" data-i18n="navLibrary">Knowledge Library</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-controls">
+        <!-- Bilingual Switcher (English / Hindi) -->
+        <button
+          type="button"
+          id="lang-toggle-btn"
+          class="control-pill"
+          aria-label="Switch Language between English and Hindi"
+        >
+          <span>अ/A</span>
+          <span data-i18n="langToggleLabel">हिन्दी</span>
+        </button>
+
+        <!-- Optional Devotional Ambience (Never Autoplays) -->
+        <button
+          type="button"
+          id="ambience-toggle-btn"
+          class="control-pill"
+          aria-pressed="false"
+          title="Toggle Optional Meditative Temple Ambience"
+        >
+          <span aria-hidden="true">🔔</span>
+          <span id="ambience-toggle-label" class="hide-mobile" data-i18n="soundOff">Ambience Off</span>
+        </button>
+
+        <!-- Replay Divine Entrance Button -->
+        <button
+          type="button"
+          class="control-pill"
+          data-action="replay-intro"
+          title="Replay the Center-Opening Divine Entrance"
+        >
+          <span aria-hidden="true">🚪</span>
+          <span class="hide-mobile" data-i18n="replayIntro">Replay Intro</span>
+        </button>
+
+        <!-- Mobile Menu Toggle -->
+        <button
+          type="button"
+          id="mobile-menu-toggle"
+          class="mobile-menu-toggle"
+          aria-expanded="false"
+          aria-controls="main-nav-list"
+          aria-label="Open Navigation Menu"
+        >
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       MAIN CONTENT — THE DIVINE REALM
+       ======================================================================== -->
+  <main id="main-content">
+
+    <!-- 5. HOMEPAGE HERO SECTION -->
+    <section id="home" class="hero">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="hero__bg-overlay" aria-hidden="true"></div>
+
+      <!-- Rotating Sacred Geometry Mandala SVG -->
+      <svg class="hero__mandala mandala-spin" viewBox="0 0 500 500" fill="none" aria-hidden="true">
+        <circle cx="250" cy="250" r="235" stroke="#D8B46A" stroke-width="1" stroke-dasharray="6 6" />
+        <circle cx="250" cy="250" r="195" stroke="#D8B46A" stroke-width="1.2" />
+        <circle cx="250" cy="250" r="145" stroke="#D8B46A" stroke-width="1" stroke-dasharray="4 8" />
+        <polygon points="250,25 445,362 55,362" stroke="#D8B46A" stroke-width="1" fill="none" />
+        <polygon points="250,475 445,138 55,138" stroke="#D8B46A" stroke-width="1" fill="none" />
+        <rect x="112" y="112" width="276" height="276" stroke="#D8B46A" stroke-width="0.8" transform="rotate(45 250 250)" />
+      </svg>
+
+      <div class="container hero__grid">
+        <div class="reveal">
+          <div class="hero__shloka-badge" lang="sa">
+            <span>ॐ</span>
+            <span>शिवस्य हृदयं विष्णुर्विष्णोश्च हृदयं शिवः॥</span>
+          </div>
+
+          <div class="hero__sanskrit-display" lang="sa">हरिहर</div>
+          <h2 class="hero__title" data-i18n="heroTitle">Where Shiva and Vishnu Are One</h2>
+          <p class="hero__lead" data-i18n="heroLead">
+            Beyond names, beyond forms, beyond division lies the eternal truth of divine unity.
+          </p>
+
+          <div class="hero__book-attribution">
+            <span style="font-size:1.5rem;" aria-hidden="true">📜</span>
+            <p data-i18n="heroBookNote">
+              Inspired by the sacred manuscript “Harihara: Do Naam, Ek Pran” by Manu Siddharth — exploring the indivisible oneness of Hari and Hara across the Vedas, Upanishads, and Puranas.
+            </p>
+          </div>
+
+          <div class="hero__actions">
+            <a href="#divine-unity" class="btn btn--primary" data-i18n="heroCtaTruth">
+              Explore the Eternal Truth
+            </a>
+            <a href="#divine-stories" class="btn btn--secondary" data-i18n="heroCtaStories">
+              Discover the Divine Stories
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Sacred Altar Portrait -->
+        <div class="hero__altar reveal delay-2">
+          <div class="hero__altar-frame">
+            <picture>
+              <source srcset="assets/images/harihara-cover.webp" type="image/webp" />
+              <img
+                src="images/bg_cover.png"
+                alt="Lord Harihara — Left half Lord Vishnu with Sudarshana Chakra and Shankha, Right half Lord Shiva with Trishula, Crescent Moon, and Vasuki"
+                class="hero__altar-img"
+                width="1672"
+                height="941"
+              />
+            </picture>
+          </div>
+          <div class="hero__altar-caption">
+            <span style="color:#6CA0FF; font-weight:600;">← श्रीहरि विष्णु (Hari)</span>
+            <span class="sanskrit-text" lang="sa" style="color:var(--divine-gold-bright);">अभेद परब्रह्म</span>
+            <span style="color:#A8C5DE; font-weight:600;">देवाधिदेव शिव (Hara) →</span>
+          </div>
+        </div>
+      </div>
+
+      <a href="#divine-unity" class="hero__scroll-cue" aria-label="Scroll to Divine Unity Section">
+        <span data-i18n="heroScrollCue">Scroll into the Sanctum</span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+      </a>
+    </section>
+
+    <!-- ======================================================================
+         6. SECTION: THE ETERNAL UNITY OF SHIVA AND VISHNU
+         ====================================================================== -->
+    <section id="divine-unity" class="section section--alt">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__eyebrow" data-i18n="unityEyebrow">Section I • Sacred Philosophy</span>
+          <h2 class="section__title" data-i18n="unityTitle">Two Divine Forms. One Eternal Essence.</h2>
+          <p class="section__subtitle" data-i18n="unitySubtitle">
+            Just as inhaling and exhaling are two actions of a single life-breath, Vishnu (Hari) and Shiva (Hara) are two expressions of the one Supreme Consciousness.
+          </p>
+          <div class="sacred-divider" aria-hidden="true">❖ ॐ ❖</div>
+        </div>
+
+        <!-- Split-to-Converge Showcase -->
+        <div class="unity-showcase">
+          <!-- Left: Lord Vishnu -->
+          <article class="deity-pillar deity-pillar--vishnu luminous-card reveal reveal--left">
+            <span class="deity-pillar__tag" data-i18n="vishnuPillarTag">Left Half of the Portal • Sri Hari</span>
+            <h3 class="deity-pillar__name" data-i18n="vishnuPillarTitle">Lord Vishnu — The All-Pervading Preserver</h3>
+            <p style="color:var(--temple-ivory-muted); font-size:0.95rem;" data-i18n="vishnuPillarDesc">
+              Radiant royal-blue complexion, crowned with the golden Kirit Mukut, adorned in yellow Pitambara silk, bearing the Sudarshana Chakra, Panchajanya Shankha, and Kaustubha gem — embodying cosmic order, compassion, and sustenance.
+            </p>
+            <ul class="deity-pillar__list">
+              <li><strong>Hari (हरि):</strong> He who uplifts the soul and removes sorrow, adharma, and cosmic disharmony.</li>
+              <li><strong>Vishnu (विष्णु):</strong> From root <em>viṣ</em> — the All-Pervading Consciousness present in every atom.</li>
+              <li><strong>Cosmic Role:</strong> Sthiti — Sustaining creation with love, Dharma, and protective grace.</li>
+            </ul>
+          </article>
+
+          <!-- Center: Flowing Golden Prana Convergence -->
+          <div class="unity-nexus reveal delay-1">
+            <div class="unity-nexus__orb">
+              <div class="unity-nexus__orb-inner">
+                <span class="sanskrit-text" lang="sa" style="font-size:1.35rem; color:var(--divine-gold-bright); font-weight:700;">हरिहर</span>
+                <span style="font-size:0.7rem; text-transform:uppercase; letter-spacing:0.14em; color:var(--temple-ivory-muted);">Ekattvam</span>
+              </div>
+            </div>
+            <div style="margin-top:0.85rem; width:140px;">
+              <div class="prana-stream-bar"></div>
+            </div>
+          </div>
+
+          <!-- Right: Lord Shiva -->
+          <article class="deity-pillar deity-pillar--shiva luminous-card reveal reveal--right">
+            <span class="deity-pillar__tag" data-i18n="shivaPillarTag">Right Half of the Portal • Mahadeva</span>
+            <h3 class="deity-pillar__name" data-i18n="shivaPillarTitle">Lord Shiva — The Auspicious Transformer</h3>
+            <p style="color:var(--temple-ivory-muted); font-size:0.95rem;" data-i18n="shivaPillarDesc">
+              Ash-blue meditative radiance, crowned with matted locks holding the Ganga and crescent moon, adorned with Tripundra, Rudraksha, and Vasuki, wielding the Trishula and Damaru — embodying supreme stillness, renewal, and liberation.
+            </p>
+            <ul class="deity-pillar__list">
+              <li><strong>Hara (हर):</strong> He who dissolves ignorance, ego, and the bonds of worldly illusion.</li>
+              <li><strong>Shiva (शिव):</strong> The Auspicious, Pure, Unchanging Witness Consciousness (Chit).</li>
+              <li><strong>Cosmic Role:</strong> Samhara &amp; Anugraha — Clearing the old for new creation and granting Moksha.</li>
+            </ul>
+          </article>
+        </div>
+
+        <!-- Interactive Iconography & Symbolism Matrix -->
+        <h3 style="font-family:var(--font-heading); font-size:1.5rem; text-align:center; color:var(--divine-gold-bright); margin-bottom:1.5rem;" data-i18n="convergenceHeading">
+          Complementary Symbolism &amp; Shared Essence
+        </h3>
+        <div id="unity-comparison-grid" class="comparison-grid"></div>
+
+        <!-- How Traditions Interpret Their Relationship -->
+        <h3 style="font-family:var(--font-heading); font-size:1.5rem; text-align:center; color:var(--divine-gold-bright); margin:3rem 0 1.5rem;" data-i18n="traditionsHeading">
+          How Sacred Traditions Behold Their Unity
+        </h3>
+        <div id="unity-philosophy-grid" class="philosophy-grid"></div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         7. SECTION: SACRED SHLOKAS — THE MESSAGE OF UNITY
+         ====================================================================== -->
+    <section id="sacred-shlokas" class="section">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__eyebrow" data-i18n="shlokasEyebrow">Section II • Scriptural Authority</span>
+          <h2 class="section__title" data-i18n="shlokasTitle">Divine Words of Unity</h2>
+          <p class="section__subtitle" data-i18n="shlokasSubtitle">
+            When sacred wisdom reminds us that devotion need not divide. Every verse below is verified with its scriptural source, transliteration, literal translation, and devotional commentary.
+          </p>
+          <div class="sacred-divider" aria-hidden="true">❖ ॐ ❖</div>
+        </div>
+
+        <div class="shloka-controls reveal">
+          <div id="shloka-filters" class="filter-pills" role="tablist" aria-label="Filter Shlokas by Scripture">
+            <button type="button" class="filter-pill is-active" data-shloka-filter="all" data-i18n="filterAll">All Scriptures</button>
+            <button type="button" class="filter-pill" data-shloka-filter="upanishad" data-i18n="filterUpanishad">Upanishads</button>
+            <button type="button" class="filter-pill" data-shloka-filter="veda" data-i18n="filterVeda">Vedas</button>
+            <button type="button" class="filter-pill" data-shloka-filter="purana" data-i18n="filterPurana">Puranas</button>
+            <button type="button" class="filter-pill" data-shloka-filter="itihasa" data-i18n="filterItihasa">Itihasa (Mahabharata)</button>
+          </div>
+          <span style="font-size:0.82rem; color:var(--divine-gold);">
+            ✓ 100% Scripturally Cited &amp; Distinguished from Commentary
+          </span>
+        </div>
+
+        <div id="shlokas-grid" class="shlokas-grid"></div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         8. SECTION: THE DIVINE INCARNATION OF HARIHARA (MANUSCRIPT STORIES)
+         ====================================================================== -->
+    <section id="divine-stories" class="section section--alt">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__eyebrow" data-i18n="storiesEyebrow">Section III • Manuscript Storytelling</span>
+          <h2 class="section__title" data-i18n="storiesTitle">When Two Divine Powers Became One</h2>
+          <p class="section__subtitle" data-i18n="storiesSubtitle">
+            Directly adapted from Manu Siddharth's manuscript 'Harihara: Do Naam, Ek Pran' — explore the Puranic manifestations, mutual devotion, and spiritual science of Lord Harihara.
+          </p>
+          <div class="sacred-divider" aria-hidden="true">❖ ॐ ❖</div>
+        </div>
+
+        <div class="stories-explorer reveal">
+          <!-- Left Sticky Story Selector -->
+          <div id="stories-nav" class="stories-nav" role="tablist" aria-label="Manuscript Story Modules"></div>
+
+          <!-- Right Story Stage -->
+          <div id="story-stage" class="story-stage" aria-live="polite"></div>
+        </div>
+
+        <!-- Manuscript Attribution & Sacred Dedication Card -->
+        <div class="luminous-card reveal" style="margin-top:3rem; padding:2rem; border-radius:var(--radius-lg); background:rgba(14,21,44,0.82); border:1px solid rgba(216,180,106,0.35); display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:1.75rem;">
+          <div>
+            <span class="section__eyebrow" style="margin-bottom:0.6rem;">Primary Editorial Manuscript</span>
+            <h3 class="sanskrit-text" lang="hi" style="font-size:1.45rem; color:var(--divine-gold-bright); margin-bottom:0.5rem;">
+              हरिहर: दो नाम, एक प्राण — मनु सिद्धार्थ
+            </h3>
+            <p style="font-size:0.93rem; color:var(--temple-ivory-muted);">
+              The narratives in this section are faithfully extracted from the 6 Parts and 20 Chapters of <em>“Harihara: Do Naam, Ek Pran — Shiva aur Vishnu ki Divya Ekta”</em> by IT specialist and spiritual author <strong>Manu Siddharth</strong> (author of <em>Shiva Purana Unlocked</em>).
+            </p>
+          </div>
+          <div style="border-left:2px solid rgba(216,180,106,0.3); padding-left:1.25rem;">
+            <strong style="font-family:var(--font-heading); font-size:0.88rem; color:var(--sacred-saffron); text-transform:uppercase; letter-spacing:0.12em;">
+              Sacred Dedication (समर्पण)
+            </strong>
+            <p style="font-size:0.9rem; color:var(--temple-ivory-muted); margin-top:0.45rem;">
+              Offered at the lotus feet of Guru Maharaj <strong>Swami Purushottamanand Ji Maharaj</strong>; with salutations to <strong>Swami Chaitanyanand Ji Maharaj</strong> (Vashistha Guha Ashram), whose stories of Shiva–Vishnu devotion sowed the seeds of this work; and in gratitude to Aghori saint <strong>Mahesh Baba</strong> (Sutwa Shamshan, Barabanki).
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         9. SECTION: HARIHARA VIDEO GALLERY
+         ====================================================================== -->
+    <section id="video-gallery" class="section">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__eyebrow" data-i18n="videosEyebrow">Section IV • Devotional Cinema</span>
+          <h2 class="section__title" data-i18n="videosTitle">Stories That Awaken Devotion</h2>
+          <p class="section__subtitle" data-i18n="videosSubtitle">
+            Explore visual storyboards, sacred shloka reels (9:16), and documentary presentations celebrating Shiva–Vishnu unity.
+          </p>
+          <div class="sacred-divider" aria-hidden="true">❖ ॐ ❖</div>
+        </div>
+
+        <!-- Featured Video Showcase -->
+        <div id="video-featured-container" class="video-featured reveal"></div>
+
+        <!-- Video Category Filters -->
+        <div style="margin-bottom:2rem; display:flex; justify-content:center;">
+          <div id="video-filters" class="filter-pills"></div>
+        </div>
+
+        <!-- Responsive Video Grid -->
+        <div id="videos-grid" class="videos-grid"></div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         10. SECTION: SACRED PLACES OF HARIHARA (TEMPLES)
+         ====================================================================== -->
+    <section id="sacred-temples" class="section section--alt">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__eyebrow" data-i18n="templesEyebrow">Section V • Sacred Geography</span>
+          <h2 class="section__title" data-i18n="templesTitle">Where Divine Unity Is Worshipped</h2>
+          <p class="section__subtitle" data-i18n="templesSubtitle">
+            From the 13th-century Hoysala Harihareshwara Temple in Karnataka and the 6th-century Badami Caves to Odisha's Lingaraja Temple, Tamil Nadu's Sankarankovil, and Jharkhand's Harihar Dham.
+          </p>
+          <div class="sacred-divider" aria-hidden="true">❖ ॐ ❖</div>
+        </div>
+
+        <div id="temples-grid" class="temples-grid"></div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         11. SECTION: INTERACTIVE HARIHARA KNOWLEDGE QUIZ
+         ====================================================================== -->
+    <section id="knowledge-quiz" class="section">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__eyebrow" data-i18n="quizEyebrow">Section VI • Interactive Learning</span>
+          <h2 class="section__title" data-i18n="quizTitle">How Well Do You Know Harihara?</h2>
+          <p class="section__subtitle" data-i18n="quizSubtitle">
+            Test your understanding of the Guhasura legend, Vedic and Puranic shlokas, sacred iconography, and historic temples.
+          </p>
+          <div class="sacred-divider" aria-hidden="true">❖ ॐ ❖</div>
+        </div>
+
+        <div id="quiz-engine-container" class="quiz-shell reveal"></div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         12. SECTION: DIVINE REFLECTIONS
+         ====================================================================== -->
+    <section id="divine-reflections" class="section section--alt">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__eyebrow" data-i18n="reflectionsEyebrow">Section VII • Quiet Contemplation</span>
+          <h2 class="section__title" data-i18n="reflectionsTitle">The Light Beyond Division</h2>
+          <p class="section__subtitle" data-i18n="reflectionsSubtitle">
+            Meditative reflections from the manuscript on harmony between traditions, devotion beyond rivalry, and realizing the One within the heart.
+          </p>
+          <div class="sacred-divider" aria-hidden="true">❖ ॐ ❖</div>
+        </div>
+
+        <div class="reflection-sanctuary reveal" aria-live="polite">
+          <blockquote id="reflection-quote-text" class="reflection-quote"></blockquote>
+          <p id="reflection-context-text" class="reflection-context"></p>
+          <div id="reflection-meta-text" class="reflection-meta"></div>
+          <button type="button" id="next-reflection-btn" class="btn btn--secondary" data-i18n="nextReflectionBtn">
+            Reveal Another Reflection ✦
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         13. SECTION: THE HARIHARA KNOWLEDGE LIBRARY
+         ====================================================================== -->
+    <section id="knowledge-library" class="section">
+      <div class="container">
+        <div class="section__header reveal">
+          <span class="section__eyebrow" data-i18n="libraryEyebrow">Section VIII • Digital Knowledge Archive</span>
+          <h2 class="section__title" data-i18n="libraryTitle">The Harihara Knowledge Library</h2>
+          <p class="section__subtitle" data-i18n="librarySubtitle">
+            Search and study structured articles derived from all six parts and twenty chapters of the manuscript, complete with bibliographies and deep links.
+          </p>
+          <div class="sacred-divider" aria-hidden="true">❖ ॐ ❖</div>
+        </div>
+
+        <div class="library-toolbar reveal">
+          <div class="search-input-wrap">
+            <span class="search-icon" aria-hidden="true">🔍</span>
+            <input
+              type="search"
+              id="library-search-input"
+              class="search-input"
+              data-i18n-placeholder="searchPlaceholder"
+              placeholder="Search articles by topic, Purana, Guhasura, Advaita, temples..."
+              aria-label="Search the Harihara Knowledge Library"
+            />
+          </div>
+          <button type="button" class="btn btn--ghost" onclick="document.getElementById('library-search-input').value=''; document.getElementById('library-search-input').dispatchEvent(new Event('input'));">
+            Reset Search
+          </button>
+        </div>
+
+        <div id="library-category-filters" class="filter-pills reveal" style="margin-bottom:2rem;"></div>
+
+        <div id="library-articles-grid" class="articles-grid"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================================
+       SACRED MODAL (VIDEO PLAYER & KNOWLEDGE ARTICLE READER)
+       ======================================================================== -->
+  <div id="sacred-modal" class="modal-backdrop" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-dialog">
+      <button type="button" id="sacred-modal-close" class="modal-close" aria-label="Close Dialog">✕</button>
+      <div id="sacred-modal-body"></div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="sacred-toast" class="toast" role="status" aria-live="polite"></div>
+
+  <!-- ========================================================================
+       15. FOOTER
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="brand" style="margin-bottom:1rem;">
+            <span class="brand__emblem" lang="sa">ह</span>
+            <span class="brand__text">
+              <span class="brand__title">HARIHARA</span>
+              <span class="brand__sub" lang="sa">शिवस्य हृदयं विष्णुर्विष्णोश्च हृदयं शिवः</span>
+            </span>
+          </div>
+          <p style="font-size:0.92rem; color:var(--temple-ivory-muted); margin-bottom:1rem;" data-i18n="footerMission">
+            A sacred digital sanctuary celebrating Lord Harihara — the eternal oneness of Lord Shiva and Lord Vishnu — based on authentic scriptures and 'Harihara: Do Naam, Ek Pran' by Manu Siddharth.
+          </p>
+          <button type="button" class="btn btn--secondary" data-action="replay-intro" style="padding:0.55rem 1.25rem; font-size:0.85rem;">
+            🚪 <span data-i18n="replayIntroFull">Replay Divine Entrance</span>
+          </button>
+        </div>
+
+        <div>
+          <h3 class="footer-heading">Sacred Sanctuary</h3>
+          <ul class="footer-links">
+            <li><a href="#home" data-i18n="navHome">Home</a></li>
+            <li><a href="#divine-unity" data-i18n="navUnity">Divine Unity</a></li>
+            <li><a href="#sacred-shlokas" data-i18n="navShlokas">Sacred Shlokas</a></li>
+            <li><a href="#divine-stories" data-i18n="navStories">Stories</a></li>
+            <li><a href="#video-gallery" data-i18n="navVideos">Videos</a></li>
+            <li><a href="#sacred-temples" data-i18n="navTemples">Temples</a></li>
+            <li><a href="#knowledge-quiz" data-i18n="navQuiz">Quiz</a></li>
+            <li><a href="#knowledge-library" data-i18n="navLibrary">Knowledge Library</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer-heading">Standalone Pages</h3>
+          <ul class="footer-links">
+            <li><a href="pages/story.html?id=guhasura-manifestation">The Legend of Guhasura</a></li>
+            <li><a href="pages/story.html?id=vamana-purana-sages-illusion">Vamana Purana Darshan</a></li>
+            <li><a href="pages/temple.html?id=harihareshwara-temple-karnataka">Harihareshwara Temple</a></li>
+            <li><a href="pages/temple.html?id=harihar-dham-jharkhand">Harihar Dham, Jharkhand</a></li>
+            <li><a href="pages/article.html?id=art-vedic-origins-hari-hara">Vedas: Rudra &amp; Vishnu</a></li>
+            <li><a href="pages/article.html?id=art-puranic-proofs-of-unity">Six Mahapuranas Study</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer-heading">Scriptural &amp; Editorial Note</h3>
+          <p style="font-size:0.86rem; color:var(--temple-ivory-muted); line-height:1.65;" data-i18n="footerTraditionNote">
+            Respectful Note on Traditions: Sanatana Dharma encompasses diverse theological schools — including Shaiva, Vaishnava, and Smarta traditions. This platform honors each tradition's distinctive philosophical lens while celebrating their shared reverence and harmony.
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-closing">
+        <p class="footer-closing__quote" data-i18n="footerClosing">
+          “May devotion unite what ignorance divides.”
+        </p>
+        <p class="sanskrit-text" lang="sa" style="font-size:0.95rem; color:var(--temple-ivory-muted); margin-top:0.4rem;">
+          ॐ नमः शिवाय। ॐ नमो नारायणाय। हरि ॐ तत्सत्॥
+        </p>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© HARIHARA Digital Sanctuary • Manuscript Content: <em>“Harihara: Do Naam, Ek Pran”</em> by Manu Siddharth</span>
+        <span>Built with Pure Semantic HTML5, Advanced CSS3 &amp; Vanilla ES6+</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Application Scripts (Universal HTTP & file:// Support) -->
+  <script defer src="assets/js/i18n.js"></script>
+  <script defer src="assets/js/content.js"></script>
+  <script defer src="assets/js/animations.js"></script>
+  <script defer src="assets/js/intro.js"></script>
+  <script defer src="assets/js/gallery.js"></script>
+  <script defer src="assets/js/quiz.js"></script>
+  <script defer src="assets/js/search.js"></script>
+  <script defer src="assets/js/main.js"></script>
+</body>
+</html>
+
